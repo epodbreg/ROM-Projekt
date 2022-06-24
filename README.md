@@ -5,4 +5,4 @@ Analiza restavracij z Michelinovimi zvezdicami. Tukaj sem pogledal
   - koliko zvezdic je v določeni regiji
   - tipi kuhinje 3-michelisnkih restavracij
  
- Nato pa naredil geografski prikaz 20 michelin restavracij.
+ Nato pa naredil geografski prikaz 20 3-michelinskih restavracij.
