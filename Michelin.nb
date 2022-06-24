@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   1834107,      32531]
-NotebookOptionsPosition[   1828438,      32425]
-NotebookOutlinePosition[   1828875,      32442]
-CellTagsIndexPosition[   1828832,      32439]
+NotebookDataLength[   1687794,      30289]
+NotebookOptionsPosition[   1682255,      30184]
+NotebookOutlinePosition[   1682692,      30201]
+CellTagsIndexPosition[   1682649,      30198]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -112,7 +112,7 @@ Cell[BoxData[
        Association[
         "InitialData" -> 
          TypeSystem`CacheKey[
-          8096613999413411614132862903537508565253983996100698857448], 
+          8096685225351776957531271264201114845863011273031392636824], 
          "AllowEmbedding" -> True, "InitialShape" -> 
          TypeSystem`PackageScope`HeaderShape[
            
@@ -3542,7 +3542,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
    DisplayFunction->(#& ),
    InterpretationFunction->("Dataset[<>]"& )],
   False,
-  BoxID -> 8096613999413411614132862903537508565253983996100698857448,
+  BoxID -> 8096685225351776957531271264201114845863011273031392636824,
   Editable->False,
   SelectWithContents->True,
   Selectable->False]], "Output",
@@ -3551,8 +3551,8 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
    3.864977768198556*^9, 3.864977810798257*^9, 3.864982801090827*^9, {
    3.864984110109324*^9, 3.8649841409039574`*^9}, 3.8649841784945455`*^9, 
    3.864984574203394*^9, 3.864984713409529*^9, 3.864994587326106*^9, 
-   3.8650035610366344`*^9, 3.865007779456011*^9},
- CellLabel->"Out[1]=",ExpressionUUID->"20ee5712-05b0-48b5-908e-c7396df8e8ab"]
+   3.8650035610366344`*^9, 3.865007779456011*^9, 3.865039741523364*^9},
+ CellLabel->"Out[1]=",ExpressionUUID->"f6509091-c3b7-4396-9072-dac0e7c5d260"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -3669,7 +3669,7 @@ Cell[BoxData[
        Association[
         "InitialData" -> 
          TypeSystem`CacheKey[
-          8096613999413411614132862903537508565272430740174411083848], 
+          8096685225351776957531271264201114845881458017105104342568], 
          "AllowEmbedding" -> True, "InitialShape" -> 
          TypeSystem`PackageScope`HeaderShape[
            
@@ -6778,14 +6778,15 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
    DisplayFunction->(#& ),
    InterpretationFunction->("Dataset[<>]"& )],
   False,
-  BoxID -> 8096613999413411614132862903537508565272430740174411083848,
+  BoxID -> 8096685225351776957531271264201114845881458017105104342568,
   Editable->False,
   SelectWithContents->True,
   Selectable->False]], "Output",
  CellChangeTimes->{
   3.864984588377042*^9, 3.8649847326922708`*^9, {3.8649858347686024`*^9, 
-   3.8649858777653913`*^9}, 3.8649945980063505`*^9, 3.865007787208026*^9},
- CellLabel->"Out[2]=",ExpressionUUID->"2ba7c4a9-afbf-4d23-a587-52715f6480b2"]
+   3.8649858777653913`*^9}, 3.8649945980063505`*^9, 3.865007787208026*^9, 
+   3.865039791517353*^9},
+ CellLabel->"Out[2]=",ExpressionUUID->"cf9d73cf-8189-4c82-999d-4e85ac913fe3"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -6806,11 +6807,13 @@ Cell[BoxData[
            RowBox[{"CurrencyConvert", "[", 
             RowBox[{
              RowBox[{"Quantity", "[", 
-              RowBox[{"1", ",", "#Valuta"}], "]"}], ",", "\"\<EUR\>\""}], 
-            "]"}]}], "]"}]}]}], " ", "|>"}], "&"}]}], "]"}]}]}]], "Input",
- CellChangeTimes->{{3.864984593415043*^9, 3.8649845984565835`*^9}},
- CellLabel->
-  "In[162]:=",ExpressionUUID->"f0eae30b-ad42-4eb6-85c2-6422b625a64b"],
+              RowBox[{"#MinCena", ",", "#Valuta"}], "]"}], ",", 
+             "\"\<EUR\>\""}], "]"}]}], "]"}]}]}], " ", "|>"}], "&"}]}], 
+    "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.864984593415043*^9, 3.8649845984565835`*^9}, {
+  3.865039944761984*^9, 
+  3.8650399534314604`*^9}},ExpressionUUID->"f0eae30b-ad42-4eb6-85c2-\
+6422b625a64b"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -6992,7 +6995,7 @@ Cell[BoxData[
        Association[
         "InitialData" -> 
          TypeSystem`CacheKey[
-          8096613999413411614132862903537508565290877484248953054208], 
+          8096685225351776957531271264201114845899904761179601166528], 
          "AllowEmbedding" -> True, "InitialShape" -> 
          TypeSystem`PackageScope`HeaderShape[
            Association[{All, All, 
@@ -8153,14 +8156,16 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
    DisplayFunction->(#& ),
    InterpretationFunction->("Dataset[<>]"& )],
   False,
-  BoxID -> 8096613999413411614132862903537508565290877484248953054208,
+  BoxID -> 8096685225351776957531271264201114845899904761179601166528,
   Editable->False,
   SelectWithContents->True,
   Selectable->False]], "Output",
  CellChangeTimes->{{3.864988561676938*^9, 3.8649885717053785`*^9}, 
-   3.865007799911942*^9},
- CellLabel->"Out[3]=",ExpressionUUID->"c1da19c6-1d93-4425-8d69-428aa4a29bba"]
+   3.865007799911942*^9, 3.865039801714507*^9},
+ CellLabel->"Out[3]=",ExpressionUUID->"96756f32-504e-4e48-a493-3063b38b6641"]
 }, Open  ]],
+
+Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"analiza1v2", " ", "=", " ", 
@@ -8170,2257 +8175,7 @@ Cell[BoxData[
     "\"\<Ime\>\""}], "]"}]}]], "Input",
  CellChangeTimes->{{3.8650055105070066`*^9, 3.8650055603910193`*^9}, {
   3.865005613659068*^9, 3.865005633359313*^9}},
- CellLabel->
-  "In[187]:=",ExpressionUUID->"692e6578-d0c1-4c15-8144-7263ac47da8c"],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- TagBox[
-  TagBox[
-   DynamicModuleBox[{TypeSystem`NestedGrid`PackagePrivate`$state$$ = 
-    Association[
-    "InitialData" -> 
-     Association[
-      "3 MICHELIN Stars" -> {
-        "Inter Scaldes", "De Librije", "Hof van Cleve", "Boury", "Zilte", 
-         "The Inn at Little Washington", "Alinea", "Le Pr\[EAcute] Catelan", 
-         "All\[EAcute]no Paris au Pavillon Ledoyen", "Arp\[EGrave]ge", 
-         "\[CapitalEAcute]picure", "Pl\[EAcute]nitude - Cheval Blanc Paris", 
-         "Le Cinq", "Christopher Coutanceau", "Pic", "Kei", 
-         "Maison Lameloise", "Pierre Gagnaire", "Flocons de Sel", 
-         "Le Clos des Sens", "L'Oustau de Baumani\[EGrave]re", 
-         "La Vague d'Or - Cheval Blanc St-Tropez", 
-         "Troisgros - Le Bois sans Feuilles", "Christophe Bacqui\[EAcute]", 
-         "Assiette Champenoise", "La Villa Madie", 
-         "Le 1947 \[AGrave] Cheval Blanc", "Georges Blanc", 
-         "R\[EAcute]gis et Jacques Marcon", "AM par Alexandre Mazzia", 
-         "Mirazur", "Auberge du Vieux Puits", 
-         "Le Louis XV - Alain Ducasse \[AGrave] l'H\[OHat]tel de Paris", 
-         "L'Ambroisie", "Guy Savoy", "Ren\[EAcute] et Maxime Meilleur", 
-         "Le Petit Nice", 
-         "Les Pr\[EAcute]s d'Eug\[EAcute]nie - Michel Gu\[EAcute]rard", 
-         "Aqua", "The Table Kevin Fehling", 
-         "Restaurant \[CapitalUDoubleDot]berfahrt Christian \
-J\[UDoubleDot]rgens", "Victor's Fine Dining by christian bau", "Rutz", 
-         "Restaurant Bareiss", "Schwarzwaldstube", "schanz. restaurant.", 
-         "Waldhotel Sonnora", "L'Enclume", "Fat Duck", "Waterside Inn", 
-         "Restaurant Gordon Ramsay", 
-         "H\[EAcute]l\[EGrave]ne Darroze at The Connaught", 
-         "CORE by Clare Smyth", "Sketch (The Lecture Room & Library)", 
-         "Alain Ducasse at The Dorchester", "Amador", "Jade Dragon", 
-         "Robuchon au D\[OHat]me", "The Eight", 
-         "8 1/2 Otto e Mezzo - Bombana", "T'ang Court", "Sushi Shikon", 
-         "Caprice", "Forum", "Lung King Heen", 
-         "L'Atelier de Jo\[EDoubleDot]l Robuchon", "Azurmendi", 
-         "Mart\[IAcute]n Berasategui", "Aponiente", "El Celler de Can Roca", 
-         "Quique Dacosta", "Cenador de Am\[OAcute]s", "DiverXO", "Arzak", 
-         "Akela\:0155e", "Lasarte", "ABaC", "L'OSIER", "Sazenka", 
-         "Kagurazaka Ishikawa", "Kanda", "L'Effervescence", "Quintessence", 
-         "Jo\[EDoubleDot]l Robuchon", "RyuGin", "Sushi Yoshitake", "Kohaku", 
-         "Gaon", "La Yeon", "Dal Pescatore", "Le Calandre", "Reale", 
-         "Osteria Francescana", "Da Vittorio", "St. Hubertus", 
-         "Enrico Bartolini al Mudec", "Enoteca Pinchiorri", "Piazza Duomo", 
-         "Uliassi", "La Pergola", "Taian Table", "Kashiwaya", "HAJIME", 
-         "Isshisoden Nakamura", "Kikunoi Honten", "Gion Sasaki", "Mizai", 
-         "Hyotei", "The French Laundry", "SingleThread", "Manresa", 
-         "Atelier Crenn", "Benu", "Quince", "Frantz\[EAcute]n", "Maaemo", 
-         "Geranium", "noma", "Odette", "Les Amis", "Z\[EAcute]n", "Le Palais",
-          "Eleven Madison Park", "Per Se", "Masa", "Le Bernardin", 
-         "Chef's Table at Brooklyn Fare", 
-         "Restaurant de l'H\[OHat]tel de Ville", 
-         "Cheval Blanc by Peter Knogl", "Schloss Schauenstein"}, 
-       "2 MICHELIN Stars" -> {
-        "L'Atelier de Jo\[EDoubleDot]l Robuchon Miami", "Pure C", 
-         "De Bokkedoorns", "Aan de Poel", "De Lindehof", 
-         "De Kromme Watergang", "Parkheuvel", "Ciel Bleu", 
-         "FG - Fran\[CCedilla]ois Geurds", "De Lindenhof", "Fred", "Spectrum",
-          "Julemont", "Tribeca", "Restaurant 212", "Sabero", "'t Nonnetje", 
-         "De Groene Lantaarn", "De Nieuwe Winkel", "De Treeswijkhoeve", 
-         "Flore", "Colette - De Vijvers", "L'Air du Temps", 
-         "La Table de Maxime", "Slagmolen", "The Jane", "Ma Langue Sourit", 
-         "La Dur\[EAcute]e", "Cuchara", "Castor", "Vrijmoed", 
-         "d'Eug\[EAcute]nie \[AGrave] Emilie", "De Jonkman", "Nuance", 
-         "Le Chalet de la For\[EHat]t", "L'Eau Vive", "Pastorale", 
-         "Ch\[AHat]teau du Mylord", "La Paix", "Hostellerie Le Fox", 
-         "Bartholomeus", "Ralf Berendsen", 
-         "La Villa Lorraine by Yves Mattagne", "Tsukumo", "Oryori Hanagaki", 
-         "NARA NIKON", "akordu", "minibar", "Pineapple and Pearls", 
-         "J\[OHat]nt", "Oriole", "Smyth", "Moody Tongue", "La Table de Pavie",
-          "William Frachot", "Duende", "La Sc\[EGrave]ne", 
-         "Palais Royal Restaurant", "Le Clarence", 
-         "Restaurant Le Meurice Alain Ducasse", 
-         "Le Gabriel - La R\[EAcute]serve Paris", "Le Taillevent", 
-         "David Toutain", "L'Abysse au Pavillon Ledoyen", 
-         "La Fourchette des Ducs", "Maison Rostang", "Yoann Conte", 
-         "Casadelmar", "Table - Bruno Verjus", 
-         "Le Pr\[EAcute] - Xavier Beaudiment", "La Ch\[EGrave]vre d'Or", 
-         "Le Grand Restaurant - Jean-Fran\[CCedilla]ois Pi\[EGrave]ge", 
-         "La C\[OHat]te d'Or", "Le Skiff Club", "L'Oiseau Blanc", 
-         "Anne de Bretagne", "Villa Ren\[EAcute] Lalique", 
-         "La Table de l'Alpaga", "Le Neuvi\[EGrave]me Art", "Racine", 
-         "Les Moraini\[EGrave]res", "La Merise", "La Villa Archange", 
-         "Maison Aribert", "Hostellerie J\[EAcute]r\[OHat]me", "La Marine", 
-         "Jean-Luc Tartarin", "La Pyramide - Patrick Henriroux", 
-         "Michel Kayser - Restaurant Alexandre", "Jean Sulpice", 
-         "La Grand'Vigne - Les Sources de Caudalie", "M\[EGrave]re Brazier", 
-         "Le Coquillage", "Relais de la Poste", "La Grenouill\[EGrave]re", 
-         "Le Chabichou by St\[EAcute]phane Buron", "Au 14 F\[EAcute]vrier", 
-         "La Palme d'Or", "Maison Jeunet", "La C\[OHat]te Saint-Jacques", 
-         "Le Blue Bay", "Sur Mesure par Thierry Marx", 
-         "La Voile - La R\[EAcute]serve Ramatuelle", 
-         "Le Pressoir d'Argent - Gordon Ramsay", "L'Auberge des Glazicks", 
-         "La Table Lionel Giraud", "JY'S", "Auberge du Cheval Blanc", 
-         "Auberge de l'Ill", "Le Montgomerie", "Le Puits St-Jacques", 
-         "Le Kintessence", "Lalique", "La Table de Franck Putelat", 
-         "La Maison d'\[AGrave] C\[OHat]t\[EAcute]", "Bras", "Paul Bocuse", 
-         "La Table d'Olivier Nasti", "Serge Vieira", "Flaveur", 
-         "Takao Takano", "Marsan par H\[EAcute]l\[EGrave]ne Darroze", 
-         "Sarkara", "L'Atelier d'Edmond", "Michel Sarran", "Py-r", 
-         "Le Parc Les Cray\[EGrave]res", "\[CapitalODoubleDot]sch Noir", 
-         "ES:SENZ", "Luce d'Oro", "Tohru in der Schreiberei", "OPUS V", 
-         "Lorenz Adlon Esszimmer", "Falco", "S\[ODoubleDot]l'ring Hof", 
-         "Obendorfers Eisvogel", "etz", 
-         "Steinheuers Restaurant Zur Alten Post", "Restaurant Heinz Winkler", 
-         "Haerlin", "Vend\[OHat]me", "Speisemeisterei", "Tim Raue", 
-         "CODA Dessert Dining", "Rosin", "Jante", "AUGUST", "Le Pavillon", 
-         "Le Moissonnier", "LOUIS restaurant", "100/200 Kitchen", "bianc", 
-         "Ox & Klee", "Ophelia", "EssZimmer", "Horv\[AAcute]th", "Tantris", 
-         "Gustav", "Goldberg", 
-         "Alexander Herrmann by Tobias B\[ADoubleDot]tz", 
-         "ammolite - The Lighthouse Restaurant", 
-         "G\[ADoubleDot]steHaus Klaus Erfort", "Esplanade", 
-         "Alois - Dallmayr Fine Dining", "FACIL", "Hirschen", "Le Cerf", 
-         "Meierei Dirk Luther", "PURS", "Courtier", "Atelier", 
-         "Essigbr\[ADoubleDot]tlein", "Lafleur", "Liath", "Aimsir", 
-         "Patrick Guilbaud", "Chapter One by Mickael Viljanen", "Ynyshir", 
-         "Raby Hunt", "Andrew Fairlie at Gleneagles", 
-         "Le Manoir aux Quat' Saisons, a Belmond Hotel", 
-         "Restaurant Sat Bains", "Midsummer House", "Moor Hall", 
-         "Hand and Flowers", "Le Gavroche", "La Dame de Pic London", 
-         "Da Terra", "Ikoyi", "Story", "Dinner by Heston Blumenthal", 
-         "A. Wong", "The Clove Club", "Kitchen Table", 
-         "Claude Bosi at Bibendum", "SENNS.Restaurant", "Ikarus", 
-         "Silvio Nickol Gourmet Restaurant", "Steirereck im Stadtpark", 
-         "Mraz & Sohn", "Konstantin Filippou", "Sichuan Moon", 
-         "Mizumi (Macau)", "Alain Ducasse at Morpheus", "Feng Wei Ju", 
-         "Wing Lei", "L'Envol", "Bo Innovation", "Sun Tung Lok", 
-         "\[CapitalEAcute]criture", "Octavium", "Ying Jee Club", "Amber", 
-         "Tin Lung Heen", "Yan Toh Heen", "Tate", "Ta Vie", "Arbor", 
-         "Chef's Table", "R-Haan", "Mezzaluna", "S\[UDoubleDot]hring", 
-         "Le Normandie", "Casa de Ch\[AAcute] da Boa Nova", "Ocean", 
-         "The Yeatman", "Il Gallo d'Oro", "Vila Joya", "Belcanto", "Alma", 
-         "El Molino de Urd\[AAcute]niz", "Casa Marcial", 
-         "Caba\[NTilde]a Buenavista", "Maralba", "BonAmb", "Les Cols", "M.B", 
-         "Voro", "Mugaritz", "Culler de Pau", "Bo.TiC", "Miramar", "Bardal", 
-         "El Portal de Echaurren", "L'Escaleta", 
-         "Iv\[AAcute]n Cerde\[NTilde]o", "Ram\[OAcute]n Freixa Madrid", 
-         "Coque", "Smoked Room", "DSTAgE", "Paco Roncero", "Atrio", 
-         "Ricard Camarena", "El Poblet", "Noor", "Amelia by Paulo Airaudo", 
-         "Skina", "Disfrutar", "Cinc Sentits", "Moments", 
-         "Enoteca Paco P\[EAcute]rez", "Cocina Hermanos Torres", "Angle", 
-         "BEIGE Alain Ducasse", "Sushi Kanesaka", "ASAHINA Gastronome", 
-         "Daigo", "HOMMAGE", "Tempura Kondo", 
-         "LA TABLE de Jo\[EDoubleDot]l Robuchon", "Den", "Seisoka", 
-         "L'ATELIER de Jo\[EDoubleDot]l Robuchon", "Nabeno-Ism", "Ryuzu", 
-         "Crony", "Floril\[EGrave]ge", "Usukifugu Yamadaya", 
-         "Kobikicho Tomoki", "Seizan", "Ginza Kojyu", "PIERRE GAGNAIRE", 
-         "ESqUISSE", "Akasaka Kikunoi", "NARISAWA", "Kaiseki Tsujitome", 
-         "\[CapitalEAcute]dition Koji Shimomura", "ZURRIOLA", 
-         "Kaiseki Komuro", "Tentempura Uchitsu", "Kioicho Fukudaya", 
-         "alla Prima", "Jungsik", "Mosu", "Kwonsooksoo", "Mingles", 
-         "Agli Amici", "dan\[IAcute] maison", "Castel finedining", "La Peca", 
-         "La Madia", "La Trota", "Villa Crespi", "Taverna Estia", "Caino", 
-         "Quattro Passi", "Antica Osteria Cera", "L'Olivo", "Kr\[EGrave]sios",
-          "Don Alfonso 1890", "Harry's Piccolo", "Arnolfo", "Duomo", 
-         "La Madernassa", "Miramonti l'Altro", "Antica Corona Reale", "D'O", 
-         "Villa Feltrinelli", "Bracali", "Torre del Saracino", "Piccolo Lago",
-          "Magnolia", "Il Piccolo Principe", "Gourmetstube Einhorn", 
-         "San Domenico", "Tre Olivi", "Il Luogo di Aimo e Nadia", 
-         "Seta by Antonio Guida", "Terra", "Santa Elisabetta", 
-         "Madonnina del Pescatore", "Il Pagliaccio", "Glam Enrico Bartolini", 
-         "Casa Perbellini", "Spondi", "Da Vittorio", 
-         "L'Atelier de Jo\[EDoubleDot]l Robuchon", 
-         "8 \.bd Otto e Mezzo Bombana", 
-         "Imperial Treasure Fine Chinese Cuisine (Huangpu)", "Bao Li Xuan", 
-         "Xin Rong Ji (Nanyang Road)", "Shunsaiten Tsuchiya", "Sushi Harasho",
-          "La Cime", "Fujiya 1935", "Koryu", "Gion Matayoshi", 
-         "Kappo Chihiro", "Kyokaiseki Kichisen", "Gion Maruyama", 
-         "Yusokuryori Mankamero", "Kenninji Gion Maruyama", "Kodaiji Wakuden",
-          "Gion Nishikawa", "Kikunoi Roan", "Sumibi Kappo Ifuki", 
-         "Shimmonzen Yonemura", "Miyamaso", "Sojiki Nakahigashi", 
-         "Oryori Mitsuyasu", "Harbor House", "Vespertine", "Providence", 
-         "Sushi Ginza Onodera", "Addison", "Commis", "M\[EAcute]lisse", 
-         "Hayato", "n/naka", "Lazy Bear", "Birdsong", "Saison", 
-         "Campton Place", "Acquerello", "Coi", "Californios", 
-         "Hi\[SHacek]a Franko", "Taian Table", 
-         "Imperial Treasure Fine Chinese Cuisine", "Jiang by Chef Fei", 
-         "Oaxen Krog", "Gastrologik", "Alo\[EDoubleDot]", "Vollmers", 
-         "RE-NAA", "KOKS", "Henne Kirkeby Kro", "Kadeau Copenhagen", "a|o|c", 
-         "Jordn\[AE]r", "Kong Hans K\[AE]lder", "Alchemist", "Shoukouwa", 
-         "Shisen Hanten", "Saint Pierre", "Waku Ghin", 
-         "Jaan by Kirk Westaway", "Shoun Ryugin", "JL Studio", 
-         "The Guest House", "Ta\[IDoubleDot]rroir", "Raw", "The Modern", 
-         "Blue Hill at Stone Barns", "Ko", "Atera", "Jean-Georges", "Blanca", 
-         "Jungsik", "Gabriel Kreuther", "Aska", 
-         "L'Atelier de Jo\[EDoubleDot]l Robuchon", "Daniel", "Aquavit", 
-         "Stucki - Tanja Grandits", "Maison Wenger", "Da Vittorio", 
-         "focus ATELIER", "Ecco", "Anne-Sophie Pic", 
-         "Taverne zum Sch\[ADoubleDot]fli", "Ecco St. Moritz", 
-         "Einstein Gourmet", "7132 Silver", "Domaine de Ch\[AHat]teauvieux", 
-         "The Restaurant", "Gasthaus Zur Fernsicht - Incantare", "Magdalena", 
-         "Memories", "IGNIV by Andreas Caminada", "Widder Restaurant", 
-         "Adelboden", "IGNIV by Andreas Caminada", "Pavillon", "Sens", 
-         "RICO'S", "D.O.M.", "Ryo Gastronomia", "Oteque", "Oro"}, 
-       "1 MICHELIN Star" -> {
-        "Elcielo Miami", "Kadence", "The Den at Sushi Azabu Miami", 
-         "Knife & Spoon", "Stubborn Seed", "Los F\[EAcute]lix", 
-         "The Surf Club Restaurant", "Hiden", "Boia De", "Capa", "Cote Miami",
-          "Ariete", "Le Jardinier Miami", "Soseki", "Apicius", "Sinne", 
-         "Versaen", "RON Gastrobar", "Ratatouille Food & Wine", "Pikaar", 
-         "Bolenius", "FG Food Labs", "Olivijn", "Het Roode Koper", 
-         "Zout & Citroen", "Noble Kitchen", "De Nederlanden", "Zeezout", 
-         "Perceel", "AIRrepublic", "Calla's", "Voltaire", "Fitzgerald", 
-         "Yamazato", "De Vlindertuin", "Amarone", "Spetters", 
-         "RIJKS\[RegisteredTrademark]", "Kasteel Heemstede", 
-         "Kaatje bij de Sluis", "Wolfslaar", "Lastage", "Latour", 
-         "Mijn Keuken", "Meliefste", "'t Vlasbloemeken", "Flicka", 
-         "Herberg Onder de Linden", "Atelier", "The Mill\[EGrave]n", "ML", 
-         "Joelia", "De Swarte Ruijter", "Zarzo", "Wiesen", "De Leuf", 
-         "De Heeren van Harinxma", "Brienen aan de Maas", "Katseveer", 
-         "Vinkeles", "'t Raedthuys", "THE DUCHESS", "Monarh", "La Provence", 
-         "Wollerich", "Tilia", "Pieters Restaurant", "Vista", "Rijnzicht", 
-         "Da Vinci", "De Bloemenbeek", "Noble", 
-         "The White Room by Jacob Jan Boerma", "'t Lansink", 
-         "Beluga Loves You", "Het Koetshuis", "Tout \[AGrave] Fait", "Sense", 
-         "MOS", "Bougainville", "De Gieser Wildeman", "'t Amsterdammertje", 
-         "Tante Koosje", "ONE", "Aan de Zweth", "Rantr\[EAcute]e", "Merlet", 
-         "Bij Jef", "O&O", "De Moerbei", "Graphite by Peter Gast", "De Kas", 
-         "Le Restaurant", "De Burgemeester", "Cheval Blanc", 
-         "De Kromme Dissel", "Lars Amsterdam", "Wils", "Derozario", 
-         "Zoldering", "Eden", "Alma", "Marrees", "De Juwelier", 
-         "'t Ganzenest", "Vigor", "Daalder", 
-         "180\[Degree] by Matthias Diether", 
-         "NOA Chef\[CloseCurlyQuote]s Hall", "Chai Gourmand", 
-         "Le Pr\[EAcute] des Or\[EAcute]ades", "Vintage", "In den Hert", 
-         "Quai n\[Degree]4", "\[DownExclamation]Toma!", "Hert", "Arden", 
-         "Ry\[OHat]d\[OHat]", "JER", "Nathan", "Arabelle Meirlaen", 
-         "La Villa in the Sky", "Fani", "Les Pieds dans le Plat", 
-         "l'Essentiel", "FRANQ", "Eyckerhof", "La Villa Emily", "EssenCiel", 
-         "La Ligne Rouge", "Le Pilori", "Vol-Ver", "Rebelle", 
-         "The Butcher's son", "Michel", "OAK", "Mosconi", 
-         "Aux petits oignons", "H\[EAcute]liport Brasserie", "Arenberg", 
-         "Magis", "Couvert Couvert", "Het Gebaar", "San Daniele", 
-         "'t Overhamme", "Innesto", "Kelderman", "Hof Ter Hulst", "Souvenir", 
-         "Publiek", "La Distillerie", "Altermezzo", "Ogst", "Da Mimmo", 
-         "Melchior", "Hofke van Bazel", "senzanome", "Philippe Meyers", 
-         "Bistro Racine", "De Kristalijn", "EED", "De Pastorie", "'t Stoveke",
-          "Les Gourmands", "Horseele", "De Mijlpaal", "L\[EAcute]a Linster", 
-         "Maison Marit", "Goffin", "Sir Kwinten", "Centpourcent", 
-         "Le Ch\[AHat]teau de Strainchamps", "Comme chez Soi", 
-         "Hostellerie St-Nicolas", 
-         "Hostellerie Le Prieur\[EAcute] Saint-G\[EAcute]ry", 
-         "Le Coq aux Champs", "Hostellerie Vivendum", "Marcus", "Carcasse", 
-         "Sel Gris", "L'Envie", "La Belle", "Le Cor de Chasse", 
-         "Hostellerie Gilain", "Le Pigeon Noir", "Brasserie Julie", 
-         "Bozar Restaurant", "Boo Raan", "M-Bistro", "De Zuidkant", 
-         "Kommilfoo", "Fleur de Lin", "Le Gastronome", 
-         "Au Gr\[EAcute] du Vent", "Le Comptoir de Marie", "Guillou Campagne",
-          "Philippe Fauchet", "Wine in the City", "Zur Post", 
-         "Bistrot du Nord", "Sans Cravate", "Attablez-vous", "Cuines,33", 
-         "D\[OHat]me", "Zet'Joe by Geert Van Hecke", "L'imp\[EAcute]ratif", 
-         "Quadras", "Kamo", "La Canne en Ville", "Lettres Gourmandes", 
-         "Bar Bulot", "La Villa de Camille et Julien", 
-         "Aurum by Gary Kirchens", "Benoit en Bernard Dewitte", 
-         "Alain Bianchin", "Libertine", "Le Pristine", "Sense", "DIM Dining", 
-         "'t Korennaer", "Tin\[EGrave]lle", "Nebo", "Fine Fleur", 
-         "Oryori Hirooka", "GOKAN UOGIN", "communico", "Musoan", 
-         "Wa Yamamura", "Matsuki", "Okada", "La Terrasse iris\[EAcute]e", 
-         "LA TRACE", "Inada", "L'AUBERGE DE PLAISANCE SAKURAI", 
-         "Kaiseki Morimoto", "Imperfecto: The Chef's Table", 
-         "Rose\[CloseCurlyQuote]s Luxury", "Gravitas", "Xiquet", 
-         "Rooster & Owl", "Masseria", "Fiola", "The Dabney", "M\[EAcute]tier",
-          "Sushi Nakazawa", "Albi", "Reverie", "Tail Up Goat", "Bresca", 
-         "Cranes", "Mayd\[ABar]n", "Kinship", "Little Pearl", "Elcielo D.C.", 
-         "Galit", "Elske", "Kasama", "Porto", "Omakase Yume", "Topolobampo", 
-         "Elizabeth", "Mako", "Boka", "Schwa", "Goosefoot", "North Pond", 
-         "EL Ideas", "Sepia", "Temporis", "Claudia", "Maison Nouvelle", 
-         "Le Kl\[EAcute]ber - La Maison Bonnet", 
-         "Jean Imbert au Plaza Ath\[EAcute]n\[EAcute]e", "La Table de l'Ours",
-          "Miraflores", "FIEF", "Au Gourmet", "Les Foudres", 
-         "Les Ducs de Lorraine", "Le Donjon - Domaine Saint-Clair", "L'Odas", 
-         "Logis de la Cad\[EGrave]ne", "Holen", "La Chaumi\[EGrave]re", 
-         "Les Belles Perdrix de Troplong Mondot", "Le Brittany", "Solstice", 
-         "Origine", "Le Pourquoi Pas - H\[OHat]tel Castelbrac", "Akrame", 
-         "Auberge du Pont d'Acign\[EAcute]", "La Dame de Pic", "Shang Palace",
-          "Jin", "Pertinence", "La Table des Fr\[EGrave]res Ibarboure", 
-         "La Table de Xavier Mathieu", "Don Juan II", "Yam'Tcha", "Automne", 
-         "Ochre", "NESO", "Les Climats", "L'Arcane", "Lasserre", 
-         "Fr\[EAcute]d\[EAcute]ric Simonin", 
-         "Neige d'\[CapitalEAcute]t\[EAcute]", "Le George", "L'Orangerie", 
-         "Nomicos", "Yoshinori", "Le Sergent Recruteur", "Tomy & Co", 
-         "Apicius", "Jacques Faussat", 
-         "Le Pavillon - H\[OHat]tel Westminster", "Le Baudelaire", 
-         "L'\[CapitalEAcute]crin", "Comice", 
-         "L'Atelier de Jo\[EDoubleDot]l Robuchon - \[CapitalEAcute]toile", 
-         "Ze Kitchen Galerie", "Sushi B", "L'Ar\[OHat]me", "Alan Geaam", 
-         "Helen", "114, Faubourg", "La Grande Cascade", 
-         "Auberge Nicolas Flamel", "Le Jules Verne", "MoSuke", "Virtus", 
-         "L'Innocence", "Aspic", "En Marge", "Restaurant H", "Le Georges", 
-         "Le Chiberta", "Les Explorateurs - H\[OHat]tel Pashmina", "Le Pily", 
-         "Racines", "La Marande", "Armani Ristorante", "Le Chiquito", 
-         "Trente-Trois", "Hostellerie la Montagne", 
-         "L'Atelier de Jo\[EDoubleDot]l Robuchon - St-Germain", "Aux Pesked", 
-         "Thierry Schwartz - Le Restaurant", "L'Escarbille", "Abri", "Aida", 
-         "Relais Louis XIII", "Anne", "Ima", "Benoit", "Oka", 
-         "La Sc\[EGrave]ne Th\[EAcute]l\[EGrave]me", "Ekaitza", "Assa", 
-         "Au 14 F\[EAcute]vrier", "Le Carr\[EAcute] d'Alethius", "La Rotonde",
-          "La T\[EHat]te en l'air", "Louis", "Skab", "Alch\[EAcute]mille", 
-         "La Promenade", "Auberge de Montfleury", 
-         "La Table d'H\[OHat]tes - Le Quatri\[EGrave]me Mur", 
-         "\[CapitalAGrave] Contre Sens", "L'Ostal", "La Mare aux Oiseaux", 
-         "Baieta", "Auberge des Saints P\[EGrave]res", "La Pomme d'Api", 
-         "Le Chantecler", "Le C\[EAcute]nacle", "Herv\[EAcute] Busset", 
-         "G.a. au Manoir de R\[EAcute]tival", "Le Belv\[EAcute]d\[EGrave]re", 
-         "L'\[CapitalEAcute]crin de Yohann Chapuis", "Lucas Carton", "Yoshi", 
-         "Pavyllon", "Le 1825 - La Table gastronomique", "Les Hauts de Loire",
-          "Pierre Reboul", "Le Restaurant du Cerisier", 
-         "L'\[CapitalEAcute]mulsion", "Le Prieur\[EAcute]", 
-         "La Table d'H\[OHat]tes - La R\[OHat]tisserie du Chambertin", 
-         "1131 - Abbaye de la Bussi\[EGrave]re", "L'Or Q'id\[EAcute]e", 
-         "J\[EAcute]r\[EAcute]my Galvan", "Auberge Saint-Walfrid", 
-         "Ch\[AHat]teau de Vault de Lugny", "Le Gourmet de S\[EGrave]ze", 
-         "T\[EHat]tedoie", "La Balette", "La Rotonde des Tr\[EAcute]soms", 
-         "La Table de Nans", "L'Amaryllis", 
-         "Au D\[EAcute]jeuner de Sousceyrac", "Alain Llorca", 
-         "Le 7\[EGrave]me Continent", "La Table de la Bergerie", 
-         "L'Asp\[EAcute]rule", "Baumani\[EGrave]re 1850", "Les Voiles d'Or", 
-         "L'Oiseau Bleu", "Maximin Hellio", "L'Auberge de Bagatelle", 
-         "La Bonne \[CapitalEAcute]tape", "Ch\[AHat]teau du Mont Joly", 
-         "Michel Trama", "ONA", "Maison Tiegezh", 
-         "Les Fresques - Ch\[AHat]teau des Vigiers", "L'Orchid\[EAcute]e", 
-         "La Tour des Vents", "L'Aquarelle", "Jean-Marc P\[EAcute]rochon", 
-         "L'\[CapitalEAcute]veil des Sens", "Intuition", "Le Grand Cap", 
-         "Ch\[AHat]teau de Sully", "Le Saint-James", "La Licorne Royale", 
-         "L'Essentiel", "L'Aupiho - Domaine de Manville", 
-         "La Passag\[EGrave]re - H\[OHat]tel Belles Rives", 
-         "Vincent Favre F\[EAcute]lix", "Ed.Em", "Le Vieux Logis", 
-         "\[CapitalOHat] Flaveurs", "Les Funambules", "Auberge de la Mine", 
-         "Auberge \[AGrave] la Bonne Id\[EAcute]e", "Le Colombier", 
-         "Hostellerie de la Pointe St-Mathieu", "Le Cerf", 
-         "Le Saint-Est\[EGrave]ve", "La Galinette", "Le Jardin de Berne", 
-         "Sol\[EAcute]na", "Au Vieux Couvent", "Le Hittau", 
-         "Au 14 F\[EAcute]vrier", "Les Gen\[EHat]ts", "LuluRouget", 
-         "Albert 1er", "L'Opidom", "La Magdeleine - Mathias Dandine", 
-         "La Table de Castigno", "Ursus", 
-         "La Grange de Belle-\[CapitalEAcute]glise", "Auberge de la Charme", 
-         "Le Bec au Cauchois", "Reflet d'Obione", 
-         "Ch\[AHat]teau d'Adom\[EAcute]nil", "Likok\[EAcute]", 
-         "L'Auberge Basque", "L'Esquisse", "Le France", 
-         "Auberge La Feni\[EGrave]re", "Le Prieur\[EAcute]", "La Signoria", 
-         "Nicolas Carro - H\[OHat]tel de Carantec", "Colette", 
-         "Ch\[AHat]teau de Pray", "La M\[EGrave]re Germaine", "Le Foch", 
-         "La Dame de Pic - Le 1920", "Le 1862 - Les Glycines", 
-         "Fleur de Pav\[EAcute]", "La Maison dans le Parc", 
-         "Le Favori - Les Sources de Cheverny", "Ronan Kervarrec - Le Saison",
-          "La Table du 11", "Le Bon Accueil", 
-         "La Table d'\[AGrave] C\[OHat]t\[EAcute]", "Bruno", 
-         "La Chassagnette", "Les Terrasses de Lyon", "Moulin d'Alotz", 
-         "Brik\[EAcute]t\[EAcute]nia", "La Table de la Mainaz", 
-         "La Nouvelle Auberge", "Auberge de la Brie", "Le Moulin de l'Abbaye",
-          "Allium", "Les Trois Rochers", "Ambroisie", "La Barbacane", 
-         "La Vieille Tour", "La Marine", 
-         "Villa de l'\[CapitalEAcute]tang Blanc", "La Table de la Ferme", 
-         "Le P'tit Polyte", "Le Quincangrogne", "Le Village", 
-         "St\[EAcute]phane Tourni\[EAcute] - Les Jardins de l'Op\[EAcute]ra", 
-         "Jean-Claude Leclerc", "Auberge Frankenbourg", "Les Apothicaires", 
-         "L'Or\[EAcute]e de la For\[EHat]t", "Ithurria", "Au Souper Fin", 
-         "Restaurant Pierre Grein", "Buerehiesel", "Le Clair de la Plume", 
-         "Le Haut-Allier", "Maison Medard", 
-         "La Chapelle - Ch\[AHat]teau Saint-Jean", 
-         "L'\[CapitalEAcute]puisette", "La Table du Boisniard", 
-         "Loiseau des Ducs", "Le Charlemagne", 
-         "La Table du Conn\[EAcute]table - Auberge du Jeu de Paume", 
-         "Fr\[EAcute]d\[EAcute]ric Molina au Moulin de L\[EAcute]r\[EAcute]", 
-         "Les Clefs d'Argent", "La Flibuste", 
-         "Le Prince Noir - Vivien Durand", "Atmosph\[EGrave]res", 
-         "Aux Terrasses", "L'\[CapitalEAcute]tang du Moulin", 
-         "L'Arbre au Soleil", "Ch\[AHat]teau de la Treyne", "Le Verbois", 
-         "Guy Lassausaie", "L'Arnsbourg", "La Table de Patrick Raingeard", 
-         "Mon Plaisir", "Pantagruel", "Maison Kieny", "Le S\[EAcute]rac", 
-         "Ch\[AHat]teau de Courban", "Umami", 
-         "Dan B. - La Table de Ventabren", "Fontevraud Le Restaurant", 
-         "La Table des Blot - Auberge du Ch\[AHat]teau", "La Robe", 
-         "Le Jardin Secret", "J\[EAcute]r\[OHat]me Feck", "Radio", "L'Hysope",
-          "Les Loges", "La Table d'Antonio Salvatore au Rampoldi", 
-         "La Table de La Butte", "\[CapitalOHat] Saveurs", 
-         "L'Ekrin by Laurent Azoulay", "Les Fresques - H\[OHat]tel Royal", 
-         "Auberge du Cep", "Le Far\[CCedilla]on", 
-         "R\[EAcute]cif - Les Roches Rouges", "Le Moulin de la Gorce", 
-         "Le Refuge des Gourmets", "Domaine du Colombier", 
-         "C\[OHat]t\[EAcute] Cuisine", "Azimut", "Le Grill", "Pastis", 
-         "Le Manoir du Lys", "L'Observatoire du Gabriel", "Le Gavrinis", 
-         "Le Grand Contr\[OHat]le", 
-         "H\[EAcute]l\[EGrave]ne Darroze \[AGrave] Villa La Coste", 
-         "Jardin des Sens", "La Chabotterie", 
-         "Ch\[AHat]teau de Beaulieu - Christophe Dufoss\[EAcute]", 
-         "Les C\[EGrave]dres", "Prairial", 
-         "La Palmeraie - Ch\[AHat]teau de Valmer", "Au Crocodile", 
-         "Le Vivier", "Les Agitateurs", "La Madeleine", 
-         "Fr\[EAcute]d\[EAcute]ric Doucet", "La Vieille Tour", 
-         "Le Figuier de Saint-Esprit", "Les Plaisirs Gourmands", 1741, 
-         "Apicius", "Lamartine", "Les Rosiers", "Choko Ona", 
-         "Le Restaurant des Rois - La R\[EAcute]serve de Beaulieu", "Pierre", 
-         "Castel Marie-Louise", "Les Tables de Gaspard", 
-         "Le Relais des Moines", "Quai des Saveurs", "En Pleine Nature", 
-         "Le Corot", "Haut Bonheur de la Table", 
-         "L'Auberge de St-R\[EAcute]my-de-Provence - Fanny Rey & Jonathan \
-Wahid", "L'Apart\[EAcute]", "La Table de Philippe Girardon", "La Closerie", 
-         "La Huchette", "Moulin de la Tardoire", "Le Pav\[EAcute] d'Auge", 
-         "Moulin de Rosmadec", "Maison Decoret", "Les Oliviers", "Vieux Pont",
-          "Le St-Placide", "C\[OHat]t\[EAcute] Jardin", "Toya", 
-         "Kasb\[UDoubleDot]r", "Le Jardin des Plumes", "Le Passe Temps", 
-         "Le Grand Cerf", "La Sommeli\[EGrave]re", "Saisons", "Le Cap", 
-         "Auberge au B\[OE]uf", "Le Pot d'\[CapitalEAcute]tain", 
-         "Auberge Pom'Poire", "La Renaissance", 
-         "Pavyllon, un restaurant de Yannick All\[EAcute]no, Monte-Carlo", 
-         "Claude Darroze", "Auberge St-Laurent", "L'O des Vignes", 
-         "L'Oustalet", "La Table de Chaintr\[EAcute]", 
-         "Gordon Ramsay au Trianon", "L'Empreinte", "Le B\[EAcute]naton", 
-         "Girardin - Gastronomique", "Micka\[EDoubleDot]l F\[EAcute]val", 
-         "Auberge de la Tour", "Le Carmin", "La R\[EAcute]serve Rimbaud", 
-         "Le S\[EAcute]n\[EAcute]chal", "Restaurant de Tourrel", 
-         "Hostellerie de l'Abbaye de la Celle", "Le Champ des Lunes", 
-         "Le Saint-Martin", "Saisons", "Le Panoramic", 
-         "Grand H\[OHat]tel du Lion d'Or", "Le Manoir de la R\[EAcute]gate", 
-         "La Bastide de Capelongue", "L'Essentiel", "Pertica", 
-         "Auberge Le Prieur\[EAcute]", "Julien Binz", "La Ribaudi\[EGrave]re",
-          "L'Embrun", "Sources", "Une Table, au Sud", 
-         "Ch\[AHat]teau Blanchard", "L'Atlantide 1874 - Maison Gu\[EAcute]ho",
-          "L'Atelier Alexandre Bousquet", "L'\[CapitalEAcute]vidence", 
-         "La Meynardie", "Auberge Grand'Maison", "Auberge de l'Abbaye", 
-         "Il Carpaccio", "Frenchie", "L'Atelier du Peintre", "Lait Thym Sel", 
-         "Tour d'Argent", "Les Trois Soleils de Montal", 
-         "Auberge des Templiers", "Auberge du Vert Mont", "Le Pressoir", 
-         "Le Ka\[IDoubleDot]ku", "Villa Salone", "Sushi Shunei", "La Source", 
-         "\[CapitalADoubleDot]ponem - Auberge du Presbyt\[EGrave]re", 
-         "Pur' - Jean-Fran\[CCedilla]ois Rouquette", "Alliance", "ERH", 
-         "L'Archeste", "Le Faham by Kelly Rangama", "Oxte", "Pollen", 
-         "Le Pavillon des Boulevards", "La Li\[EAcute]geoise", "L'Axel", 
-         "Le Mas Bottero", "AT", "La Petite Maison de Cucuron", 
-         "Bellefeuille - Saint James Paris", "JAN", "Maison Hache", 
-         "Tentazioni", "J\[EAcute]r\[OHat]me Nutile", "Num\[EAcute]ro 3", 
-         "Maximilien", "Qui Plume la Lune", "Agap\[EAcute]", 
-         "La Rotonde - La Table d'Aur\[EAcute]lien Largeau", 
-         "Le Petit H\[OHat]tel du Grand Large", "Le Gindreau", 
-         "Le Violon d'Ingres", "Alcyone", "Le Patio", "Val d'Auge", 
-         "Auberge du Pont", "La Cachette", "La Bastide de Moustiers", 
-         "Divellec", "Les Terraillers", "Le Clocher des P\[EGrave]res", 
-         "La Table du Gourmet", "Le Fanal", "Rustique", 
-         "Louroc - H\[OHat]tel du Cap-Eden-Roc", "Hostellerie de Levernois", 
-         "La Dune du Ch\[AHat]teau de Sable", "L'Aromate", "La Table d'Asten",
-          "Hedone", "Le Royal", 
-         "Le Fantin Latour - St\[EAcute]phane Froidevaux", "Septime", "Ceto", 
-         "Avel Vor", "Entre Vigne et Garrigue", "Pont de l'Ouysse", "Sola", 
-         "Quinsou", "Mavrommatis", "A Casa di Ma", "Flaveurs", "Le Raisin", 
-         "Cyril Attrazic", "Un Parfum de Gourmandise", "Accents Table Bourse",
-          "Restaurant Hostellerie C\[EGrave]dre & Spa", 
-         "Sylvestre Wahid - Les Grandes Alpes", "Le Mascaret", "Nature", 
-         "Origines", "Shabour", "The Marcel", "Granite", 
-         "Restaurant De Lauzun", "L'Or Bleu", 
-         "La Table - H\[OHat]tel Clarance", "L'Atelier Yssoirien", 
-         "L'Alter-Native", "Marcore", "Manoir de Lan-Kerellec", "Substance", 
-         "Il Cortile", "Contraste", "La Chapelle Saint-Martin", 
-         "Gaya par Pierre Gagnaire", "Signature", "Le Pousse-Pied", 
-         "Le Rigmarole", "Le Li\[EGrave]vre Gourmand", "L'Ours", 
-         "Les Sources de Fontbelle", 
-         "Le Du\[EGrave]ze - Ch\[AHat]teau de Mercu\[EGrave]s", 
-         "La Table d'Uz\[EGrave]s", "Le Art", "Nakatani", "Ivan Vautier", 
-         "La Gourmandi\[EGrave]re - La Table d'Olivier", "Le Marcq", 
-         "La Vieille Fontaine", "Cibo", "Ogata", "Auguste", "L'Impertinent", 
-         "La Condesa", "Le Puits du Tr\[EAcute]sor", 
-         "Le Panoramique - Domaine de la Corniche", 
-         "La Table Breizh Caf\[EAcute]", "ES", "L'Anthocyane", 
-         "Les P\[EHat]cheurs", "Chez Mich\[EGrave]le", "Les Hautes Roches", 
-         "Ren\[EAcute]'Sens par Jean-Fran\[CCedilla]ois B\[EAcute]rard", 
-         "La Mirande", "Roza", "Speiseberg", "Aska", "PUR", 
-         "M\[UDoubleDot]hle", "Pietsch", "Traube", "Stadtpfeiffer", 
-         "Schwingshackl ESSKULTUR Gourmet", "Roter Hahn", "Coeur D'Artichaut",
-          "Hummels Gourmetstube", "VILLINO", "Kulmeck by Tom Wickboldt", 
-         "astrein", "Weinsch\[ADoubleDot]nke Schloss Groenesteyn", 
-         "Werneckhof Sigi Schelling", "Balthazar", "Bricole", "Votum", 
-         "s'\[CapitalADoubleDot]pfle", "Shiraz", "Alte Liebe", 
-         "Irma la Douce", "Troyka", "OX", "Michael's Leitenberg", 
-         "L'\[EAcute]table", "Petit Amour", 
-         "Gourmetrestaurant \"\"fine dining RS\"\"", "Gabelspiel", 
-         "Acquarello", "Clostermanns Le Gourmet", "Camers Schlossrestaurant", 
-         "Sartory", "Gasthof Krone", "Schwarz Gourmet", "Keidenzeller Hof", 
-         "Zeik", "Carmelo Greco", 5, "Fran\[CCedilla]ais", 
-         "Genie\[SZ]er Stube", "Gourmetrestaurant Dirk Maus", 
-         "Schwarzer Hahn", "Bachofer", "Zur Krone", "The O'ROOM", 
-         "Christian & Friends, Tastekitchen", "Friedrich Franz", "Nagaya", 
-         "Richard", "Merkles Restaurant", "Seestern", "Setzkasten", "Agata's",
-          "Oettinger's Restaurant", "Cordo", "Kucher's Gourmet", "Hirsch", 
-         "Philipp", "maiBeck", "Haubentaucher", "Da Vinci", 
-         "Wielandsh\[ODoubleDot]he", "Adler", "Haus Stemberg", 
-         "1876 Daniel Dal-Ben", "Malathounis", "Zur Post", 
-         "Burg Nideggen - Brockel Schlimbach", "einsunternull", 
-         "La B\[EAcute]casse", "Das Grace", "Zeitwerk", 
-         "PAVO im Burghotel Falkenstein", "Alt Wyk", "Gasthof zum Bad", 
-         "Buchner Welchenberg 1658", "L.A. Jordan", "mural", "Frieda", 
-         "Goldener Anker", "Atelier Sanssouci", "Die Brasserie", 
-         "Werners Restaurant", "Masa Japanese Cuisine", 
-         "La Cuisine Rademacher", "maximilian lorenz", "Marly", 
-         "Le Jardin de France im Stahlbad", "Wullenwever", 
-         "Schwitzer's am Park", "KUNO 1408", "taku", 
-         "Gourmet Restaurant im Schlosshotel M\[UDoubleDot]nchhausen", 
-         "Restaurant 1797", "Le Gourmet", "Oben", "M\[UDoubleDot]hlenhelle", 
-         "Alte Schule - Klassenzimmer", "The Stage", "freustil", "Hannappel", 
-         "tulus lotrek", "Bembergs H\[ADoubleDot]uschen", "Cheval Blanc", 
-         "SIEDEPUNKT", "Sterneck", "Gasthaus Jakob", "BODENDORF'S", "Kin Dee",
-          "Balthasar", "Ma\[IHat]tre im Landhaus Kuckuck", "REISERS am Stein",
-          "D\[EAcute]lice", "Landhaus Feckl", 
-         "Christian's Restaurant - Gasthof Grainer", "GOLVET", 
-         "La Soci\[EAcute]t\[EAcute]", "Alfredo", "Schwarzer Adler", 
-         "Genuss-Apotheke", "Gutshaus Stolpe", "Elements", "NeoBiota", 
-         "SoulFood", "Alte Pfarrey", "Ente", "Landhaus Scherrer", 
-         "La Vall\[EAcute]e Verte", "Ratsstuben", "Maerz - Das Restaurant", 
-         "Silberdistel", "ESS ATELIER STRAUSS", "Cookies Cream", 
-         "Sankt Benedikt", "Laurentius", "BECKER'S", "Maltes hidden kitchen", 
-         "Pottkind", "Weinstock", "Gut L\[ADoubleDot]rchenhof", 
-         "Mod by Sven N\[ODoubleDot]thel", "Schote", 
-         "H\[ADoubleDot]mmerle's Restaurant - Barrique", 
-         "Restaurant Villa Merton", "SKYKITCHEN", "Schiller's Manufaktur", 
-         "Lamm Rosswag", "Schlossberg", "Wein- und Tafelhaus", 
-         "Yoshi by Nagaya", "Der Zauberlehrling", "Falconera", "Kunz", 
-         "Erno's Bistro", "Das Maximilians", "Schloss Loersfeld", 
-         "R\[UDoubleDot]ssel's Landhaus", "Leos by Stephan Brandl", 
-         "Kaupers Restaurant im Kapellenhof", "Nobelhart & Schmutzig", 
-         "Le Flair", "Bandol sur mer", "prism", 
-         "Fr\[UDoubleDot]hsammers Restaurant", "Ostseelounge", "Seven Swans", 
-         "Jungborn", "Piment", "Schattbuch", "Ich wei\[SZ] ein Haus am See", 
-         "Gourmet-Restaurant Der Butt", "THE IZAKAYA", "360\[Degree]", 
-         "Hupperts", "Aubergine", "Lakeside", "Schwabenstube", "PHOENIX", 
-         "Im Schiffchen", "DR.KOSCH", "YOSO", "Bieberbau", "Erbprinz", 
-         "Eckert", "Storchen", "Friedrich", "Reuter", "Waidwerk", "Doblers", 
-         "Alte \[CapitalUDoubleDot]berfahrt", 
-         "kochZIMMER in der Gastst\[ADoubleDot]tte zur Ratswaage", "TIAN", 
-         "sein", "Veles", "JUWEL", "Les Deux", "Gourmetrestaurant Dichter", 
-         "Oswald's Gourmetstube", "Tantris DNA", "Gotthardt's", 
-         "Stein's Traube", "[KOOK] 36", "Johanns", "Ahlmanns", "faelt", 
-         "Genuss-Atelier", "Yunico", "Grammons Restaurant", "Ritzi Gourmet", 
-         "Zur Tant", "Schwarzreiter", "halbedel's Gasthaus", 
-         "Sparkling Bistro", "Koch und Kellner", "Apicius", "Jellyfish", 
-         "Hofstube", "TAWA YAMA FINE", "Le temple", "Admiral", 
-         "ZweiSinn Meiers | Fine Dining", "Gregor's Fine Dining", 
-         "Berens am Kai", "SEO K\[UDoubleDot]chenhandwerk", 
-         "Anthony's Kitchen", "der Schneider", "Storstad", "Jean", "Handwerk",
-          "Gasthaus zum Raben", "San Martino - Gourmet", 
-         "MAIN TOWER Restaurant & Lounge", "Bj\[ODoubleDot]rnsOX", 
-         "Mountain Hub Gourmet", "Casala", "Entenstuben", "Showroom", "noVa", 
-         "Alte Baiz", "Schloss Filseck", "Anima", "Rebers Pflug", 
-         "Kesselhaus", "Eisenbahn", "FAVORITE restaurant", 
-         "Das Marktrestaurant", "Weinsinn", "Ursprung", "zeit|geist", 
-         "Landwerk", "Restaurant Urgestein", "Landhaus K\[ODoubleDot]pp", 
-         "DiVa", "Philipp Soldan", "KAI3", "Jan\.b4s Restaurant", 1789, 
-         "Laudensacks Gourmet Restaurant", "Hugos", "Wirtshaus Meyers Keller",
-          "Gourmetrestaurant Berlins Krone", "le Corange", 
-         "Gourmetrestaurant Nico Burkhardt", "Orangerie", "Seesteg", 
-         "Huberwirt", "Kilian Stuba", "Bahia", "ION - The Harbour", "Noni", 
-         "De Mondion", "Under Grain", "Chestnut", "House", "dede", 
-         "The Oak Room", "Campagne", "Ichigo Ichie", "Lady Helen", "Bastion", 
-         "Aniar", "Loam", "Glovers Alley", "Bastible", "Variety Jones", 
-         "Wild Honey Inn", "The Neptune", "The Cellar", 
-         "Sosban & The Old Butchers", "Lympstone Manor", "The Whitebrook", 
-         "Interlude", "Clock House", "Tony Parkin at The Tudor Room", "Hjem", 
-         "Meadowsweet", "Bridge Arms", "Sorrel", "The Sportsman", 
-         "Morston Hall", "White Swan", "Bybrook", "Nut Tree Inn", "Fraiche", 
-         "The Royal Oak", "Pipe and Glass", "John's House", "Hambleton Hall", 
-         "Thomas Carr 1873", "Rogan & Co", "The Dining Room", 
-         "Allium at Askham Hall", "The Peat Inn", 
-         "Restaurant Hywel Jones by Lucknam Park", "Dog and Gun Inn", 
-         "Latymer", "SY23", "Black Swan", "The Angel", "Pensons", 
-         "Fordwich Arms", "hide and fox", "Pea Porridge", "Salt", 
-         "Winteringham Fields", "Shaun Rankin at Grantley Hall", 
-         "Cottage in the Wood", "Northcote", "Pine", "Elephant", "Bohemia", 
-         "Stark", "HRiSHi", "Masons Arms", "Outlaw's Fish Kitchen", 
-         "Outlaw's New Road", "Star Inn at Harome", "Walnut Tree", 
-         "Forest Side", "alchemilla", "Home", "Loch Bay", "The Woodspeen", 
-         "Peel's", "The Barn", "Upstairs by Tom Shepherd", "Artichoke", 
-         "Gravetye Manor", "Kitchin", "Martin Wishart", "Beach House", 
-         "Olive Tree", "Coworth Park", "mana", "Paul Ainsworth at No.6", 
-         "Opheem", "Purnell's", "Adam's", "Carters of Moseley", "Simpsons", 
-         "House of Tides", "Old Stamp House", "The Man Behind The Curtain", 
-         "The Muddlers Club", "Eipic", "OX", "Unalome by Graeme Cheevers", 
-         "Cail Bruich", "Hinds Head", "Condita", "The Coach", 
-         "The Glenturret Lalique", "Le Champignon Sauvage", "Paco Tapas", 
-         "Bulrush", "Casamia", "Osip", "Seven Park Place", "Muse", 
-         "The Ninth", "Chez Bruce", "Trivet", "Club Gascon", "Harwood Arms", 
-         "Kitchen W8", "Benares", "Gymkhana", "Wild Honey St James", "Kol", 
-         "Angler", "La Trompette", "Locanda Locatelli", "Sollip", 
-         "River Caf\[EAcute]", "Evelyn's Table", "Endo at The Rotunda", 
-         "Dysart Petersham", "Hakkasan Mayfair", "Casa Fof\:014d", "Amaya", 
-         "Dining Room at The Goring", "Galvin La Chapelle", "Ritz Restaurant",
-          "Veeraswamy", "City Social", "Quilon", "Umu", "Murano", 
-         "Pied \[AGrave] Terre", "Leroy", "Pollen Street Social", "Kai", 
-         "St John", "Portland", "P\[EAcute]trus by Gordon Ramsay", 
-         "Hakkasan Hanway Place", "Frog by Adam Handling", "Trishna", 
-         "Trinity", "Five Fields", "Sabor", "HIDE", "Marcus", "Cornerstone", 
-         "The Glasshouse", "Lyle's", "SO|LA", "Barrafina", "Jamavar", 
-         "Elystan Street", "The Cross", "Esszimmer", "The Glass Garden", 
-         "Pfefferschiff", "APRON", "TIAN", "SHIKI", "Edvard", "[aend]", 
-         "Pramerl & the Wolf", "Opera Bombana", "Da Dong (Dongsi 10th Alley)",
-          "Seventh Son", "Zijin Mansion", "Cai Yi Xuan", "Jing", 
-         "Xin Rong Ji (Jinrong Street)", "Il Ristorante - Niko Romito", "Mio",
-          "Jing Yaa Tang", "Xin Rong Ji (Jianguomenwai Street)", 
-         "Country Kitchen", "Lei Garden (Jinbao Tower)", "Fu Chun Ju", 
-         "8 1/2 Otto e Mezzo - Bombana", "Zi Yat Heen", "Wing Lei Palace", 
-         "Lai Heen", "The Kitchen", "Pearl Dragon", "Ying", "Vea", "Whey", 
-         "\[CapitalEAcute]pure", "New Punjab Club", "Man Wah", "R\[UGrave]n", 
-         "Ming Court (Mong Kok)", "Shang Palace", "Summer Palace", 
-         "Ryota Kappou Modern", 
-         "Imperial Treasure Fine Chinese Cuisine (Tsim Sha Tsui)", 
-         "And\:014d", "Man Ho (Admiralty)", "Louise", "I M Teppanyaki & Wine",
-          "Spring Moon", "Yardbird", "Arcane", "Petrus", "Seventh Son", 
-         "Mandarin Grill + Bar", "Sushi Saito", "Roganic", 
-         "Kam's Roast Goose", "Takumi by Daisuke Mori", "Beefbar", 
-         "The Chairman", "Tosca di Angelo", 
-         "Y\[EGrave] Shanghai (Tsim Sha Tsui)", "Sushi Wadatsumi", "Chaat", 
-         "Zest by Konishi", "Mono", "Zhejiang Heen", 
-         "Ho Hung Kee (Causeway Bay)", "Belon", "Fu Ho", "Aaharn", "Gaddi's", 
-         "Hansik Goo", "The Araki", "Yat Tung Heen", "Zuicho", "Duddell's", 
-         "Mi Xun Teahouse", "Chaimen Hui", "Chengdu Restaurant", "Suan Thip", 
-         "Saawaan", "Blue by Alain Ducasse", "Ginza Sushi Ichi", "Paste", 
-         "Nahm", "Sra Bua by Kiin Kiin", "Saneh Jaan", 
-         "J'AIME by Jean-Michel Lorain", "Khao (Ekkamai)", 
-         "Cadence by Dan Bark", "Yu Ting Yuan", "Le Du", "Canvas", "Gaa", 
-         "80/20", "Aksorn", "Elements", "IGNIV", 
-         "C\[OHat]te by Mauro Colagreco", "Savelberg", "Sushi Masato", "PRU", 
-         "Ibaya", "Mesa de Lemos", "Largo do Pa\[CCedilla]o", "Bon Bon", 
-         "Vista", "Vistas Rui Silvestre", "G Pousada", "Fortaleza do Guincho",
-          "Espor\[ATilde]o", "A Cozinha", "Midori", "Lab by Sergi Arola", 
-         "Vila Foz", "Antiqvvm", "Gusto", "William", "Al Sud", "A Ver Tavira",
-          "Pedro Lemos", "EPUR", "100 Maneiras", "Eneko Lisboa", "Feitoria", 
-         "Loco", "Eleven", "Fifty Seconds", "CURA", "Estany Clar", 
-         "La Fonda Xesc", "L'Alian\[CCedilla]a 1919 d'Angl\[EGrave]s", 
-         "Solla", "Tresmacarrons", "Andra Mari", "El Ermita\[NTilde]o", 
-         "Retiro da Costi\[NTilde]a", "Espacio N", "El Corral del Indianu", 
-         "Mu\[Bullet]na", "Taller", "El Boh\[IAcute]o", 
-         "Hospeder\[IAcute]a El Bat\[AAcute]n", "Maca de Castro", "La Salita",
-          "La Aquarela", "El Xato", "Quatre Molins", "Arrels", "Etxebarri", 
-         "La Boscana", "Les Moles", "L'Antic Mol\[IAcute]", "La Bicicleta", 
-         "Callizo", "Real Balneario", "Casa Pepa", 
-         "La Cuina de Can Sim\[OAcute]n", "L'\[CapitalOAcute]", "Alevante", 
-         "Lluerna", "Deliranto", "Marqu\[EAcute]s de Riscal", "Zaranda", 
-         "Les Magn\[OGrave]lies", "Venta Moncalvillo", 
-         "Miguel Gonz\[AAcute]lez", "Boroa", "Atalaya", "Ca l'Enric", 
-         "Elkano", "B\[EAcute]ns d'Avall", "Castell Peralada", 
-         "El Molino de Alcuneza", "El Doncel", "Chir\[OAcute]n", 
-         "Lillas Pastia", "Tatau", "Cal Parad\[IAcute]s", "Emporium", 
-         "As Garzas", "Andreu Genestra", "Els Casals", "La Finca", 
-         "Refectorio", "Baluarte", "Magoga", "Zuberoa", "Abama Kabuki", 
-         "Garena", "Ra\[UAcute]l Resino", "Ambivium", "Malena", 
-         "El Nuevo Molino", "Vers\[AAcute]til", "Tula", 
-         "V\[IAcute]ctor Guti\[EAcute]rrez", "En la Parra", 
-         "Ment by \[CapitalOAcute]scar Calleja", "Es Trag\[OAcute]n", "Lera", 
-         "Solana", "Alameda", "Retama", "El Retiro", "Eneko", 
-         "Ra\[IAcute]ces-Carlos Maldonado", "La Lobita", "Audrey's", "Beat", 
-         "Can Jubany", "Villa Retiro", "Jos\[EAcute] Carlos Garc\[IAcute]a", 
-         "Trivio", "Eirado", "Sala", "Alejandro Serrano", "Massana", 
-         "Arbidel", "Ayalga", "Nub", "El Rinc\[OAcute]n de Juan Carlos", 
-         "Ola Mart\[IAcute]n Berasategui", "Zarate", "Mina", "Zortziko", 
-         "Nerua Guggenheim Bilbao", "Etxanobe Atelier", "Los Guayres", 
-         "Peix & Brases", "Pepe Vieira", "La Botica", "Els Tinars", 
-         "Ca\[NTilde]abota", "Abantal", "Casa Gerardo", "Casa Marcelo", 
-         "A Tafona", "Baeza & Rufete", "Dama Juana", "Bag\[AAcute]", 
-         "La Biblioteca", "Europa", "Rodero", "Sollo", "La Gaia", 
-         "Rinc\[OAcute]n de Diego", "Can Bosch", "Fogony", "Ikaro", 
-         "Kiro Sushi", "\[CapitalAAcute]rbore da Veira", "Coto de Quevedo", 
-         "Odiseo Gastron\[OAcute]mico", "Es Fum", "Marc Fosh", 
-         "DINS Santi Taura", "Adri\[AAcute]n Quetglas", "Trigo", "La Prensa", 
-         "Cancook", "Poemas by Hermanos Padr\[OAcute]n", "Nova", 
-         "El Invernadero", "Kabuki", "La Tasquer\[IAcute]a", "Yugo", 
-         "Gayt\[AAcute]n", "Clos Madrid", "Quimbaya", 
-         "Corral de la Morer\[IAcute]a Gastron\[OAcute]mico", "A'Barra", 
-         "Saddle", "Ricardo Sanz Wellington", "Deessa", "Gofio", 
-         "L\[UAcute]a", "Riff", "Lienzo", "Kaido Sushi Bar", "Fierro", 
-         "Yayo Daporta", "Nublo", "Auga", "Casona del Jud\[IAcute]o", 
-         "El Serbal", "Choco", "Cocinandos", "Pablo", "Maruja Lim\[OAcute]n", 
-         "Silabario", "Mirador de Ul\[IAcute]a", "eMe Be Garrote", "Kokotxa", 
-         "Messina", "Nintai", "El Lago", "Mant\[UAcute]a", 
-         "L\[CapitalUAcute] Cocina y Alma", "Oria", "Alkimia", "Koy Shunka", 
-         "A\[UDoubleDot]rt", "Caelis", "Via Veneto", "Hisop", "Xerta", 
-         "Dos Palillos", "Atempo", "Hofmann", "L'orgueil", 
-         "LUGDUNUM Bouchon Lyonnais", "Tenoshima", "La Clairi\[EGrave]re", 
-         "Sosakumenkobo NAKIRYU", "MAKIYAKI GINZA ONODERA", "SANT PAU", 
-         "L'AFFINAGE", "Nanakusa", "FUSHIKINO", "Jukuseizushi Yorozu", 
-         "Jyukou", "Series", "Aroma Fresca", "ShinoiS", "Sushi Masashi", 
-         "Simplicit\[EAcute]", "LATURE", "Floraison", "Ensui", 
-         "Dominique Bouchet", "Ren Mishina", "Nogizaka Shin", "Waketokuyama", 
-         "l'intemporel", "ESTERRE", "Oniku Karyu", "recte", "Takumi", 
-         "GINZA OKUDA", "La Paix", "CRAFTALE", 
-         "BVLGARI IL RISTORANTE LUCA FANTIN", "Imafuku", "Ginza Adachi Naoto",
-          "Nanachome", "Ishibashi", "FARO", "Mimosa", "N\[OE]ud. TOKYO", 
-         "Chugoku Hanten Fureika", "S\[CapitalEAcute]ZANNE", "est", "L'aube", 
-         "Shichubo Yung", "Sumibikappo SHIROSAKA", "Ode", 
-         "SOBAHOUSE KONJIKI HOTOTOGISU", "L'ARGENT", "Ten Yokota", "Hakuun", 
-         "Les Saisons", "SHIGEMATSU", "TOUR D'ARGENT", "Asagaya BIRD LAND", 
-         "Nodaiwa Azabu Iikura Honten", "Azabu Ichigo", "REQUINQUER", 
-         "Nihombashi Sonoji", "Ichita", "Akasaka Momonoki", "Ginza Kitafuku", 
-         "Principio", "itsuka", "Genyadana Hamadaya", "Tapas Molecular Bar", 
-         "Les enfants g\[AHat]t\[EAcute]s", "Ginza Toyoda", 
-         "Nishiazabu Otake", "Tagetsu", "Alchimiste", "TACUBO", "Regalo", 
-         "BOTTEGA", "abysse", "BIRD LAND", "Tempura Motoyoshi", 
-         "Nishiazabu Sushi Shin", "Le Coq", "Edomae Shinsaku", 
-         "Seika Kobayashi", "Chugoku Hanten Kohakukyu (Amber Palace)", 
-         "L'ALGORITHME", "le sputnik", "sio", "Le Mange-Tout", "Azabu Wakei", 
-         "Akanezaka Onuma", "JO", "L'ASSE", "Tempura Miyashiro", 
-         "DEN KUSHI FLORI", "Ginza Yamanobe Edo Chuka", "Oryori Tsuji", 
-         "Ristorante HONDA", "Evett", "Myomi", "Bicena", "Soign\[EAcute]", 
-         "7th Door", "Terreno", "Pierre Gagnaire", "Muoki", "L'Amant Secret", 
-         "Righi", "Caracol", "Umberto De Martino", "Gardenia", 
-         "Bianca sul Lago by Emanuele Petrosino", 
-         "Virtuoso Gourmet - Tenuta Le Tre Virt\[UGrave]", "Colline Ciociare",
-          "Claudio", "Da Gorini", "D.One Restaurant", "La Favellina", 
-         "Il Cantuccio", "Oseleta", "Sch\[ODoubleDot]neck", "I Salotti", 
-         "Villa Naj", "Zash", "Nazionale", "Lazzaro 1915", "Pash\[AGrave]", 
-         "Anna Stuben", "Due Camini", "Silene", "Ca' Matilde", 
-         "Damini Macelleria & Affini", "Spinechile", "Locanda le 4 Ciacole", 
-         "Essenza", "Il Pellicano", "La Pres\[EAcute]f", "I Pupi", 
-         "Contaminazioni Restaurant", "Casin del Gamba", "Lido 84", 
-         "Locanda Margon", "Osteria di Passignano", "Aqua Crua", 
-         "Gambero Rosso", "Andrea Monesi - Locanda di Orta", "Kuppelrain", 
-         "La Zanzara", "Jos\[EGrave] Restaurant - Tenuta Villa Guerra", 
-         "Il Patio", "Locanda San Lorenzo", "Qafiz", "Gusto by Sadler", 
-         "La Tavola", "Al Metr\[OGrave]", "Il Falconiere", "Mistral", 1908, 
-         "All'Enoteca", "Taverna del Capitano", "Piazzetta Mil\[UGrave]", 
-         "Iacobucci", "Gellius", "Il Bavaglino", "Oasis - Sapori Antichi", 
-         "Franco Mare", "LoRo", "Peter Brunel Ristorante Gourmet", 
-         "Nido del Picchio", "L'Arcade", "Retroscena", "Il Refettorio", 
-         "Vecchia Malcesine", "La Locanda del Borgo", 
-         "Antonello Colonna Labico", "Stube Hermitage", "Dolomieu", 
-         "Il Gallo Cedrone", "Gabbiano 3.0", "Ca' Vittoria", 
-         "Osteria degli Assonica", "Esplanade", "Trattoria da Amerigo", 
-         "Pascucci al Porticciolo", "Il Tino", "Linfa", "Lanterna Verde", 
-         "Prezioso", "Sissi", "La Ciau del Tornavento", "Signum", 
-         "La Veranda del Color", "Johannesstube", "Guido", 
-         "Locanda Don Serafino", "Leon d'Oro", "Octavin", "Il Pievano", 
-         "Tilia", "Da Candida", "La Speranzina Restaurant & Relais", 
-         "La Rucola 2.0", "Il Papavero", "La Pineta", "Atelier", 
-         "La Parolina", "La Credenza", "Dolce Stil Novo alla Reggia", 
-         "Re Santi e Leoni", "Rear Restaurant", "Due Colombe", 
-         "Pietramare Natural Food", "Luigi Lepore", 
-         "Locanda Vecchia Pavia \"\"Al Mulino\"\"", "Il Cappero", "Frosio", 
-         "Il Faro di Capo d'Orso", "Andreina", "Senso Alfio Ghezzi Mart", 
-         "I Castagni", "Il Centro", "Somu", 
-         "Locanda Sant'Uffizio Enrico Bartolini", "Fradis Minoris", 
-         "Zum L\[ODoubleDot]wen", "Sedicesimo Secolo", "L'Acciuga", 
-         "Malga Panna", "Gagini Restaurant", "Feva", "Matteo Grandi", 21.9, 
-         "La Fermata", "Villa Maiella", "Trattoria al Cacciatore - La Subida",
-          "Materia", "Impronta d'Acqua", "St. George by Heinz Beck", 
-         "La Capinera", "Otto Geleng", "Petit Royal", "Castello di Fighine", 
-         "Il Cantinone e Sport Hotel Alpina", "San Martino", 
-         "Osteria del Povero Diavolo", "Casa Iozz\[IGrave]a", "Nove", "Coria",
-          "Shalai", "La Tortuga", "Al Gambero", "Paolo e Barbara", 
-         "Capriccio", "Damiano Nigro", "Osteria Arborina", "Massimo Camia", 
-         "L'Erba del Re", "Zur Rose", "Osteria Acquarol", "Porta di Basso", 
-         "Storie d'Amore", "Sarri", "Laite", "Al Sorriso", 
-         "La Sala dei Grappoli", "Lorelei", "Il Buco", "Terrazza Bosquet", 
-         "Orto by Jorg Giubbani", "Glicine", "La Caravella dal 1959", 
-         "Dattilo", "Astra", "Pierino Penati", "Il Cascinalenuovo", 
-         "La Bandiera", "Osteria della Brughiera", "Ma.Ri.Na.", 
-         "La Trattoria Enrico Bartolini", "Cielo", "Sud", "Inkiostro", 
-         "Parizzi", "La Torre", "Rossellinis", "Il Flauto di Pan", 
-         "Apostelstube", "Lux Lucis", "Il Parco di Villa Grey", "La Magnolia",
-          "Lorenzo", "Bistrot", "'L Chimpl", "Don Geppi", "ConFusion", 
-         "Il Piastrino", "Amist\[AGrave]", "Arnaldo - Clinica Gastronomica", 
-         "Venissa", "Bros'", "Primo Restaurant", "I Caffi", "Poggio Rosso", 
-         "L'Asinello", "La Bottega del 30", "Il Saraceno", "Abbruzzino", 
-         "Kitchen", "I Tigli in Theoria", "Aminta Resort", 
-         "Atman a Villa Rospigliosi", "Zappatori", "La Cru", "Indaco", 
-         "La Buca", "Vecchio Ristoro", "Cannavacciuolo Countryside", 
-         "Vespasia", "Antica Corte Pallavicina", "Quintessenza", 
-         "Casa Sgarra", "Lunasia", "Romano", "Le Monz\[UGrave]", 
-         "Mamm\[AGrave]", "Relais Blu", "La Serra", "Zass", "Li Galli", 
-         "San Martino", "La Primula", "Impronte", "Casual", 
-         "Cannavacciuolo Caf\[EGrave] & Bistrot", "Tantris", 
-         "L'Argine a Venc\[OGrave]", "La Palta", "Mater1apr1ma", "Hyle", 
-         "San Giorgio", "The Cook", "In Viaggio - Claudio Melis", "SanBrite", 
-         "Tivoli", "Abocar Due Cucine", "Dolada", "Casa Vissani", 
-         "Acquerello", "Guido", "Dal Corsaro", "Le Trabe", 
-         "Osteria Arbustico", "Maxi", "Antica Osteria Nonna Rosa", 
-         "Gi\[AGrave] Sotto l'Arco", "Contraste", "Joia", 
-         "L\[CloseCurlyQuote]Alchimia", "Sadler", "Innocenti Evasioni", 
-         "Viva Viviana Varese", "Tano Passami l'Olio", "AALTO", "Iyo", 
-         "Felix Lo Basso home & restaurant", "Berton", "Cracco", 
-         "Don Alfonso 1890 San Barbato", "President", "Casamatta", "Veritas", 
-         "Il Comandante", "George Restaurant", "ARIA", "Palazzo Petrucci", 
-         "Vitantonio Lombardo", "Il Ristorante di Guido da Costigliole", 
-         "I Portici", "Il Palagio", "Gucci Osteria da Massimo Bottura", 
-         "Borgo San Jacopo", "La Leggenda dei Frati", "Locanda del Pilone", 
-         "Borgo Sant'Anna", "Fre", "Acqua Pazza", "Il Vescovado", "Moma", 
-         "Zia", "All'Oro", "Idylio by Apreda", "Acquolina", 
-         "Il Convivio Troiani", "Aroma", "Pipero Roma", "Glass Hostaria", 
-         "La Terrazza", "Enoteca La Torre", "Im\[AGrave]go", 
-         "Marco Martini Restaurant", "Per Me Giulio Terrinoni", 
-         "Vintage 1997", "Casa Vicina", "Cannavacciuolo Bistrot", "Spazio7", 
-         "Del Cambio", "Magorabin", "Condividere", "Piano 35", "Carignano", 
-         "Unforgettable", "Accursio", "Alpenroyal Gourmet", "Nostrano", 
-         "Zanze XVI", "Wist\[EGrave]ria", "Local", "Quadri", "Oro Restaurant",
-          "Re Maur\[IGrave]", "Butterfly", "Giglio", "12 Apostoli", 
-         "Il Desco", "La Tana Gourmet", "Stube Gourmet", "El Molin", "Sapio", 
-         "Varoulko Seaside", "CTC", "Botrini's", "Pelagos", "Hytra", "Field", 
-         "La Degustation Boh\[EHat]me Bourgeoise", "Maison Lameloise", 
-         "T'ang Court", "Shang-High Cuisine", "Lao Zheng Xing (Huangpu)", 
-         "Yi Long Court", "Jin Xuan", "Obscura", "Seventh Son", "Sir Elly's", 
-         "Ming Court", "Ph\[EAcute]nix", "Yong Yi Ting", "Da Dong (Xuhui)", 
-         "Canton Table", "Il Ristorante - Niko Romito", "Jean Georges", 
-         "Lei Garden (Xuhui)", "Le Comptoir de Pierre Gagnaire", 
-         "Lei Garden (Pudong)", "Da Dong (Jingan)", 
-         "Xin Rong Ji (West Nanjing Road)", "Point", "Kyomachiryori Mitsuya", 
-         "\[CapitalNTilde]", "il Centrino", "Kitashinchi Fukutatei", 
-         "ID\[CapitalEAcute]AL bistro", "Oimatsu Kitagawa", 
-         "Ichiju Nisai Ueno Minoten", "agnel d'or", "Oimatsu Hisano", 
-         "Utsubohommachi Gaku", "Iwaki", "Diff\[EAcute]rence", "Pierre", 
-         "Man-u", "La Lucciola", "La casa TOM Curiosa", "P greco", 
-         "Temmabashi Fujikawa", "TEMPURA HANAGATAMI", "Ajikitcho Horieten", 
-         "capi", "La B\[EAcute]casse", "La Baie", "Sushi Yuden", "Kagaman", 
-         "Ajikitcho Bumbuan", "YUNiCO", "Sushidokoro Hirokawa", "LIAISON", 
-         "ad hoc", "Maison Tateru Yoshino", "Unkaku", "Chi-Fu", 
-         "Muromachi Wakuden", "MOTO\[CapitalIDoubleDot]", "Kyo Seika", 
-         "Godan Miyazawa", "Hiramatsu Kodaiji", "Kentan Horibe", 
-         "Ayanokoji Karatsu", "Droit", "Reine des pr\[EAcute]s", 
-         "La Biographie\[CenterDot]\[CenterDot]\[CenterDot]", 
-         "MUNI LA TERRASSE", "Gion Nishimura", "Kodaiji Jugyuan", "NAKATSUKA",
-          "Kokyu", "Shimogamo Saryo", "Kanamean Nishitomiya", "TAKAYAMA", 
-         "Ryoriya Maekawa", "Okina", "Sanso Kyoyamato", "Aoike", "cenci", 
-         "Tominokoji Yamagishi", "Gokomachi Tagawa", "Oryori Mashita", 
-         "MUNI ALAIN DUCASSE", "Honke Tankuma Honten", "Tempura Mizuki", 
-         "Jiki Miyazawa", "Nakazen", "VELROSIER", "Sushi Hayashi", "Kiyama", 
-         "KOKE", "Kinobu", "HANA-Kitcho", "LURRA\:02da", "SEN", "Bini", 
-         "muroi", "Mokubei", "Nikunotakumi Miyoshi", "Ten-you", "Selby's", 
-         "Plumed Horse", "Rasa", "The Village Pub", "Pasta | Bar", 
-         "Shin Sushi", "Adega", "Kenzo", "La Toque", "Auberge du Soleil", 
-         "Sushi Shin", "Chez TJ", "Barndiva", "Kali", "Madcap", 
-         "Bistro Na\[CloseCurlyQuote]s", "Jeune et Jolie", "Sushi Yoshizumi", 
-         "Wakuriya", "Soichi", "Sushi Tadokoro", "Sushi | Bar Montecito", 
-         "Maude", "CUT", "Nozawa Bar", "Gucci Osteria da Massimo Bottura", 
-         "Pasjoli", "Rustic Canyon", "Aubergine", "Madera", "Orsa & Winston", 
-         "Q Sushi", "Osteria Mozza", "Phenakite", "Shibumi", "Morihiro", 
-         "Mori Sushi", "Le Comptoir", "State Bird Provisions", "The Progress",
-          "Sons & Daughters", "Wako", "j\:016b-ni", 
-         "Mister Jiu\[CloseCurlyQuote]s", "Al's Place", "Sorrel", "Omakase", 
-         "Niku Steakhouse", "O' by Claude Le Tohic", "Mourad", "Angler SF", 
-         "Kin Khao", "Gary Danko", "SPQR", "Avery", "Bar Crenn", "The Shota", 
-         "Spruce", "Marlena", "The Kitchen", "Taco Mar\[IAcute]a", 
-         "Knife Pleat", "Hana re", "Hi\[SHacek]a Denk", "Dam", 
-         "Gostilna Pri Lojzetu", "Gri\[CHacek]", "Restavracija Atelje", 
-         "Lai Heen", "Lei Garden (Yuexiu)", "Jade River", "Wisca (Haizhu)", 
-         "Hongtu Hall", "Lingnan House", "Yu Yue Heen", 
-         "Famous Cuisine (Tianhe)", "R\[EHat]ver", 
-         "Imperial Treasure Fine Teochew Cuisine", "PM & V\[ADoubleDot]nner", 
-         "Hotell Borgholm", "\[CapitalADoubleDot]NG", "Agrikultur", 
-         "Sushi Sho", "Ekstedt", "Operak\[ADoubleDot]llaren", "Aira", 
-         "Etoile", "bhoga", "28+", "Project", "Koka", 
-         "SK Mat & M\[ADoubleDot]nniskor", "Sabi Omakase", "FAGN", 
-         "Speilsalen", "Credo", "Bare", "Kontrast", "Omakase by Vladimir Pak",
-          "Statholdergaarden", "DILL", "Inari", "Olo", "Palace", 
-         "Gr\[ODoubleDot]n", "Ora", "Demo", "Finnj\[ADoubleDot]vel Salonki", 
-         "Ti Trin Ned", "Dragsholm Slot Gourmet", "Me|Mu", "LYST", 
-         "Kadeau Bornholm", "Frederiksminde", "Syttende", "Gastrom\[EAcute]", 
-         "Frederiksh\[OSlash]j", "Domestic", "Substans", 
-         "S\[OSlash]ller\[OSlash]d Kro", "formel B", "Alouette", "Marchal", 
-         "Kokkeriet", "Kiin Kiin", "The Samuel", "Bo\[SHacek]kinac", 
-         "Draga di Lovrana", "Nebo", "Monte", "Pelegrini", "Noel", 
-         "Agli Amici Rovinj", "Alfred Keller", "LD Restaurant", 
-         "Restaurant 360", "Stand", "ess\[EHat]ncia", "Borkonyha Winekitchen",
-          "Babel", "Salt", "Costes", "Costes Downtown", "Braci", "Burnt Ends",
-          "Summer Palace", "Sommer", "Cure", "Iggy's", "Cut", "Sushi Kimura", 
-         "Cloudstreet", "Hill Street Tai Hwa Pork Noodle", "Lerouy", 
-         "Whitegrass", "Putien (Kitchener Road)", "Alma", "Chef Kang's", 
-         "Oshino", "Esora", "Buona Terra", "28 Wilkie", "Lei Garden", 
-         "Shang Palace", "Meta", "Ma Cuisine", "Art", 
-         "Imperial Treasure Fine Teochew Cuisine (Orchard)", "Garibaldi", 
-         "B\[EAcute]ni", "Basque Kitchen by Aitor", "Table65", "Thevar", 
-         "Jag", "Rhubarb", "Nouri", "Corner House", "Candlenut", "Sushi Ichi",
-          "Summer Pavilion", "Terra", "Molino de Urd\[AAcute]niz", "A Cut", 
-         "Tien Hsiang Lo", "Longtail", "Impromptu by Paul Lee", "Forchetta", 
-         "Mudan", "Fujin Tree Taiwanese Cuisine & Champagne (Songshan)", 
-         "Fleur de Sel", "Golden Formosa", "Mountain and Sea House", "Mipon", 
-         "Ya Ge", "The Four Horsemen", "Hirohisa", "Estela", "Tuome", 
-         "Sushi Amane", "Claro", "Vestry", "Peter Luger", "Walls\[EAcute]", 
-         "Francie", "Casa Mono", "Le Jardinier New York", 
-         "Sushi Ginza Onodera", "Kochi", "Crown Shy", "Sushi Noz", 
-         "Blue Hill", "Kajitsu", "The Musket Room", 
-         "ZZ\[CloseCurlyQuote]s Clam Bar", "Oxalis", "Oxomoco", "Jua", 
-         "Meadowsweet", "The River Caf\[EAcute]", "Marea", "Le Coucou", 
-         "Kanoyama", "Cote", "Ai Fiori", "Rezd\[OHat]ra", "B\[AHat]tard", 
-         "Caviar Russe", "Contra", "L\[CloseCurlyQuote]Appart", 
-         "Sushi Yasuda", "Tempura Matsui", "Gramercy Tavern", 
-         "Sushi Nakazawa", "Jeju Noodle Bar", "Don Angie", "The Clocktower", 
-         "Kosaka", "Carbone", "Torkel", "Locanda Barbarossa", 
-         "La Miranda Gourmet St\[UDoubleDot]bli", "PRISMA", "Les Saisons", 
-         "Le Murenberg", "Seerestaurant Belv\[EAcute]d\[EGrave]re", 
-         "Damien Germanier", "Ts\[EAcute] Fung", "Sommet", "Alpenblick", 
-         "Auberge de la Croix Blanche", "Talvo by Dalsass", "Les Ateliers", 
-         "Bayview by Michel Roth", "Alpenblick - Stuba", 
-         "Art\[EAcute] al Lago", "Le Berceau des Sens", "Sihlhalde", 
-         "Locanda Orico", "Attisholz", "La Brezza", 
-         "R\[ODoubleDot]ssli - J\[ADoubleDot]gerst\[UDoubleDot]bli", 
-         "Wirtshaus Zur S\[ADoubleDot]ge", "Caf\[EAcute] Berra", "roots", 
-         "Die Rose", "Regina Montium", "L'Apart\[EAcute]", "Neue Blumenau", 
-         "the K by mauro colagreco", "Le Chat-Bott\[EAcute]", "Truube", 
-         "Principe Leopoldo", "J\[ADoubleDot]gerhof", "Traube", 
-         "La R\[OHat]tisserie", "L'Etoile - Nova", "1904 Designed by Lagonda",
-          "Panorama - Cayenne", "La Riva", "Tosca", "Table de Mary", 
-         "Sternen - Badstube", "La Table du Lausanne Palace", "L'OURS", 
-         "Du Cerf", "EquiTable", "Le Flacon", "Le P\[EAcute]rolles", 
-         "Neue Taverne", "Steinhalle", "Osteria TRE", "La Table d'Adrien", 
-         "Gasthaus Zum Gupf", "Chesa St\[UDoubleDot]va Colani", "Sonne", 
-         "Schl\[UDoubleDot]ssel", "Verve by Sven", 
-         "La Chaumi\[EGrave]re by Serge Labrosse", "After Seven", 
-         "Le Caf\[EAcute] Suisse", "Le Cigalon", "Vivanda", "Ornellaia", 
-         "Zum \[CapitalADoubleDot]usseren Stand", "The Japanese Restaurant", 
-         "The Japanese by The Chedi", "Zur Gedult", "Guarda Val", "Il Lago", 
-         "Maison Manesse", "L\[ODoubleDot]wen - Apriori", "I Due Sud", 
-         "Alpine Gourmet Prato Borni", 
-         "IGNIV Z\[UDoubleDot]rich by Andreas Caminada", "dasRestaurant", 
-         "Sushi Shin", "META", "UniQuisine Atelier", "Denis Martin", 
-         "L'Ermitage", "Gasthaus zum Kreuz", "Segreto", "Le MontBlanc", 
-         "G\[CapitalUDoubleDot]TSCH by Markus Neff", 
-         "Schl\[UDoubleDot]ssel - Nidbergstube", "Bel Etage", "Pages", 
-         "Kinoshita", "Evvai", "Mee", "Cipriani", "Man\[IAcute]", "Huto", 
-         "Picchi", "Lasai", "Bottiglieria 1881"}, 
-       "Bib Gourmand" -> {
-        "Michael's Genuine", "El Turco", "Mandolin Aegean Bistro", 
-         "Swine & Sons", "Bachour", "Zak The Baker", "Rooster and the Till", 
-         "Domu", "Ichicoro Ramen", "Bombay Street Kitchen", "DOYA", "Strand", 
-         "The Ravenous Pig", "Z Asian", "Phuc Yea", "Papa Llama", "Zitz Sum", 
-         "Red Rooster Overtown", "Lung Yai Thai Tapas", "Rocca", 
-         "Ghee Indian Kitchen", "Lucali", "Itamae", 
-         "Kr\[UDoubleDot]s Kitchen", "Chug's Diner", "Tinta y Cafe", 
-         "Sanguich De Miami", "Caf\[EAcute] Caron", "DiVino", "De Knip", 
-         "Het Oude Gemeentehuis", "Kwiezien", "Umami by Han", "De Beejekurf", 
-         "Asian Glories", "Uit de Kunst", "De Aubergerie", 
-         "Het Bergpaviljoen", "Le Moulin", "Huson", "Serre", 
-         "Bistro Aragosta", "Kronenburg", "Vineum", "Gym & Gin", 
-         "Brasserie van Baerle", "Umami by Han", "Plantage 87", "Tante Kee", 
-         "De Basiliek", "Bistro de Olliem\[ODoubleDot]lle", 
-         "Hofstede de Blaak", "Kasteel Elsloo", "Witlof", "H\[EAcute]ron", 
-         "Bistrobar Berlin", "Hoog Holten", "Brasserij Kok Verhoeven", 
-         "De Watermolen", "\[CapitalEAcute]lev\[EAcute]", 
-         "Landgoed de Holtweijde", "De Watergeus", "Oogst", "Promessa", 
-         "Scheepskameel", "A-Fusion", "Diverso", "Rust Wat", "De Houtloods", 
-         "Bistro", "Tapisco", "Le Nord", "Bistro 't Gerecht", "Pouwe", 
-         "Umami by Han", "Hof van Herstal", "Publique", 
-         "De Lindeboom New Style", "La Fleurie", "Umami by Han", "Sukade", 
-         "In de Oude Stempel", "Marie", "Herberg Stadt Stevenswaert", 
-         "De Uitkijk", "L'Auberge de Neercanne", "Bij Erik", 
-         "Chef aan de Werf", "'t Parkje", "Bistro Nijeholt", "Tabkeaw", 
-         "Bovenmeester", "Harry's", "La M\[EGrave]re Anne", "Zilt & Zoet", 
-         "Spandershoeve", "Mijn Streek", "Old Skool", "LEV Foodbar", 
-         "Raedthuys", "Bouwkunde", "De Beleving", "Brasserie BovendeRivieren",
-          "Gastrobar Ster", "Bij Mette", "Red Orchids", 
-         "Herberg de Witte Gans", "Coperto Restobar", "Bistro TWO", 
-         "Het Oude Dykhuys", "Groenewoud", "Alma Bodega", "Escobar", "Klaas", 
-         "Eilandkeuken", "Domenica", "Suzie's en Van Aken", "Arles", 
-         "The Green Rose", "Prix de Rome", "La Vie", "Auberge Jean & Marie", 
-         "Boompjes", "Le Vieux Jean", "Rijsel", "Gaar", "Nova", 
-         "De Schans by Mike & Wes", "Basaal", "De Grote Frederik Bistro", 
-         "Bistro LOF", "Waers", "Fa. Pekelhaaring", "Blauw", 
-         "Bistr\[OHat]t Chapeau", "'t Nieuwe Diekhuus", 
-         "Restaurant \[NTilde]", "Moustique", "Oriole", "Lore Bistroo", 
-         "Fellin", "Mantel ja Korsten", "H\[ADoubleDot]rg", "NOA", "Origines",
-          "La Charcuterie", "Ma\[IDoubleDot]no\[IDoubleDot]", "Tapa Ti", 
-         "Fleur de Sel", "Les Potes au Feu", "Table Rase", "Masu", 
-         "Nr.12 by Helsen", "Car Bon", "Les Terrasses de l'Our", 
-         "C\[OE]ur de B\[OE]uf", "Au Tour du Vin", "Les Potes en Toque", 
-         "l'Epicurien", "InVINcible", "De Kruidenmolen", "Felicit\[AGrave]", 
-         "La Chapellerie", "Brasserie N4", "Faraya", "Biestro H-eat", 
-         "Bonifas", "Clos des R\[EAcute]collets", "Terminus", "Le Tournant", 
-         "Royal H.-Bonhomme", "Gaston Vouzote", "Brasserie des Jardins", 
-         "Borse van Amsterdam", "De Farmasie", "Les Fines Gueules", 
-         "La Fermette des Pins", "Le Petit-Fils", "Olijfboom", "La Broche", 
-         "Nulle Part Ailleurs", "Le Mucha", "Brasserie de l'Expo", 
-         "Les Deux Maisons", "Ferme des 4 saisons", "Amu", "Chermanne", 
-         "Les Petits Oignons", "Le Grand Maur", "Au C\[OE]ur de Lacuisine", 
-         "Kamakura", "La Table de la Manufacture Urbaine", "Magnific", 
-         "Bienvenue", "dis-moi o\[UGrave] ?", "l'Apropos", "L'Entre D'Eux", 
-         "L'Echapp\[EAcute]e Belle", "Des Ardennes", 
-         "La Cantine du Ch\[AHat]telet", "Kok Sur Mer", 
-         "Le Bistrot d'en Face", "Le Moulin", "K restaurant", 
-         "Den Duyventooren", "La Maison Thai", "Michel", "Sel et Poivre", 
-         "La Taperia", "Le Coq en P\[AHat]te", "Trattoria Bazalia", 
-         "Cadre Culinaire", "Cul de Poule", "De Maurice \[AGrave] Olivier", 
-         "JB", "Plat pr\[EAcute]f\[EAcute]r\[EAcute]", "Dahm", 
-         "L'\[CapitalOHat]thentique", "L'Embellie", "Tero", "Le Barathym", 
-         "La Petite Gayole", "Mamy Louise", "Tero", "B\[UAcute]n", 
-         "Le Faitout", "Parc Le'h", "Chez Louis", "Villa Singha", 
-         "La Branche d'Olivier", "L'O \[AGrave] la Bouche", 
-         "La Brasserie de la Gare", "Maza'j", "5 Flavors Mmei", "Strofilia", 
-         "De Gebrande Winning", "Chez Chen", "Le Charme de la Semois", "Fico",
-          "De Huifkar", "P\[EGrave]re et M\[EGrave]re", "Ciro's", "CCnomie", 
-         "Appel Tha\[IDoubleDot]", "La Fermette", "l'Amiti\[EAcute]", 
-         "Bizie Lizie", "Osteria Bolognese", "Au Petit Ch\[AHat]teau", 
-         "Epices et Nous", "De Vous \[AGrave] Nous", "Schnitzel", 
-         "Bistrot L'\[IHat]lot", "Arti'Choc", "Ni Shifu", "French Kiss", 
-         "Loc\[AGrave]le by Kok au Vin", "Bistronome", "Lucana", 
-         "Le Coin des Saveurs", "Comptoir de l'Eau Vive", 
-         "Maison du Luxembourg", "Tou.Gou", "La Table du Boucher", 
-         "Au Filet de Sole", "Toucan", "Saint Boniface", "Robertissimo", 
-         "Bell'Arrivo", "Station 3", "il \[EAcute]tait une fois toi et moi", 
-         "abCd", "Instroom", "Le Victor", "Au gr\[EAcute] des Saisons", 
-         "La Table de Manon", "la cantinetta", "Monsieur V", 
-         "Antonio Morreale", "Bottega Vannini", "L'Entretien", 
-         "Le Sixi\[EGrave]me", "Bistrot Benoit", "Le Grand Pr\[EAcute]", 
-         "Jeux de Go\[UHat]ts", "Bar Bask", 
-         "French Izakaya \[CapitalEAcute]tonner", "Kiminami", 
-         "PIZZERIA TRATTORIA MAGAZZINO", "Nidaime Izumosoba Dandan", 
-         "Residents Cafe & Bar", "Stellina Pizzeria", "Timber Pizza Co", 
-         "Unconventional Diner", "Sfoglina", "The Red Hen", "Jaleo", 
-         "Pearl Dive Oyster Palace", "Toki Underground", "Thip Khao", 
-         "Kaliwa", "Cane", "Lapis", "Taqueria Habanero", 
-         "Queen\[CloseCurlyQuote]s English", "Ivy City Smokehouse", "Oyamel", 
-         "Federalist Pig", "Hitching Post", "Makan", "Honeymoon Chicken", 
-         "Fancy Radish", "Ell\[EBar]", "Bidwell", "Zenebech", 
-         "Ottoman Taverna", "Das", "Sababa", "Maketto", "Karma Modern Indian",
-          "Astoria DC", "Laos in Town", "Daru", "Dauphine's", 
-         "China Chilcano", "Menya Hosaki", "Tortello Pastificio", 
-         "Superkhana International", "Lardon", "Sochi", "Apolonia", 
-         "Dear Margaret", "Cira", "Munno Pizzeria & Bistro", "Ghin Khao", 
-         "Longman & Eagle", "Bloom Plant Based Kitchen", "GT Fish & Oyster", 
-         "Herb", "Pizzeria Bebu", "Ina Mae", "Chilam Balam", "Daisies", 
-         "Tzuco", "Flat & Point", "Funkenhausen", "Virtue", "Vajra", 
-         "Joe's Imports", "HaiSous", "Marisol", "Ciccio Mio", "Perilla", 
-         "Kie-Gol-Lanee", "The Purple Pig", "Lula Cafe", "Giant", 
-         "Dos Urban Cantina", "Chef\[CloseCurlyQuote]s Special Cocktail Bar", 
-         "Proxi", "Soul\[EAcute]", "Mango Pickle", "Pleasant House Pub", 
-         "The Duck Inn", "Table, Donkey and Stick", "Frontera Grill", 
-         "Gilt Bar", "Mama Delia", "mfk.", "Nella Pizza e Pasta", 
-         "Smoque BBQ", "Birrieria Zaragoza", "etta", "Mi Tocaya", "Cabra", 
-         "avec", "Sol de Mexico", "La Josie", "Gare aux Go\[UHat]ts", 
-         "Le Cerisier", "Au Lion d'Or - Chez Th\[EAcute]o", "Air Accueil", 
-         "Le Nid", "Cheval d'Or", "La Belle \[CapitalEAcute]toile", "Le Malu",
-          "Racines", "Le Rabelais", "Le Chardonnay", "Mova", "Sellae", 
-         "Insens", "Etsi", "La Rochette", "Lai'Tcha", "Le Grand Bain", 
-         "Kisin", "20 Eiffel", "L'Antre Amis", "Au Bon Accueil", "Pottoka", 
-         "Mandoobar", "Brigade du Tigre", "Les Tables d'Augustin", 
-         "Chez Michel", "Auberge Pyr\[EAcute]n\[EAcute]es C\[EAcute]vennes", 
-         "Le Pantruche", "Cucina", "Zen", "L'Oseille", "Le Garriane", 
-         "Cokotte", "Les R\[EAcute]sistants", "Le Petit Paris", "Art'zain", 
-         "Les Quatre Saisons", "L'Alicanta", "Jouvence", 
-         "La Chaize Gourmande", "Le Bac \[AGrave] Traille", "La Vierge", 
-         "Le Br\[EAcute]ard", "L'\[CapitalEAcute]den", 
-         "L'Oustalet Ma\[IDoubleDot]anen", "Spoon", "Baca'v", 
-         "Les Petits Parisiens", "Aux Plumes", "Bistrot 1954", "Mets et Vins",
-          "L'Hommage", "Le Gantxo", "Maison Chabran - Le 45\[EGrave]me", 
-         "Le Bistro Chapouton", "Caf\[EAcute] A", "L'Affranchi", "Le Colvert",
-          "L'As des Neiges", "Le Saint-Jacques", "SaQuaNa", "Le Bistrot", 
-         "Auberge La Grange aux Loups", "La Maison Carrier", 
-         "Bistrot la Coulemelle", "Le Bistro des Glycines", "Le Bastion", 
-         "Cozna", "Clamato", "Au Coq en Velours", "Le Caillebotte", 
-         "La Ferme de Victorine", "Bistrot RG", 
-         "Les Maisons Du'O - Le Bistro Panoramique", "Fidelis", "Richer", 
-         "La Capitelle", "Ti-Coz", "Au Coin des Halles", "La Croix d'Or", 
-         "Le Bistro Urbain", "C\[OHat]t\[EAcute] Saveurs", "Bellavista", 
-         "La Griotte", "Le M\[EAcute]di\[EAcute]val", 
-         "L'Auberge du Pont des Pierres", "Auberge du Pont", "Le Bon Accueil",
-          "L'Oc\[EAcute]anide", "Le Comptoir de La Butte", 
-         "La Maison de Marie", "Le Clos St-Roch", "L'Ourdissoir", "Pica Pica",
-          "Restaurant Anne & Matthieu Omont - H\[OHat]tel de France", 
-         "Grain de Sel", "Auberge des Chenets", "Lou Pinatou", "Le Bistrot", 
-         "Auberge du Prieur\[EAcute] Normand", 
-         "Ahizpak Le Restaurant des S\[OE]urs", "Bistrot de Port-Lesney", 
-         "Bistrot DuPont", "Au Plaisir Ambr\[EAcute]", "L'Embellie", 
-         "Les Arpents", "Le Bourbon", "Au Bon Accueil", "Les Petits Princes", 
-         "L'Auberge", "La Table d'Antoine", "B2K6", "L'AO - L'Aigle d'Or", 
-         "L'\[CapitalEAcute]picurien", "Le Clos Monteils", "Le Lisita", 
-         "L'Aigle d'Or", "M Restaurant", "La Poutre", "Quai 17", 
-         "La Cour de R\[EAcute]mi", "Bistrot Lucien", "La Part des Anges", 
-         "La Bergerie", "C\[OHat]t\[EAcute] Saisons", "La Ferme du Poulet", 
-         "Auberge des Aryelets", "La Toile \[AGrave] Beurre", 
-         "Auberge St-Fiacre", "La Table 101", "Jeux 2 Go\[UHat]ts", 
-         "Essentiel", "La Closerie des Roses", "Saveurs de l'Abbaye", 
-         "Histoire Ancienne", "Saku Restaurant", "La Safrani\[EGrave]re", 
-         "La Fal\[EGrave]ne Bleue", "Le Saint-Eutrope", "Madame", 
-         "Un Grain de Saveur", "Auberge de Combes", "Olive et Artichaut", 
-         "Kalamansi", "C\[OHat]t\[EAcute] Sud", "La Grange des Halles", 
-         "Le Cottage", "L'Amandier", "Le Boudes La Vigne", "La Fleur de Sel", 
-         "La Cl\[EAcute] des Champs", "La Table - Cuisinier Caviste", 
-         "Le Manoir de Kerbot", "Spica", "Le Sous-sol", 
-         "Le Clos Saint Martin - La M\[EAcute]tairie", "52 Faubourg St-Denis",
-          "La Petite Ourse", "Le Beauvoir", "Auberge des Deux Magots", 
-         "Bistrot Saveurs", "Italie l\[AGrave]-bas", "\[CapitalOHat] Saveurs",
-          "Le Bistrot d'Antoine", "Au Raisin d'Or", "Auberge de la Roche", 
-         "Les 7", "Caf\[EAcute] de la Fontaine", "Fleur de Sel", "Bird", 
-         "La Table de Haute-Serre", "La Maison de Kerdi\[EGrave]s", 
-         "Le Carr\[EAcute] de l'Ange", "En Cuisine", "Le Bistrot de Berne", 
-         "Le Coq d'Or", "Julien", "Le Relais des Salines", 
-         "L'Alt\[EAcute]vic", "La Table du Pouyaud", "Le Balcon", 
-         "T\[EAcute]j\[EAcute]rina-H\[OHat]tel de la Place", "C'la Vie", 
-         "\[CapitalEAcute]pices et Tout", "L'Angle Saint-Laurent", 
-         "La Vieille Forge", "Bistrot du Pollet", "La Beaugravi\[EGrave]re", 
-         "Le Tire Bouchon", "L'Agape", "Balsamique", "Le Petit St-Thomas", 
-         "DZ'envies", "Le Terminus", "Le Bouchon Bourguignon", "Le Tiroir", 
-         "Chez Mon Jules", "Relais de l'Abbaye", "Restaurant de la Gare", 
-         "L'\[CapitalEAcute]cureuil", "Le Grapiot", "Pierre & Jean", 
-         "U Licettu", "Arbequina", "La Table d'\[CapitalEAcute]lise", 
-         "Comptoir Breizh Caf\[EAcute]", "Le P\[EAcute]lican", 
-         "Les Mets d'Ad\[EAcute]la\[IDoubleDot]de", "Au Pont du Corbeau", 
-         "La Taverne Alsacienne", "Les Ar\[OHat]mes", 
-         "La Table B\[AHat]g\[EAcute]sienne", "Restaurant du Dauphin", 
-         "Le Quai", "Auberge La Gailloti\[EGrave]re", "Les Flots", "Le Cygne",
-          "L'Assiette au Jardin", "Auberge La Baqu\[EGrave]re", 
-         "\[CapitalOHat] Moulin", "Au Fil des Saisons", "Maison Joanto", 
-         "Coteaux et Fourchettes", "La Table d'Auzeville", "Cabane", 
-         "La Table de Michel Dussau", "Auberge de l'\[CapitalIHat]le", 
-         "Le Bistrot de Villedieu", "La Botte d'Asperges", "Le Jardin", 
-         "C\[OHat]t\[EAcute] Bistro", "Le Clos aux Roses", "Au Petit Vatel", 
-         "\[CapitalOHat] en Couleur", "Hostellerie Saint-Cl\[EAcute]ment", 
-         "Les \[CapitalEAcute]pices Curiens", "La Table de L\[EAcute]o", 
-         "La Long\[EGrave]re", "Le Moulin Fouret", "L'Aub\[EAcute]pine", 
-         "Cartouches", "Le Saint Joseph", "L'Ormeau", "La Maison de Celou", 
-         "C\[OHat]t\[EAcute] Bastide", "Les Jardins de l'Acropolis", 
-         "La Table de Laurent", "Le Kitchen", "L'Artichaut", "Nougier", 
-         "Auberge Le Centre Poitou", "Le Bistrot du 11", 
-         "La Grillade Gourmande", "Au Bon Pichet", "L'Atelier", 
-         "La Fl\[EGrave]che d'Argent", "Le Saint-Honor\[EAcute]", 
-         "Maison Gambert", "Le Beaujolais", "La For\[EHat]t", 
-         "\[CapitalOHat] Saveurs", "L'\[CapitalEAcute]vidence", "L'ArtYsan", 
-         "Le Paris-Brest", "1er Mets", "Les Plaisirs", 
-         "L'\[CapitalEAcute]motion", "Le Caf\[EAcute] des Arts", 
-         "Sm\[OSlash]rrebr\[OSlash]d", "La Table d'H\[OHat]tes", "Akashon", 
-         "Le Montcenis", "Auberge de la Baraque", 
-         "Hostellerie d'H\[EAcute]lo\[IDoubleDot]se", "Caf\[EAcute] Brochier",
-          "Auberge de l'Abbaye", "La R\[EAcute]cr\[EAcute]", "Le Margote", 
-         "Le Viscos", "Winstub \[CapitalAGrave] C\[OHat]t\[EAcute]", 
-         "Le St-Georges", "Hostellerie du Prieur\[EAcute]", "Auberge des 3 J",
-          "Vidal", "PY", "La Croix Blanche", 
-         "Auberge du XII\[EGrave]me Si\[EGrave]cle", 
-         "Restaurant du Mus\[EAcute]e", "Le Vauban", "Briket' Bistrot", 
-         "Le Confidentiel", "Le Jean Moulin", "Auberge Metzger", 
-         "Au Colombier", "L'Auberge des Montagnes", "Manoir Hastings", 
-         "La Gazette", "Le Pr\[EAcute] St-Jean", "La Table de Pablo", 
-         "Manoir de la Pommeraie", "La Table d'Ang\[EGrave]le", 
-         "L'Envers du D\[EAcute]cor", "L'Instant...", "La Toupine", 
-         "Villa Mirasol - Bistrot 1912", "L'Athome", "La Table du Sommelier", 
-         "Au Cheval Blanc", "Le Biniou", "L'Air de Famille", 
-         "Bistrot des Anges", "Les Grands Arbres - Verte Vall\[EAcute]e", 
-         "La Ferme de Cupelin", "Le Central", 
-         "Auberge de La M\[EGrave]re Duval", "L'Arbre Vert", "Mensae", 
-         "La Chaumi\[EGrave]re", "L'\[CapitalEAcute]quilibre", 
-         "L'Araign\[EAcute]e Gourmande", "Mamagoto", 
-         "Les Canailles M\[EAcute]nilmontant", "Le Muratore", 
-         "La Ch\[EHat]naie", "Au Petit Relais", "Le 62", "La Table d'Inomoto",
-          "Voyages des sens", "Biscotte", "La Table", "La Table du Fleuve", 
-         "La M\[EAcute]diterran\[EAcute]e", "La Pomme d'Or", "Peck & Co", 
-         "Chez les Anges", "Pastel", "Bistrotters", "La Table de Catusseau", 
-         "Bistrot St-Sauveur", "Brasserie d'Asten", "Winstub du Chambard", 
-         "L'\[CapitalOHat] \[AGrave] la Bouche", "Jeanette", "Iida-Ya", 
-         "L'Auberge du Pas de Vent", "La Fourchette \[AGrave] Droite", 
-         "Ishikawa", "Le Capucin Gourmand", "La Dariole", "Racine", 
-         "Le Jardin Les Cray\[EGrave]res", 
-         "L'Esp\[EAcute]rance - St\[EAcute]phane Carbone", 
-         "Les Canailles Pigalle", "Les Loges du Jardin d'Aymeric", 
-         "France et Fuchsias", "La Chaumi\[EGrave]re", 
-         "Au Relais des M\[EAcute]n\[EAcute]triers", "Le P'tit Goustan", 
-         "L'Atelier L'Art des Mets", "Le Casse Noix", "Chez Davia", 
-         "Le Bistrot d'\[AGrave] C\[OHat]t\[EAcute]", "Fine Gueule", 
-         "Simple et Meilleur", "Aux Trois Pastoureaux", "Les Trois Bourgeons",
-          "O2C", "Hyacinthe & Robert", "Les Coloquintes", "L'Estacade", 
-         "L'Hibiscus", "Le Br\[EAcute]l\[EAcute]venez", 
-         "La T\[EHat]te au Loup", "Perle des Vosges", "Double Dragon", 
-         "Sodade", "La Chaumi\[EGrave]re de Pomper", "La Chebaudi\[EGrave]re",
-          "Bergamote", "Le Bistrot 270", "Mokko", 
-         "Le Patio by Lou Cal\[EAcute]ou", "Zest", "Agastache", 
-         "L'Arche de Meslay", "Le 1825 - La Table bistronomique", 
-         "C\[EAcute]cile", "Le Radis Beurre", 
-         "La R\[EAcute]serve du Presbyt\[EGrave]re", 
-         "Une Table \[AGrave] Deux", "Manger & Dormir sur la Plage", 
-         "Auberge de Port Valli\[EGrave]res", "Le Dauphin", 
-         "Le Canut et les Gones", "A Mandria di Pigna", "Aux Bons Enfants", 
-         "Le Toi du Monde", "Le Rousseau", "Le Grand Saint-Beno\[IHat]t", 
-         "La Fleur de Sel", "C\[OHat]t\[EAcute] Mer", "Les Quatre Saisons", 
-         "La Ferme de la Haute Cr\[EAcute]monville", 
-         "Auberge le N\[EAcute]zil", "Le 6 \[AGrave] Table", "Arkadia", 
-         "Le Saint Marc", "EssBar", "Rait'ner Wirt", "Freisinger Hof", 
-         "Treibgut", "Rotes Ross", "Schliehuus 54", "Gutsk\[UDoubleDot]che", 
-         "Schachener Hof", "Schweizer Wirt", "Wirtshaus M\[ADoubleDot]ttle", 
-         "Jouliard", "Felsenbirne", "Fleur de Sel", "Harmonie", "Heiderand", 
-         "Asam Schl\[ODoubleDot]ssl", "Z\[ODoubleDot]llner's Weinstube", 
-         "Der Engel", "Weinstube", "Das Alpengl\[UDoubleDot]hn Restaurant", 
-         "Weingut", "Landgasthof L\[ODoubleDot]wen", "Landgenuss", "von Euch",
-          "Lohmayr Stub'n", "Bergfriedel", "Michaelis", 
-         "R\[CapitalODoubleDot]HMS DELI", "SonneStuben", "Staudenwirt", 
-         "Baader's Sch\[UDoubleDot]tzen", "St. Urban", "Brunnenstuben", 
-         "Allg\[ADoubleDot]uer Stuben", "Gasthaus Schwanen", 
-         "Die Alte Brauerei", "Goldener Adler", "Brennhaus Behl", 
-         "Landhotel zum Hirsch", "Kucher's Weinwirtschaft", "Zur Linde", 
-         "L\[ODoubleDot]wen-Wirtschaft", "Hirsch", "Herrengass", "August", 
-         "Schwarzberghof", "Landgasthaus Gidibauer-Hof", 
-         "Auers Schlosswirtschaft", "Salt & Silver Levante", 
-         "Landgasthof Schwanen", "Aldingers", "Dorfstube", 
-         "Capricorn [ i ] Aries Brasserie", "Landgasthaus Hirsch", "Nil", 
-         "Aschbacher Hof", "Zur Krone", "Freihaus Brenner", "Die Krone", 
-         "Erbgericht Tautewalde", "Zur Krone", "Weedenhof", 
-         "Long March Canteen", "Das Fetzwerk", "M\[UDoubleDot]hlenhof", 
-         "La Corona", "Landgasthof Hirschen", "Die Pfarrwirtschaft", 
-         "HYGGE Brasserie & Bar", "F\[UDoubleDot]rstenfelder", 
-         "Poppenborg's St\[UDoubleDot]bchen", "R\[UDoubleDot]hrberger Hof", 
-         "Landhaus Zum R\[ODoubleDot]ssle", "Gastwirtschaft Ferdinand Reuter",
-          "S\[UDoubleDot]lbecker Krug", "Zum Goldenen Anker", 
-         "Flux - Biorestaurant Werratal", "Gasthof Alpenrose", 
-         "Gasthaus Wolters - Zur B\[ODoubleDot]rse", "Landgasthof Zur Post", 
-         "Weinhaus Stern", "Gasthaus Scherz", "Piccolo", "Zum Rebstock", 
-         "mundart Restaurant", "Gutshof Andres", "Gasthaus Goldener Stern", 
-         "Zum Vaas", "Schwarzkopf", "Greifen-Post", "Gengs Linde", 
-         "Kamin- und Bauernstube", "die burg", "Zum Kreuz", 
-         "Zum Caf\[EAcute]wirt", "Zur Linde", "LAMM", 
-         "Gasthaus Wei\[SZ]enbeck", "Lamm", "Lamm", "Michels Stern", "Eggers",
-          "Gasthof Blumenthal", "GERHARDS GENUSSGESELLSCHAFT", "Elefanten", 
-         "Zur Glocke", "philipps", "Melkhus", "ROSE", "Schlachthof Brasserie",
-          "Dorf-Chronik", "Kaisers Eck", 
-         "Gaststube Zum Klosterbr\[ADoubleDot]u", "Chez Georges", 
-         "Gasthaus \[CapitalODoubleDot]denturm", "Altdeutsches Restaurant", 
-         "Speisemeisterei Burgthalschenke", "Landhaus Gr\[ADoubleDot]fenthal",
-          "Werners Restaurant", "Stocks Restaurant", "Reck's", 
-         "Landhaus Tanner", 
-         "T\[ODoubleDot]lzer Schie\[SZ]st\[ADoubleDot]tte - Hager", 
-         "B\[ADoubleDot]renkrug", "G\[ADoubleDot]rtnerei", "Kaminzimmer", 
-         "Schloss Niederweis", "der Lennhof", "Rebstock", "Zum Storchen", 
-         "F\[ADoubleDot]hrhaus", "Ponyhof", "Vetter.", "Freihardt", 
-         "Zur Sonne", "Almer Schlossm\[UDoubleDot]hle", "Zum Falken", 
-         "B\[UDoubleDot]schker's Stuben", "Gehrlein's Hardtwald", 
-         "K\[ODoubleDot]nigshafen", "Zum Lamm", "Im Kittchen", 
-         "Wei\[SZ]es Ro\[SZ]", "Gasthaus Polster", "Villa Esche", "Renoir", 
-         "Berggasthaus Niedersachsen", "Anne-Sophie", "Nu\[SZ]baumerin", 
-         "Krone", "Vier Jahreszeiten Restaurant Imhof", "Anetseder", 
-         "Landgasthof Waldhorn", "Schw\[ODoubleDot]gler", 
-         "Joseph Naus Stub'n", "Seehaus", "Zur M\[UDoubleDot]hle", "Sonne", 
-         "Oechsle", "Brasserie Colette Tim Raue", "Heinzler", "Bistro", 
-         "Tausendg\[UDoubleDot]ldenstube", "M\[UDoubleDot]hlenhelle - Bistro",
-          "Habbel's", "Eiflers Zeiten", "Krietsch", "Geberts Weinstuben", 
-         "Wirtsstube im Hotel Burkhard", "Graf Everstein", "Seehof", 
-         "Torsch\[ADoubleDot]nke", "Dorfstuben", "Bistro", "Sternenschanz", 
-         "Talblick", "Das Jagdhaus", "Sch\[ADoubleDot]ck's Adler", 
-         "Zum D\[UDoubleDot]ckerstieg", "Feilmeiers Landleben", "Daniel", 
-         "Diergardts K\[UDoubleDot]hler Grund", "Zur Flottbeker Schmiede", 
-         "Alter Esel", "Gaststube", "Krone", "Landhaus Lebert", 
-         "Pades Restaurant", "esskunst", "Gr\[UDoubleDot]ner Wald", 
-         "Knippschild", "Landhotel Krone", "R\[ODoubleDot]ssle", 
-         "Bistro Fatal", "Lucky Leek", "Gasthaus", "Bar Mural", "Lindenhof", 
-         "Landgasthof Mange", "M\[EAcute]nage Bar", "Weinhaus Anker", 
-         "Landhaus Hohenlohe", "Chicha", "Brasserie Colette Tim Raue", 
-         "Beesten", "Die Halde", "Gasthaus Sternen Post", "Gasthaus Egertal", 
-         "m\[ODoubleDot]bius", "bistronauten", "Gasthaus Assenmacher", 
-         "Schorse im Leineschloss", "Kuro Mori", "Genusswerkstatt", 
-         "Gasthaus Stromberg", 
-         "Lazarus Stube im Oberschw\[ADoubleDot]bischen Hof", 
-         "Ostiner Stub'n", "Alte Posthalterei", "Zur Krone", "Torkel", 
-         "Landgasthof Meier", "Schimmel's", "Wirtshaus zur Sonne", 
-         "Gasthof Sch\[UDoubleDot]tte", "Berggasthof Schl\[UDoubleDot]ssel", 
-         "Stumpenhof", "Wirtschaft von Johann Gerner", 
-         "Kaltwassers Wohnzimmer", "Moarwirt", 
-         "Scheidels Restaurant zum Kranz", "Brechtmanns Bistro", 
-         "Margaretenhof", "Dutters Stube", "Adler", "TISK", "Barra", 
-         "J\[ADoubleDot]gerwirt", "derWaldfrieden", 
-         "Kandlbinder K\[UDoubleDot]che - Salon", "Trattoria", 
-         "Westphalenhof", "Oechsle", "Kugelm\[UDoubleDot]hle", "das asam", 
-         "Adler", "WEINreich", "Caf\[EAcute] Rapp", "Schwanen", 
-         "Zum Goldenen Engel", "Sennh\[UDoubleDot]tte", 
-         "Corona - Hotel zur Post", "Die Windm\[UDoubleDot]hle", "Tafelhaus", 
-         "Gutsausschank im Baiken", "Ramster", "Feine Speiseschenke", 
-         "Kleines Meer", "Bauernstuben", "DELI", "Grundschlag", 
-         "Landhaus Hadrys", "Little John's", "Gasthof Berghof - Ursprung", 
-         "Landgasthof Backers", "Domschenke", "Sommerau", 
-         "Gambero Rosso da Domenico", "M\[UDoubleDot]nstermanns Kontor", 
-         "Weinbistro", "Weinrestaurant Turmsch\[ADoubleDot]nke", 
-         "Gasthaus Widmann's L\[ODoubleDot]wen", "Landgasthof Rebstock", 
-         "Weinhaus Zum Ritter", "schuberts", "Gasthof zur Sonne", 
-         "Kl\[ODoubleDot]sterle Hof", "Warteck", "[maki:'dan] im Ritter", 
-         "Heim's Restaurant", "M\[UDoubleDot]hle zu Gersbach", 
-         "L\[ODoubleDot]wen", "Schneider", "Gasthaus Hofmann", 
-         "Brasserie Colette Tim Raue", "Poststuben", 
-         "Schuberts Wein & Wirtschaft", 
-         "Schwingshackl HEIMATK\[CapitalUDoubleDot]CHE", "Cervus", "Zipang", 
-         "Adler", "Carnozet", "Grain Street", "Commando", "Terrone", "Rubino",
-          "Aldridge Lodge", "Everett's", "Sha-Roe Bistro", "Volpe Nera", 1826,
-          "Courthouse", "Chart House", "Land to Sea", "Goldie", "Cush", 
-         "Thyme", "Table Forty One", "\[CapitalEAcute]an", "Kai", "Tartare", 
-         "Uno Mas", "Richmond", "Spitalfields", "Pichet", "Bell Inn", 
-         "Provender", "Kentish Hare", "Wiveton Bell", "Leaping Hare", 
-         "Three Oaks", "Pulpo Negro", "Gunton Arms", "Swan Wine Kitchen", 
-         "The Anchor", "Sardine Factory", "Mark Jordan at the Beach", 
-         "Hollist Arms", "Dastaan", "The Antidote", "The Royal", 
-         "Bryn Williams at Porth Eirias", "The Inn at Welland", "Twelve", 
-         "The Forester", "Hope & Anchor", "Stag & Hounds", "Hitchen's Barn", 
-         "Hare & Hounds", "Andria", "Aquitania", "Sculthorpe Mill", 
-         "The Square at Porthleven", "Kota", "Noble", "Cornish Arms", 
-         "Bonnie Badger", "Wine & Brine", "Ib\[EAcute]rico World Tapas", 
-         "Duncombe Arms", "Cat Inn", "Galvin Green Man", "Kilberry Inn", 
-         "Burnt Orange", "Cin Cin", "Chilli Pickle", 
-         "The Hundred of Ashendon", "Sargasso", "Longs Arms", "Kintsu", 
-         "Beckford Bottle Shop", "El Gato Negro", "Charlton Arms", "Skosh", 
-         "Rick Stein's Caf\[EAcute]", "Broad Chare", "Route", 
-         "Deanes at Queens", "Home", "Monadh Kitchen", "Ka Pao", 
-         "Celentano's", "Ox and Finch", "Noto", "The Scran & Scallie", 
-         "Haveli", "Root", "St John Bread and Wine", "Kricket", 
-         "Brasserie Z\[EAcute]del", "Plaquemine Lock", "Hoppers", 
-         "Volta Do Mar", "Bancone", "Bao", "Popolo", "Hereford Road", 
-         "Legare", "Jos\[EAcute]", "manteca", "Farang", 
-         "Upstairs (at Trinity)", "Peckham Cellars", "Humble Chicken", 
-         "Smokestak", "Berenjak", "Primeur", "Gunpowder Spitalfields", 
-         "Trullo", "Westerns Laundry", "Brawn", "Pahli hill", "Kateh", "Kudu",
-          "Imad's Syrian Kitchen", "Palomar", "Provender", "The Green", 
-         "Prashad", "Fox & Hounds", "Brutto", "Brandst\[ADoubleDot]tter", 
-         "Gasthof Auerhahn", "Reinhartshuber Im Gwandhaus", "DiningRuhm", 
-         "MAST Weinbistro", "Vestib\[UDoubleDot]l", "Woracziczky", 
-         "Meierei im Stadtpark", "Mochi", "Gasthaus Seidl", "The Red Chamber",
-          "Din Tai Fung (COD)", "IFTM Educational Restaurant", 
-         "Brass Spoon (Wan Chai)", "Shugetsu Ramen (Quarry Bay)", 
-         "Megan's Kitchen", "Tai Woo", "Sing Kee (Central)", 
-         "Din Tai Fung (Silvercord)", "Chan Kan Kee Chiu Chow", "Cornerstone",
-          "Din Tai Fung (Causeway Bay)", "Kwan Kee Bamboo Noodles", 
-         "Ho To Tai", "Mak Man Kee", "Dragon Inn", "Samsen (Sheung Wan)", 
-         "Putien (Causeway Bay)", "Samsen (Wan Chai)", "Sang Kee", "Yue Kee", 
-         "Yixin", "Tasty (Central)", "Nai Ngieb (Phutthamonthon Sai 4)", 
-         "Na Chantra", "Huan Soontaree", "The House by Ginger", 
-         "Ginger Farm Kitchen", "S.B.L.", "The Local", "Phed Phed Bistro", 
-         "Loukjaan by Saneh Jaan", "Thai Niyom", "Lim Lao Ngow (China Town)", 
-         "Elvis Suki (Soi Yotse)", "Ongtong Khaosoi (Ari)", "Baan Phadthai", 
-         "Krua Apsorn (Sam Sen)", "Jidori Cuisine Ken", 
-         "Sanyod (Sathon-Bang Rak)", "Baannai", 
-         "Bangkok Bold Kitchen (Central Embassy)", "Thien Duong", 
-         "100 Mahaseth (Si Phraya)", "The Charm Dining Gallery", 
-         "Toh-Daeng by Baan Ar-Jor Museum Home", "Takola", "Celler d'en Toni",
-          "Dom Joaquim", "M\[AAcute]rio Luso", "Machado", "Camelo", 
-         "Marqu\[EHat]s de Marialva", "3 Pipos", 
-         "Casa Chef Victor Felisberto", "Xtoria", "O Marinheiro", "O Javali", 
-         "Le Babachris", "Tasquinha da Linda", "Carvalho", "CHECK-In Faro", 
-         "Avista", "Casal da Penha", "Avenida", "Pedra Furada", 
-         "Vila do Peixe", "\[CapitalOAcute] Balc\[ATilde]o", "Arkhe", 
-         "Saraiva's", "Casinha Velha", "Arohaz", "Arrieros", "Deli", 
-         "La Cocina del Principal", "Casa Direcci\[OAcute]n", "Casa Brigante",
-          "Finca Alfoliz", "Posada Torre Berrueza", "La Carter\[IAcute]a", 
-         "Del Oso", "Aires de Do\[NTilde]ana", "La Alquer\[IAcute]a", 
-         "La Teja Azul", "Txulotxo", "La Capilleta", "De Galo", "Granero", 
-         "L'Algadir del Delta", "Coscolo", "Cal Xirricl\[OAcute]", 
-         "Villa Verde", "Carmen", "Donamaria'ko Benta", "Casa Farp\[OAcute]n",
-          "Trasmallo", "Arrocer\[IAcute]a Maribel", "Venta de Ulzama", 
-         "Asador La Chumbera", "Mirko Carturan Cuiner", "Palio", "El Molino", 
-         "Alma Ezequiel Montilla", "El Secreto de Chimiche", "La Martina", 
-         "Cantina La Estaci\[OAcute]n", "Las Musas", "Verat", "Daluan", 
-         "Vinatea", "Mes\[OAcute]n del Pastor", "El Jard\[IAcute]n de la Sal",
-          "Erre que Erre", "Don Gil", "Juan Mari", "Azafr\[AAcute]n", 
-         "Casa Arcas", "El Espejo", "Casa Bigote", "Hostal Colom\[IAcute]", 
-         "O Balado", "Ca\.b4n Boqueta", "Canter\[EAcute]", "Antoni Rubies", 
-         "La Sart\[EAcute]n", "Brel", "Dos Cuiners", "Cami\[CenterDot]Vell", 
-         "Casa Albets", "Brots", "12 Tapas", 
-         "\[CapitalOAcute] Frag\[OAcute]n", "Somiatruites", "Las Termas", 
-         "El Origen", "El Llar de Viri", "La Lecher\[IAcute]a", "Vicus", 
-         "Platero & Co", "Ca L'Amagat", "Frisone", "Roc\.b4n\.b4Cris", 
-         "Consolaci\[OAcute]n", "Quatre Vents 3.0", "M\[AAcute]cher 60", 
-         "Amoca", "Pau", "Lamadrid", "Els Ca\[CCedilla]adors", "El Chaleco", 
-         "Can Boix", "Vapor Gastron\[OGrave]mic", "Can Ferr\[AAcute]n", 
-         "La Cava d'en Sergi", "La Cantina de Diego", "La Gruta", 
-         "Mas Concas", "Pan de Cuco", "Noi", "Zeria", "El Rac\[OAcute]", 
-         "La Fundici\[OAcute]n", "La Bola de Jorge Bosch", 
-         "La F\[AAcute]brica", "Casa Brito", "Miceli", "Casa Toni", "Arotxa", 
-         "La Finca - Villa Xarahiz", "El Almirez", "Nardi", "Mas Pou", 
-         "Cal Trav\[EAcute]", "Dr\[OAcute]mo", "El Duque", "Can Poal", 
-         "Malvas\[IAcute]a", "El Ma\[NTilde]o", 
-         "Mes\[OAcute]n de Borle\[NTilde]a", "Mes\[OAcute]n Octavio", 
-         "Komfort", "Aimia", "Lo Ponts", "Atelier Casa de Comidas", 
-         "Meseguer", "Casa Barqueiro", "Garb\[IAcute]", "Los Sentidos", 
-         "Olea Comedor", "Terra", "La Vasca", "Es Terral", "Kimtxu", 
-         "Los Fueros", "La Escuela", "Salazogue", "La Font", 
-         "El Baret de Miquel", "El Rac\[OAcute] de Pere i Pepa", 
-         "Sobretablas", "Lalola de Javi Abascal", "Az-Zait", 
-         "El Gallinero de Sandra", "Anaco", "A Viaxe", "A Horta d'Obradoiro", 
-         "Asador Gonzaba", "Caf\[EAcute] de Altamira", "Mam\[AAcute] Peixe", 
-         "Mar de Esteiro", "Abastos 2.0 - Mesas", "Pamp\[IAcute]n Bar", 
-         "Casa el Tio David", "Casa Chongast\[AAcute]n", "El Merc\[AAcute]o", 
-         "Steki", "Zabala", "Natxo Sell\[EAcute]s", "Txebiko Cachetero", 
-         "La Cocina de Ram\[OAcute]n", "Artabria", "Terreo", 
-         "Mes\[OAcute]n Nelia", "Vin\[OGrave]mic", "El Risco", "Lilium", 
-         "Alborada", "Llant\[EAcute]n", "Quema", "Morro Tango", 
-         "Qu\[EAcute] Leche", "P\[IAcute]caro", "El Santo", 
-         "El Equilibrista 33", "Hostal Jaumet", "Ceibe", "Gala", "Noi", 
-         "Las Tortillas de Gabino", "Casa Mortero", 
-         "Vinoteca Morat\[IAcute]n", "Taberna Recreo", 
-         "Taberna \[CapitalUAcute]beda", "Sagrario Tradici\[OAcute]n", 
-         "Tepic", "Garelos", "La Maruca - Vel\[AAcute]zquez", 
-         "Bol\[IAcute]var", "Treze", "La MaM\[AAcute]", "La Monter\[IAcute]a",
-          "Quinqu\[EAcute]", "Bacira", "2 Estaciones", "Forastera", 
-         "Blanqueries", "Kaymus", "Yarza", "Casa Pedro", 
-         "A Taberna do Trasno", "Mes\[OAcute]n Sabor Andaluz", "El Recetario",
-          "Farragua", "Agua Salada", "Querida Margarita", "Dar\[IAcute]a", 
-         "Contrase\[NTilde]a", "Trasiego", "La Cuchara de San Lorenzo", 
-         "La Taberna de Almod\[OAcute]var", "El Envero", "Terra Olea", 
-         "Becook", "Casa Marco", "Morrofino", "Topa", "Agorregi", "Smoix", 
-         "La Mundana", "Vivanda", "Cruix", "Berbena", "Sa\[OAcute]", "Avenir",
-          "Iva New Balkan Cuisine", "Cristiano's", 
-         "Ryukyu Chinese Dining TAMA", "Bar Enrique", 
-         "Kankokushokudo Iru Sakaagaru", "L'INSIEME", "ENRIQUE MARRUECOS", 
-         "KAMIYA", "Kinoshita", "Chukakosai JASMINE", "L'ottocento", 
-         "Andagyoza", "YAMATO", "TRATTORIA BUCA'MASSIMO", "Sanukiya", 
-         "Tohakuan Karibe", "Hutong Sanki", "L'oiseau", 
-         "\[CapitalADoubleDot]ta", "Maruyama Gyoza Seisakujo", "Kyorakutei", 
-         "La Boucherie Go\[UHat]tons", "Shikigohan Harema", "anik\[OGrave]", 
-         "Mejiro Shunkotei", "BistroCaniche", "Soba Osame", "bistro Tiroir", 
-         "Les Copains de DOMINIQUE BOUCHET", "La Trattoriaccia", 
-         "b\[EAcute]pocah", "Si\:30fbba\:30fbki", "sugahara", "Soba Tajima", 
-         "Yoshoku Wine Fritts", "Nemurian", "Katsuyoshi", "Grace", 
-         "RISTORANTE Cucina Shige", "Tonkatsu Hasegawa", "Mar de Cristiano", 
-         "Watabe", "Meguro Sushi Taichi", "Komatsu", "Dhaba India", 
-         "PST Roppongiten", "Kirimugiya Jinroku", "Los Reyes Magos", 
-         "Edosoba Hosokawa", "Tsukiji Bunkajin", "bistro simba", "AUDACE", 
-         "Le cabaret", "Teuchisoba Kikutani Sugamo Honten", "Osobano Kouga", 
-         "Sennomago", "Noto Kanazawanosachi Ginza Furuta", 
-         "The Pizza Bar on 38th", "Hashimoto", "Le Monde Gourmand", 
-         "SPiCE Cafe", "ARROCER\[CapitalIAcute]A La Panza", "Concerto", 
-         "Washokuto Washu Ogata", "UNE PINC\[CapitalEAcute]E", 
-         "Y\:014cSHOKU BISTRO T\:014cYAMA", "Lien", 
-         "Osteria da K. [k\[AAcute]ppa]", "Kyoeido", 
-         "Onigiri Asakusa Yadoroku", "San Jacopino", "fal\[OGrave]", 
-         "Hamacho Kaneko", "Teuchisobadokoro Shisen-an", "Ponchiken", 
-         "Ramen Nijubunnoichi", "Shunsai Oguraya", 
-         "Arrocer\[IAcute]a Sal y Amor", "you-en", "Le Bouton", 
-         "Shikinoshoku Saito", "infusion", "LAUBURU", 
-         "Gracia GASTROBAR de Barcelona", "Sushi Yoshino", "canade", 
-         "Gyozanomise Okei", "Akitaryori Gojome", "D'\[EHat]traison", 
-         "Higawa", "MOELLEUSE", "LA BETTOLA da Ochiai", "noura", "La Brianza",
-          "Mochibuta Tonkatsu Taiyo", "AMANOYA", "Bangera's Kitchen", 
-         "Uzukino Honten", "Akebonobashi Kazu", "Bistro Beppinsha", 
-         "Ametsuchi", "A Flower Blossom on the Rice", "Jaha Son Mandu", 
-         "Gaeseong Mandu Koong", "Myeongdong Kyoja", "Hadongkwan", 
-         "Yukjeon Hoekwan", "Bongpiyang", "Manjok Ohyang Jokbal", 
-         "Antica Trattoria da Miculan", "Ponte di Nava", "13 Comuni", 
-         "Da Sap\[IGrave]", "Al Palazzon", "Osteria Ophis", "La Villa", 
-         "Il Moro", "Alla Pasina", "La Canonica", "Terme", "La Ferrata", 
-         "Veneziano", "Le Due Lanterne", "Dentella", 
-         "Casa del Vino della Vallagarina", "Da Alighiero", 
-         "Trattoria Antichi Sapori", "Lago del Laux", "Borgo Spoltino", 
-         "Dell'Alba", "Kanton Restaurant", "3 Archi", "Fracia", "Luna Rossa", 
-         "Magnagallo", "Edelweiss", "L'Acquario", "La Torre", "Il Gabbiano", 
-         "Antica Trattoria Gianna", "L'Angolo del Gusto", 
-         "La Locanda del Falco", "Nerina", "Cantina dei Cacciatori", 
-         "Tre Noghere", "Al Becco della Civetta", "Blumenstube", 
-         "U.P.E.P.I.D.D.E.", "Altavilla", "Gerani", "Su Gologone", 
-         "Villa Aurora", "Barz8", "Osteria Storica Morelli", "Vecchia Lama", 
-         "Osteria del Crotto", "4 ciance", "Bove's", "Angiolina", "La Rosina",
-          "Dalla Libera", "L'800", "Antica Trattoria Cattivelli", 
-         "Andrea - Sapori Montani", "Il Cortiletto", "Al Convento", 
-         "K\[UDoubleDot]rbishof", "La Tradizione - Cucina Casalinga", 
-         "Il Tirabusci\[OGrave]", "Le Antiche Sere", "Alla Pace", 
-         "Lo Stuzzichino", "La Gioconda", "Romani", "Locanda del Barone", 
-         "Violetta", "Laghetto", "Caff\[EGrave] Grande", 
-         "Mangiare Bere Uomo Donna", "Antica Trattoria la Grotta dal 1918", 
-         "Eva", "Il Fiorile", "Al Monastero", 
-         "Antica Fattoria del Grottaione", "Bruxaboschi", "Al Piave", 
-         "Osteria Enoteca Gambrinus", "Taverna del Grappolo Blu", 
-         "Maso Runch-Hof", "Trattoria da Fagiolino", 
-         "Antica Locanda al Cervo - Landgasthof zum Hirschen", 
-         "Trattoria da Zamboni", "Osteria dei Segreti", "Il Conte Matto", 
-         "Barance", "Lokanda Devetak", "Trattoria alla Ruota", "Gassenwirt", 
-         "Palazzaccio", "La Brinca", "Ca' d'Frara", "Accademia Ristorante", 
-         "Da Giocondo", "Il Cedro", "Foresta", "Agritur El Mas", 
-         "Buatta Cucina Popolana", "Baracca - Storica Hostaria", "Convito", 
-         "Il Rustichello", "Buscone", "Trattoria Bibe", 
-         "Palmerino - Il Bacal\[AGrave] a Sandrigo", "Da Marchesi", 
-         "La Baita", "Osteria del Gallo e della Volpe", "Locanda Cacciatori", 
-         "Osteria della Villetta", "Hub", "Castagneto", "Le Miniere", 
-         "Bistrot Donatella", "La Fossa del Grano", "Italia", 
-         "Trattoria Porteri", "Il Normanno", "Antichi Sapori", "Da Fausto", 
-         "Dalie e Fagioli", "Trattoria Pomposa - Al Re gras", 
-         "Osteria San Giulio", "Antica Trattoria La Toppa", "L'Acchiatura", 
-         "Pascalucci", "Locanda da Condo", "Osteria Expanificio", 
-         "Trattoria Ai Due Platani", "La Campanara", "Fonte alla Vena", 
-         "Cibus", "Burro & Alici", "La Pineta", 
-         "Osteria Piazzetta Cattedrale", "Trippi", "Osteria del 36", 
-         "I Tri Sioch\[EGrave]tt", "Alpenrose", "Trita Pepe", "La Pignata", 
-         "Il Ciabot", "Osteria La Torre", "Caff\[EGrave] La Crepa", 
-         "Due Mari", "Da Flavio e Fabrizio \"\"Al Teatro\"\"", 
-         "Osteria Le Panzanelle", "L'Oste della Bon'Ora", "Osteria la Fefa", 
-         "Al Vecchio Faggio", "Il Sottomarino", "Antica Filanda", "Roma", 
-         "Osteria Bartolini", "Osteria Bartolini", 
-         "La Taverna di San Giuseppe", "Al Borgo", "La Cuccagna", "Mingone", 
-         "Impero", "Vite", "V\[ODoubleDot]gele", "Il Tempio del Gusto", 
-         "Osteria de B\[ODoubleDot]rg", "La Cucoma", "Hostaria Viola", 
-         "CUCINA.eat", "Josto", "Trattoria da Probo", "Podere San Faustino", 
-         "Dei Cantoni", "Il Casolare dei Segreti", "Al Dragone", 
-         "Dongi\[OGrave]", "Da Giannino - L'Angolo d'Abruzzo", "Serendib", 
-         "La Cucina dei Frigoriferi Milanesi", "Trippa", "Le Nove Scodelle", 
-         "Il Sogno", "Il Gobbetto", 
-         "Tipico Osteria & La Locanda del Capitano", "Trattoria di Via Serra",
-          "Osteria Bartolini", "Al Cambio", 
-         "Trattoria Cibr\[EGrave]o-Cibreino", "Da Burde", "L'Ortone", "Zeb", 
-         "Il Latini", "Trattoria Pennestri", "Prati Rione Gastronomico", 
-         "Armando al Pantheon", "Profumo di Mirto", "Carnal", 
-         "Domenico dal 1968", "Moi", "Hosteria Grappolo d'Oro", "Green T.", 
-         "Al Ristoro degli Angeli", "Osteria Magona", "Contesto Alimentare", 
-         "Consorzio", "L'Acino", "Scannabue Caff\[EGrave] Restaurant", 
-         "Battaglino", "Boccondivino", "Bacucco d'Oro", "Taverna 58", 
-         "La Bucaccia", "Al Bersagliere", "Me Cumpari Turiddu", "Nolan", 
-         "Cerdo Negro 1985", "Divinis", 
-         "Dejvick\[AAcute] 34 by Tom\[AAcute]\[SHacek] \[CapitalCHacek]ern\
-\[YAcute]", "The Eatery", "Na Kopci", "Eska", "Polux", "Mi Thai (Anfu Road)", 
-         "Udonbo Osaka Honten", "Comptoir15", "Shitennoji Hayauchi", 
-         "RISTORANTE SPELLO", "Nagomizake Jin", "Aozora blue", "via del emme",
-          "Naniwa Okina", "Watanabe Curry Honten", "Az", 
-         "Tempei Kitashinchi Honten", "MACELLERIA di TAKEUCHI", 
-         "il luogo di TAKEUCHI", "Nihonshuzammai Utsutsuyo", 
-         "Okonomiyaki Mizuno", "Hortensia Bistro", "Le Caneton", 
-         "Kansaidaki Honke Joyato", "\[CCedilla]a marche", "Macauda", 
-         "Yoshinosushi", "Oribe", "Noro", "Yoshoku Izumi", 
-         "TAVERNETTA da KITAYAMA", "GANESH N", "Sobadokoro Toki", 
-         "gastroteka bimendi", "YOSHOKU OGATA", "Kyoudon Kisoba Okakita", 
-         "Shigetsu", "Ichihana", "SPICE CHAMBER", "Tan", "Izuu", 
-         "Bistro Cerisier", "Pizzeria Napoletana Da Yuki", "Itsutsu", 
-         "Tonkatsu Ichiban", "Zingrock", "Oryori Menami", "Gion Uokeya U", 
-         "Hakuraku Kajosai", "Soba Rojina", "Cantina Rossi", "La pleine lune",
-          "Shichiku Kiko", "Yamamotomenzo", "La Petite Sc\[EGrave]ne", 
-         "Ryoriya Otaya", "Shibosai Sumiyoshi", "Tsutsumi", "Choshoku Kishin",
-          "blanc pierre", "Kikunoi Mugesambo", "PIZZERIA DA NAGHINO", 
-         "Asperge Blanche", "Madam Koran", "Sambongi Shoten", 
-         "L'\[EAcute]clat", "Kyogoku Kaneyo", "Tateya", "Baran's 2239", 
-         "Orchard City Kitchen", "China Village", "Coni'Seafood", 
-         "Ph\:1edf 79", "Mentone", "Range Life", "Tony's Seafood", "LSXO", 
-         "Dija Mara", "Playa", "Village Sake", "Burritos La Palma", 
-         "Sushi Ran", "Luna Mexican Kitchen", "Amor y Tacos", "CHAAK Kitchen",
-          "Khom Loi", "Ramen Gaijin", "FolkTable", "El Molino Central", 
-         "Valley", "Pig in a Pickle", "Sichuan Impression", 
-         "Lunasia Dim Sum House", "Hiro Nori Craft Ramen", 
-         "Gabbi\[CloseCurlyQuote]s Mexican Kitchen", "Fable & Spirit", 
-         "Ciccio", "La Calenda", "Mix Mix Kitchen & Bar", "Nixtaco", 
-         "Spinning Bones", "Chalkboard", "Khan Saab Desi Craft Kitchen", 
-         "Ippuku", "Comal", "Great China", "Insalata's", "Stockhome", 
-         "Glen Ellen Star", "Oliver's Osteria Mare e Monti", "Campfire", 
-         "The Bywater", "ASA South", "Pausa", "Callie", "Kettner Exchange", 
-         "Morning Glory", "Cucina Urbana", "LOLA 55", "Solare", "Cesarina", 
-         "Ciccia Osteria", "Millennium", "Teni East Kitchen", "MAMA Oakland", 
-         "Wood Tavern", "Soba Ichi", "Horn Barbecue", "FOB Kitchen", 
-         "Nyum Bai", "Mesa Verde", "Sama Sama Kitchen", "Loquita", 
-         "Corazon Cocina", "Bettina", "Luscious Dumplings", "Kazan", 
-         "Colapasta", "T\:016bmbi", "Yafa", "Fishwives", "Union", 
-         "Top Hatters Kitchen", "Mercado Los Angeles", "Meals by Genet", 
-         "Holbox", "Badmaash", "WoodSpoon", "Animal", "La Azteca", 
-         "Jon & Vinny\[CloseCurlyQuote]s", "Mi Lindo Nayrit Mariscos", 
-         "Kismet", "Rossoblu", "Pine & Crane", "Pizzeria Mozza", 
-         "Son of a Gun", "Chifa", "Father\[CloseCurlyQuote]s Office", 
-         "The Factory Kitchen", "Langer's", "Pizzana", "Jitlada", 
-         "Maccheroni Republic", "Tsubaki", "Adana Restaurant", "Z & Y", 
-         "Nopalito", "Del Popolo", "Anchor Oyster Bar", "1601 Bar & Kitchen", 
-         "Dumpling Home", "Outerlands", "Flores", "Okane", "A16", "Cotogna", 
-         "Routier", "Sociale", "Trestle", "Um.ma", "Flour + Water Pizzeria", 
-         "Izakaya Rintaro", "Yank Sing", "Berber", "Nari", "Canon", 
-         "Frank Fat\[CloseCurlyQuote]s", "iTalico", "Gostilna Rajh", 
-         "Gostilna Repov\[ZHacek]", "Jo\[ZHacek]ef", 
-         "Mahor\[CHacek]i\[CHacek]", "TaBar", "Gostilna na Gradu", "Wan Hin", 
-         "Ze 8", "Oaxen Slip", "Lilla Ego", "Kagges", "Brasserie Bobonne", 
-         "Bar Agrikultur", "Allegrine", "Babette", "Rolfs K\[ODoubleDot]k", 
-         "Namu", "Familjen", "Somm", "FAGN-Bistro", "Smalhans", "Gaijin", 
-         "Nolla", "Moment", "Pondus", "anx", "H\[AE]rv\[AE]rk", "Barabba", 
-         "K\[OSlash]dbyens Fiskebar", "Anarki", "M\[EHat]l\[EAcute]e", 
-         "Marv & Ben", "Enomania", "Pluto", "Selma", "M\[OSlash]ntergade", 
-         "Norrlyst", "Dunav", "Vuglec Breg", "Konoba Mate", "Konoba Vinko", 
-         "Zlatne Gorice", "Alla Beccaccia", "Agava", "Ta\[CHacek]", 
-         "Izakaya by Time", "Whole Earth", "Ka Soh (Outram Park)", 
-         "Song Fa Bak Kut Teh (New Bridge Road)", 
-         "Muthu's Curry (Little India)", 
-         "Hawker Chan Soya Sauce Chicken Rice & Noodle", 
-         "Hjh Maimunah (Jalan Pisang)", "Indocaf\[EAcute] - The White House", 
-         "The Blue Ginger (Tanjong Pagar)", "Bar-Roque Grill", 
-         "Anglo Indian (Shenton Way)", "Bismillah Biryani", 
-         "True Blue Cuisine", "Zaffron Kitchen (East Coast)", "Lagnaa", 
-         "Yhingthai Palace", "Kotuwa", "Chef Kang's Noodle House", 
-         "Fu Juang Yuan", "Sate House", "Taj", "Mu Gong Noodles", 
-         "Master of Mushroom (Xinshe)", "Dong Shan Zhan", 
-         "MoonMoonFood (Qingdao East Road)", "Yi Jia Zi", 
-         "Dian Shui Lou (Songshan)", "Chilliesine (West)", 
-         "Din Tai Fung (Xinyi Road)", "Shanghai Food", "A Cheng Goose", 
-         "Tien Hsia San Chueh", "Serenity (Zhongzheng)", "Jin Shang Hsuan", 
-         "Shin Yeh Shiao Ju (Nangang)", "Mao Yuan", "A Kun Mian", 
-         "Mother's Kitchen", "Yong-Kang Beef Noodle", "Gulu Gulu", 
-         "Fu Din Wang (Central)", "Orient Dragon", "Qin Yuan Chun", 
-         "Sung Chu Yuan", "Hang Zhou Xiao Long Bao (Da'an)", "Moon Pavilion", 
-         "Niou Jia Juang", "Macelleria Italian Steakhouse", "zero otto nove", 
-         "Xixa", "Win Son", "West New Malaysia", "Vinum", "Via Vai", 
-         "Van \:0110a", "Una Pizza Napoletana", "Ugly Baby", 
-         "Turkish Kitchen", "Tredici Social", "Tra Di Noi", "Tonchin", 
-         "Tomi\[NTilde]o", "The Cookery", "Thai Diner", "Tanoreen", 
-         "Suyo Gastrofusion", "Speedy Romeo", "Southern Table", "Somtum Der", 
-         "Soba-Ya", "Shiraz Kitchen", "Shalom Japan", "San Matteo", 
-         "Saint Julivert Fisherie", "Russ & Daughters Cafe", "Runner & Stone",
-          "Ruffian", "Rubirosa", "Roberta's", "Rangoon", "Rafele Rye", 
-         "RaaSa", "Purple Yam", "Prune", "Pinch Chinese", "Pierozek", "Oso", 
-         "Olmsted", "Nyonya", "Norma Gastronomia Siciliana", "Nami Nori", 
-         "Momofuku Noodle Bar", "Miss Mamie's Spoonbread Too", "Miss Ada", 
-         "Mile End", "Mexicosina", "Mar's", "Maria Restaurant", "Mao Mao", 
-         "M\[AAcute]L\[AGrave] Project", "Maison Yaki", "Luzzo's", 
-         "Llama Inn", "Little Alley", "Legend of Taste", "La Morada", 
-         "La Cueva Fonda", "Kung Fu Little Steamed Buns Ramen", "Kubeh", 
-         "Klein's", "Khe-Yo", "Katz's", "Jin Ramen", "J.G. Melon", "Hupo", 
-         "Hunan Bistro", "Hometown Barbecue New York", 
-         "High Street on Hudson", "Hao Noodle and Tea", "HanGawi", "Haenyeo", 
-         "Gordo's Cantina", "Glasserie", "Georgian Cuisine", "Gentle Perch", 
-         "Forsythia", "For All Things Good", 
-         "Enzo\[CloseCurlyQuote]s of Williamsbridge", "Enoteca Maria", 
-         "Dubrovnik", "Double Zero", "Don Antonio by Starita", "DOMODOMO", 
-         "Dim Sum Go Go", "Cotenna", "Convivium Osteria", "Congee Village", 
-         "Claudy's Kitchen", "Chuan Tian Xia", "Cho Dang Gol", 
-         "Chavela\[CloseCurlyQuote]s", "Cardamom", "Caleta 111 Cevicheria", 
-         "Caf\[EAcute] Alaia", "Burrata", "Bunker", "Boro6 Wine Bar", 
-         "Bolero", "Bohemian Spirit", "Bellwether", "Beatstro", "Bar Primi", 
-         "Atlas Kitchen", "Atla", "Ammazzacaff\[EGrave]", "Amelie", 
-         "Alley 41", "21 Greenpoint", "Golden Dragon", "Alpenblick", 
-         "SALZHAUS", "AuGust", "Le Vallon", "Oliv", "Caf\[EAcute] de Peney", 
-         "B\[ADoubleDot]ren", "Taverna Rosa", "Ustria Posta Veglia", 
-         "R\[ODoubleDot]ssli", "L'\[CapitalEAcute]corce", 
-         "Ch\[AHat]teau de Pleujouse", "Albrun", "B\[ADoubleDot]ren", "Sonne",
-          "Buech", "Pensiun Aldier", "H\[ODoubleDot]hwald", 
-         "Bacchus Bistro & Genussmanufaktur", "B\[ADoubleDot]ren", "Chesa", 
-         "Br\[UDoubleDot]cke", "Muntanella", "L'Etoile", "Linde", "Centrale", 
-         "La Parenth\[EGrave]se", "D'Chuchi", 
-         "Gasthaus Zur Fernsicht - Swiss Alpine", "Caf\[EAcute] cher-mignon", 
-         "T3e Terre", "Kettenbr\[UDoubleDot]cke", "Locanda Orelli", 
-         "Meiers come inn", "La Pinte Communale", "Landhaus", 
-         "Philipp Blaser", "Landgasthof Ochsen", "S\[UDoubleDot]der", 
-         "Wirtshus zum Wyberg Gourmet-St\[UDoubleDot]bli", 
-         "B\[ADoubleDot]ren", "Asia", "Candela", 
-         "L\[ODoubleDot]wen - Gaststube", "Dal Mulin", "Krone - Landgasthof", 
-         "Sch\[ODoubleDot]nb\[UDoubleDot]hl", "Landgasthof B\[ADoubleDot]ren",
-          "Brasserie du Poisson", "Zum Kaiser Franz im R\[ODoubleDot]ssl", 
-         "Pf\[ADoubleDot]ndler's Gasthof zum B\[ADoubleDot]ren", 
-         "My\[OGrave] Sushi Bar", "Gasthof Adler", "Aerodromo da Nani", 
-         "Zum Pflugstein", "Grotto della Salute", "Bol\[EAcute]ro V Bistro", 
-         "16 Art Bar", "PINOT", "Chappeli", "Panorama - Bistro", 
-         "Marktk\[UDoubleDot]che", "Chez Philippe", 
-         "Netts Sch\[UDoubleDot]tzengarten", 
-         "Chr\[UDoubleDot]ter G\[ADoubleDot]nterli", "Caf\[EAcute] du Levant",
-          "B\[ADoubleDot]ren", "Gasthof Hirschen", 
-         "Urn\[ADoubleDot]scher Kreuz", "Collonge Caf\[EAcute]", 
-         "La Fleur de Sel by Carlo Crisci", "Zum Alten Stephan", 
-         "Les Curiades", "Bauernsch\[ADoubleDot]nke", "Restaurant du Quai", 
-         "Belfort", "Hirschen", "Victoria", "Il ristorantino Sonne", 
-         "Schl\[UDoubleDot]sselstube", "Taggenberg", "Gasthaus Schupfen", 
-         "Gasthof zur Sonne", "Des Bains", "Casa T\[ODoubleDot]di", 
-         "Roter B\[ADoubleDot]ren", "Les Fourneaux du Man\[EGrave]ge", "OX'n",
-          "La Pendule", "La Grappe d'Or", "Kaiserstock", "Blume", 
-         "Aux Trois Amis", "Moosegg", "Nest- und Bietschhorn", "Rias", 
-         "Le Bologne", "Adler", "Puccini Caf\[EAcute]", "Basilicum", 
-         "A la Vieille Auberge", "Casa Caminada", "Les Ateliers Brasserie", 
-         "Braui", "Sonne - Bistro", "au violon", "Balm - Bistro", "Zollhaus", 
-         "Auberge de la Croix d\.b4Or - Bistro", "Edo", "K\[ADoubleDot]serei",
-          "Rathauskeller Bistro", "Anker", "Bistrot by Regina Montium", 
-         "Eintracht", "St\[UDoubleDot]va", "Auberge de Vouvry", 
-         "Alpenblick - Bistro", "Schlossgarten", "Du Cerf - Brasserie", 
-         "Hirschen", "KLE", "Aroleid Restaurant", "Rigiblick", 
-         "Casa Casutt - Ustria", "Seebistro Belv\[EAcute]d\[EGrave]re", 
-         "Casa Santo Ant\[OHat]nio", "Brasserie Vict\[OAcute]ria", "TonTon", 
-         "Manioca", "Le Bife", "Miam Miam", "Mocot\[OAcute]", "Pi\[UGrave]", 
-         "Corrutela", "Tordesilhas", "Balaio IMS", "Zena Caff\[EGrave]", 
-         "Pici Trattoria", "Tanit", "Pet\[IAcute] Gastronomia", 
-         "Fit\[OAcute]", "Komah", "Arturito", "Didier", "Artigiano", 
-         "Bar\[UAcute] Marisquer\[IAcute]a", "Ecully - Perdizes", "Mimo", 
-         "A Casa do Porco", "Pi\[UGrave] Iguatemi", "Bistrot de Paris", 
-         "Sz\[OAcute]stka", "Fiorentina", "Zazie", "Butchery & Wine", 
-         "alewino"}], "AllowEmbedding" -> True, "InitialShape" -> 
-     TypeSystem`PackageScope`Limited[
-       TypeSystem`PackageScope`ColumnShape[
-        TypeSystem`PackageScope`KeyValueShape[
-         TypeSystem`PackageScope`AtomShape[168.], 
-         TypeSystem`PackageScope`UnknownShape[False]]], 4, 
-       DirectedInfinity[1], {}], "InitialType" -> TypeSystem`Assoc[
-       TypeSystem`Atom[
-        TypeSystem`Enumeration[
-        "1 MICHELIN Star", "2 MICHELIN Stars", "3 MICHELIN Stars", 
-         "Bib Gourmand"]], 
-       TypeSystem`Vector[TypeSystem`AnyType, TypeSystem`AnyLength], 4], 
-     "Meta" -> Association[], "RowTarget" -> 20, "ColumnTarget" -> 10, 
-     "Shape" -> TypeSystem`PackageScope`Limited[
-       TypeSystem`PackageScope`ColumnShape[
-        TypeSystem`PackageScope`KeyValueShape[
-         TypeSystem`PackageScope`AtomShape[168.], 
-         TypeSystem`PackageScope`UnknownShape[False]]], 4, 
-       DirectedInfinity[1], {}], "Type" -> TypeSystem`Assoc[
-       TypeSystem`Atom[
-        TypeSystem`Enumeration[
-        "1 MICHELIN Star", "2 MICHELIN Stars", "3 MICHELIN Stars", 
-         "Bib Gourmand"]], 
-       TypeSystem`Vector[TypeSystem`AnyType, TypeSystem`AnyLength], 4], 
-     "Path" -> {}, "DisplayedRowCount" -> 4, "DisplayedColumnCount" -> 1, 
-     "DataRowCount" -> 4, "DataColumnCount" -> 1, "SortPaths" -> {}, 
-     "SortDirections" -> {}, "HiddenItemsMap" -> Null, "UpdateType" -> 1], 
-    TypeSystem`NestedGrid`PackagePrivate`$outputID$$, 
-    TypeSystem`NestedGrid`PackagePrivate`$path$$ = {}, 
-    TypeSystem`NestedGrid`PackagePrivate`$vPos$$ = 1, 
-    TypeSystem`NestedGrid`PackagePrivate`$hPos$$ = 1, 
-    TypeSystem`NestedGrid`PackagePrivate`$grid$$ = 
-    DynamicModule[{TypeSystem`NestedGrid`PackagePrivate`renderedGrid = Deploy[
-        Style[
-         Grid[{{
-            Item[
-             Pane[
-              Annotation[
-               EventHandler[
-                MouseAppearance[
-                 Mouseover["3 MICHELIN Stars", 
-                  Style[
-                  "3 MICHELIN Stars", FontColor -> 
-                   RGBColor[
-                    0.27450980392156865`, 0.5372549019607843, 
-                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
-                If[
-                  TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
-                  TypeSystem`NestedGrid`PackagePrivate`$state$$], 
-                  TypeSystem`NestedGrid`PackagePrivate`updateState[
-                  TypeSystem`NestedGrid`PackagePrivate`$state$$, 
-                   TypeSystem`NestedGrid`PackagePrivate`$path$$, 
-                   TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
-                   TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
-                   TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-                   TypeSystem`NestedGrid`PackagePrivate`localHold[
-                   "1fdbb859-c68d-4ec7-adb5-29f1ea31e690"]][{
-                    Key["3 MICHELIN Stars"]}, 1]]], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-               "1fdbb859-c68d-4ec7-adb5-29f1ea31e690"][{
-                 Key["3 MICHELIN Stars"]}, "RowHeader", False], "Mouse"], 
-              ImageSize -> {{168., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], Background -> 
-             GrayLevel[0.95], Alignment -> {Left, Baseline}], 
-            Item[
-             Pane[
-              Annotation[
-               EventHandler[
-                MouseAppearance[
-                 Mouseover[
-                  Style[
-                   Row[{"\[ThinSpace]{ ", 
-                    Subscript["\[Ellipsis]", 130], " }\[ThinSpace]"}], 
-                   GrayLevel[0.5]], 
-                  Style[
-                   Style[
-                    Row[{"\[ThinSpace]{ ", 
-                    Subscript["\[Ellipsis]", 130], " }\[ThinSpace]"}], 
-                    GrayLevel[0.5]], FontColor -> 
-                   RGBColor[
-                    0.27450980392156865`, 0.5372549019607843, 
-                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
-                If[
-                  TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
-                  TypeSystem`NestedGrid`PackagePrivate`$state$$], 
-                  TypeSystem`NestedGrid`PackagePrivate`updateState[
-                  TypeSystem`NestedGrid`PackagePrivate`$state$$, 
-                   TypeSystem`NestedGrid`PackagePrivate`$path$$, 
-                   TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
-                   TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
-                   TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-                   TypeSystem`NestedGrid`PackagePrivate`localHold[
-                   "1fdbb859-c68d-4ec7-adb5-29f1ea31e690"]][{
-                    Key["3 MICHELIN Stars"]}, 4]]], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-               "1fdbb859-c68d-4ec7-adb5-29f1ea31e690"][{
-                 Key["3 MICHELIN Stars"]}, "Item", False], "Mouse"], 
-              ImageMargins -> {{5, 3}, {4, 5}}], BaseStyle -> {
-               GrayLevel[0.5]}]}, {
-            Item[
-             Pane[
-              Annotation[
-               EventHandler[
-                MouseAppearance[
-                 Mouseover["2 MICHELIN Stars", 
-                  Style[
-                  "2 MICHELIN Stars", FontColor -> 
-                   RGBColor[
-                    0.27450980392156865`, 0.5372549019607843, 
-                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
-                If[
-                  TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
-                  TypeSystem`NestedGrid`PackagePrivate`$state$$], 
-                  TypeSystem`NestedGrid`PackagePrivate`updateState[
-                  TypeSystem`NestedGrid`PackagePrivate`$state$$, 
-                   TypeSystem`NestedGrid`PackagePrivate`$path$$, 
-                   TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
-                   TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
-                   TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-                   TypeSystem`NestedGrid`PackagePrivate`localHold[
-                   "1fdbb859-c68d-4ec7-adb5-29f1ea31e690"]][{
-                    Key["2 MICHELIN Stars"]}, 1]]], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-               "1fdbb859-c68d-4ec7-adb5-29f1ea31e690"][{
-                 Key["2 MICHELIN Stars"]}, "RowHeader", False], "Mouse"], 
-              ImageSize -> {{168., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], Background -> 
-             GrayLevel[0.95], Alignment -> {Left, Baseline}], 
-            Item[
-             Pane[
-              Annotation[
-               EventHandler[
-                MouseAppearance[
-                 Mouseover[
-                  Style[
-                   Row[{"\[ThinSpace]{ ", 
-                    Subscript["\[Ellipsis]", 440], " }\[ThinSpace]"}], 
-                   GrayLevel[0.5]], 
-                  Style[
-                   Style[
-                    Row[{"\[ThinSpace]{ ", 
-                    Subscript["\[Ellipsis]", 440], " }\[ThinSpace]"}], 
-                    GrayLevel[0.5]], FontColor -> 
-                   RGBColor[
-                    0.27450980392156865`, 0.5372549019607843, 
-                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
-                If[
-                  TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
-                  TypeSystem`NestedGrid`PackagePrivate`$state$$], 
-                  TypeSystem`NestedGrid`PackagePrivate`updateState[
-                  TypeSystem`NestedGrid`PackagePrivate`$state$$, 
-                   TypeSystem`NestedGrid`PackagePrivate`$path$$, 
-                   TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
-                   TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
-                   TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-                   TypeSystem`NestedGrid`PackagePrivate`localHold[
-                   "1fdbb859-c68d-4ec7-adb5-29f1ea31e690"]][{
-                    Key["2 MICHELIN Stars"]}, 4]]], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-               "1fdbb859-c68d-4ec7-adb5-29f1ea31e690"][{
-                 Key["2 MICHELIN Stars"]}, "Item", False], "Mouse"], 
-              ImageMargins -> {{5, 3}, {4, 5}}], BaseStyle -> {
-               GrayLevel[0.5]}]}, {
-            Item[
-             Pane[
-              Annotation[
-               EventHandler[
-                MouseAppearance[
-                 Mouseover["1 MICHELIN Star", 
-                  Style[
-                  "1 MICHELIN Star", FontColor -> 
-                   RGBColor[
-                    0.27450980392156865`, 0.5372549019607843, 
-                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
-                If[
-                  TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
-                  TypeSystem`NestedGrid`PackagePrivate`$state$$], 
-                  TypeSystem`NestedGrid`PackagePrivate`updateState[
-                  TypeSystem`NestedGrid`PackagePrivate`$state$$, 
-                   TypeSystem`NestedGrid`PackagePrivate`$path$$, 
-                   TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
-                   TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
-                   TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-                   TypeSystem`NestedGrid`PackagePrivate`localHold[
-                   "1fdbb859-c68d-4ec7-adb5-29f1ea31e690"]][{
-                    Key["1 MICHELIN Star"]}, 1]]], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-               "1fdbb859-c68d-4ec7-adb5-29f1ea31e690"][{
-                 Key["1 MICHELIN Star"]}, "RowHeader", False], "Mouse"], 
-              ImageSize -> {{168., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], Background -> 
-             GrayLevel[0.95], Alignment -> {Left, Baseline}], 
-            Item[
-             Pane[
-              Annotation[
-               EventHandler[
-                MouseAppearance[
-                 Mouseover[
-                  Style[
-                   Row[{"\[ThinSpace]{ ", 
-                    Subscript["\[Ellipsis]", 2391], " }\[ThinSpace]"}], 
-                   GrayLevel[0.5]], 
-                  Style[
-                   Style[
-                    Row[{"\[ThinSpace]{ ", 
-                    Subscript["\[Ellipsis]", 2391], " }\[ThinSpace]"}], 
-                    GrayLevel[0.5]], FontColor -> 
-                   RGBColor[
-                    0.27450980392156865`, 0.5372549019607843, 
-                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
-                If[
-                  TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
-                  TypeSystem`NestedGrid`PackagePrivate`$state$$], 
-                  TypeSystem`NestedGrid`PackagePrivate`updateState[
-                  TypeSystem`NestedGrid`PackagePrivate`$state$$, 
-                   TypeSystem`NestedGrid`PackagePrivate`$path$$, 
-                   TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
-                   TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
-                   TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-                   TypeSystem`NestedGrid`PackagePrivate`localHold[
-                   "1fdbb859-c68d-4ec7-adb5-29f1ea31e690"]][{
-                    Key["1 MICHELIN Star"]}, 4]]], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-               "1fdbb859-c68d-4ec7-adb5-29f1ea31e690"][{
-                 Key["1 MICHELIN Star"]}, "Item", False], "Mouse"], 
-              ImageMargins -> {{5, 3}, {4, 5}}], BaseStyle -> {
-               GrayLevel[0.5]}]}, {
-            Item[
-             Pane[
-              Annotation[
-               EventHandler[
-                MouseAppearance[
-                 Mouseover["Bib Gourmand", 
-                  Style[
-                  "Bib Gourmand", FontColor -> 
-                   RGBColor[
-                    0.27450980392156865`, 0.5372549019607843, 
-                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
-                If[
-                  TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
-                  TypeSystem`NestedGrid`PackagePrivate`$state$$], 
-                  TypeSystem`NestedGrid`PackagePrivate`updateState[
-                  TypeSystem`NestedGrid`PackagePrivate`$state$$, 
-                   TypeSystem`NestedGrid`PackagePrivate`$path$$, 
-                   TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
-                   TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
-                   TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-                   TypeSystem`NestedGrid`PackagePrivate`localHold[
-                   "1fdbb859-c68d-4ec7-adb5-29f1ea31e690"]][{
-                    Key["Bib Gourmand"]}, 1]]], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-               "1fdbb859-c68d-4ec7-adb5-29f1ea31e690"][{
-                 Key["Bib Gourmand"]}, "RowHeader", False], "Mouse"], 
-              ImageSize -> {{168., Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], Background -> 
-             GrayLevel[0.95], Alignment -> {Left, Baseline}], 
-            Item[
-             Pane[
-              Annotation[
-               EventHandler[
-                MouseAppearance[
-                 Mouseover[
-                  Style[
-                   Row[{"\[ThinSpace]{ ", 
-                    Subscript["\[Ellipsis]", 2363], " }\[ThinSpace]"}], 
-                   GrayLevel[0.5]], 
-                  Style[
-                   Style[
-                    Row[{"\[ThinSpace]{ ", 
-                    Subscript["\[Ellipsis]", 2363], " }\[ThinSpace]"}], 
-                    GrayLevel[0.5]], FontColor -> 
-                   RGBColor[
-                    0.27450980392156865`, 0.5372549019607843, 
-                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
-                If[
-                  TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
-                  TypeSystem`NestedGrid`PackagePrivate`$state$$], 
-                  TypeSystem`NestedGrid`PackagePrivate`updateState[
-                  TypeSystem`NestedGrid`PackagePrivate`$state$$, 
-                   TypeSystem`NestedGrid`PackagePrivate`$path$$, 
-                   TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
-                   TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
-                   TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-                   TypeSystem`NestedGrid`PackagePrivate`localHold[
-                   "1fdbb859-c68d-4ec7-adb5-29f1ea31e690"]][{
-                    Key["Bib Gourmand"]}, 4]]], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-               "1fdbb859-c68d-4ec7-adb5-29f1ea31e690"][{
-                 Key["Bib Gourmand"]}, "Item", False], "Mouse"], 
-              ImageMargins -> {{5, 3}, {4, 5}}], BaseStyle -> {
-               GrayLevel[0.5]}]}}, 
-          BaseStyle -> {
-           ContextMenu -> 
-            Dynamic[TypeSystem`NestedGrid`PackagePrivate`$contextMenuTrigger; 
-              Which[TypeSystem`NestedGrid`PackagePrivate`$lastOutputID =!= 
-                "1fdbb859-c68d-4ec7-adb5-29f1ea31e690", {}, 
-                TypeSystem`NestedGrid`PackagePrivate`$contextMenuTrigger === 
-                TypeSystem`NestedGrid`PackagePrivate`$lastContextMenuTrigger, 
-                TypeSystem`NestedGrid`PackagePrivate`$lastContextMenu, True, 
-                TypeSystem`NestedGrid`PackagePrivate`$lastContextMenuTrigger = 
-                 TypeSystem`NestedGrid`PackagePrivate`$contextMenuTrigger; 
-                TypeSystem`NestedGrid`PackagePrivate`$lastContextMenu = 
-                 Block[{
-                   TypeSystem`NestedGrid`PackagePrivate`$globalScrollPos = {
-                    TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$hPos$$}}, 
-                   
-                   With[{TypeSystem`NestedGrid`PackagePrivate`lastPath$ = 
-                    TypeSystem`NestedGrid`PackagePrivate`$lastPath, 
-                    TypeSystem`NestedGrid`PackagePrivate`lastPathType$ = 
-                    TypeSystem`NestedGrid`PackagePrivate`$lastPathType, 
-                    TypeSystem`NestedGrid`PackagePrivate`isLeafHeader$ = 
-                    TypeSystem`NestedGrid`PackagePrivate`$\
-lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
-                    MatchQ[TypeSystem`NestedGrid`PackagePrivate`$lastPathType, 
-                    Alternatives["RowHeader", "ColumnHeader"]], 
-                    TypeSystem`NestedGrid`PackagePrivate`headerHiddenQ[
-                    TypeSystem`NestedGrid`PackagePrivate`$lastPath, 
-                    TypeSystem`NestedGrid`PackagePrivate`$state$$]], 
-                    TypeSystem`NestedGrid`PackagePrivate`allHidden$ = 
-                    TypeSystem`NestedGrid`PackagePrivate`allHiddenQ[
-                    TypeSystem`NestedGrid`PackagePrivate`$lastPath, 
-                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
-                    TypeSystem`NestedGrid`PackagePrivate`anyHidden$ = 
-                    TypeSystem`NestedGrid`PackagePrivate`anyHiddenQ[
-                    TypeSystem`NestedGrid`PackagePrivate`$lastPath, 
-                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
-                    TypeSystem`NestedGrid`PackagePrivate`sortDirection$ = 
-                    TypeSystem`NestedGrid`PackagePrivate`columnSortDirection[
-                    TypeSystem`NestedGrid`PackagePrivate`$lastPath, 
-                    TypeSystem`NestedGrid`PackagePrivate`$state$$[
-                    "SortPaths"], 
-                    TypeSystem`NestedGrid`PackagePrivate`$state$$[
-                    "SortDirections"]], 
-                    TypeSystem`NestedGrid`PackagePrivate`haveData$ = Not[
-                    FailureQ[
-                    TypeSystem`NestedGrid`PackagePrivate`datasetInitialData[
-                    TypeSystem`NestedGrid`PackagePrivate`$state$$]]], 
-                    TypeSystem`NestedGrid`PackagePrivate`isKeyDummy$ = Not[
-                    FreeQ[
-                    TypeSystem`NestedGrid`PackagePrivate`$lastPath, Keys]]}, 
-                    Join[{
-                    If[
-                    Or[
-                    Not[TypeSystem`NestedGrid`PackagePrivate`haveData$], 
-                    Not[TypeSystem`NestedGrid`PackagePrivate`anyHidden$], 
-                    TypeSystem`NestedGrid`PackagePrivate`isKeyDummy$], 
-                    Nothing, 
-                    MenuItem[
-                    StringJoin["Show ", 
-                    Which[
-                    TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
-                    "Item", "", 
-                    TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
-                    "RowHeader", "Row", 
-                    TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
-                    "ColumnHeader", "Column", True, ""]], 
-                    KernelExecute[
-                    TypeSystem`NestedGrid`PackagePrivate`updateHiddenItems[
-                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`localHold[
-                    "1fdbb859-c68d-4ec7-adb5-29f1ea31e690"]][
-                    TypeSystem`NestedGrid`PackagePrivate`lastPath$, 
-                    "remove"]], MenuEvaluator -> Automatic]], 
-                    If[
-                    Or[
-                    Not[TypeSystem`NestedGrid`PackagePrivate`haveData$], 
-                    TypeSystem`NestedGrid`PackagePrivate`pathEmptyQ[
-                    TypeSystem`NestedGrid`PackagePrivate`$lastPath, 
-                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
-                    TypeSystem`NestedGrid`PackagePrivate`isKeyDummy$, 
-                    And[
-                    TypeSystem`NestedGrid`PackagePrivate`allHidden$, 
-                    TypeSystem`NestedGrid`PackagePrivate`headerHidden$]], 
-                    Nothing, 
-                    MenuItem[
-                    StringJoin["Hide ", 
-                    Which[
-                    TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
-                    "Item", "", 
-                    TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
-                    "RowHeader", "Row", 
-                    TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
-                    "ColumnHeader", "Column", True, ""]], 
-                    KernelExecute[
-                    TypeSystem`NestedGrid`PackagePrivate`updateHiddenItems[
-                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`localHold[
-                    "1fdbb859-c68d-4ec7-adb5-29f1ea31e690"]][
-                    TypeSystem`NestedGrid`PackagePrivate`lastPath$, "add"]], 
-                    MenuEvaluator -> Automatic]], Delimiter}, 
-                    If[
-                    And[TypeSystem`NestedGrid`PackagePrivate`haveData$, 
-                    MatchQ[TypeSystem`NestedGrid`PackagePrivate`lastPathType$, 
-                    Alternatives["ColumnHeader", "KeyDummy"]], 
-                    TypeSystem`NestedGrid`PackagePrivate`isLeafHeader$, 
-                    Not[TypeSystem`NestedGrid`PackagePrivate`allHidden$]], {
-                    If[
-                    TypeSystem`NestedGrid`PackagePrivate`sortDirection$ =!= 
-                    "Ascending", 
-                    MenuItem["Sort", 
-                    KernelExecute[
-                    TypeSystem`NestedGrid`PackagePrivate`updateSort[
-                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-                    "1fdbb859-c68d-4ec7-adb5-29f1ea31e690"][
-                    TypeSystem`NestedGrid`PackagePrivate`lastPath$, 
-                    "Ascending"]], MenuEvaluator -> Automatic], Nothing], 
-                    If[
-                    TypeSystem`NestedGrid`PackagePrivate`sortDirection$ =!= 
-                    "Descending", 
-                    MenuItem["Reverse Sort", 
-                    KernelExecute[
-                    TypeSystem`NestedGrid`PackagePrivate`updateSort[
-                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-                    "1fdbb859-c68d-4ec7-adb5-29f1ea31e690"][
-                    TypeSystem`NestedGrid`PackagePrivate`lastPath$, 
-                    "Descending"]], MenuEvaluator -> Automatic], Nothing], 
-                    If[
-                    TypeSystem`NestedGrid`PackagePrivate`sortDirection$ =!= 
-                    None, 
-                    MenuItem["Unsort", 
-                    KernelExecute[
-                    TypeSystem`NestedGrid`PackagePrivate`updateSort[
-                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-                    "1fdbb859-c68d-4ec7-adb5-29f1ea31e690"][
-                    TypeSystem`NestedGrid`PackagePrivate`lastPath$, None]], 
-                    MenuEvaluator -> Automatic], Nothing], Delimiter}, {}], {
-                    MenuItem["Copy Position to Clipboard", 
-                    KernelExecute[
-                    TypeSystem`NestedGrid`PackagePrivate`toCurrentPosition[
-                    TypeSystem`NestedGrid`PackagePrivate`copyClip]], 
-                    MenuEvaluator -> Automatic], 
-                    If[TypeSystem`NestedGrid`PackagePrivate`haveData$, 
-                    MenuItem["Copy Data to Clipboard", 
-                    KernelExecute[
-                    TypeSystem`NestedGrid`PackagePrivate`toCurrentData[
-                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`copyClip]], 
-                    MenuEvaluator -> Automatic], Nothing], Delimiter, 
-                    MenuItem["Paste Position in New Cell", 
-                    KernelExecute[
-                    TypeSystem`NestedGrid`PackagePrivate`toCurrentPosition[
-                    TypeSystem`NestedGrid`PackagePrivate`cellPaste]], 
-                    MenuEvaluator -> Automatic], 
-                    If[TypeSystem`NestedGrid`PackagePrivate`haveData$, 
-                    MenuItem["Paste Data in New Cell", 
-                    KernelExecute[
-                    TypeSystem`NestedGrid`PackagePrivate`toCurrentData[
-                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
-                    TypeSystem`NestedGrid`PackagePrivate`cellPaste]], 
-                    MenuEvaluator -> Automatic], Nothing]}]]]]], FontFamily -> 
-            "Source Sans Pro", FontSize -> 14, FontWeight -> Plain}, Dividers -> 
-          All, FrameStyle -> GrayLevel[0.7490196078431373], 
-          Spacings -> {0, 0}, Alignment -> Left, 
-          BaseStyle -> {
-           FontFamily -> "Source Sans Pro", FontSize -> 14, FontWeight -> 
-            Plain}], LineBreakWithin -> False, ContextMenu -> {}, NumberMarks -> 
-         False, ShowAutoStyles -> False]], 
-      TypeSystem`NestedGrid`PackagePrivate`initialQ = True}, 
-     Dynamic[
-      TypeSystem`NestedGrid`PackagePrivate`setupViewPath[
-      TypeSystem`NestedGrid`PackagePrivate`$path$$, If[
-         Not[TypeSystem`NestedGrid`PackagePrivate`initialQ], 
-         Module[{
-          TypeSystem`NestedGrid`PackagePrivate`tmpGrid$ = $Failed, 
-           TypeSystem`NestedGrid`PackagePrivate`tmpData$ = 
-           TypeSystem`NestedGrid`PackagePrivate`datasetData[
-            TypeSystem`NestedGrid`PackagePrivate`$state$$]}, 
-          TypeSystem`NestedGrid`PackagePrivate`tmpGrid$ = If[
-             FailureQ[TypeSystem`NestedGrid`PackagePrivate`tmpData$], 
-             TypeSystem`NestedGrid`PackagePrivate`renderedGrid, 
-             TypeSystem`NestedGrid`PackagePrivate`renderGrid[
-             TypeSystem`NestedGrid`PackagePrivate`$state$$, 
-              TypeSystem`NestedGrid`PackagePrivate`$path$$, 
-              TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
-              TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
-              TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-              "1fdbb859-c68d-4ec7-adb5-29f1ea31e690"][
-             TypeSystem`NestedGrid`PackagePrivate`tmpData$]]; If[
-            Not[
-             FailureQ[TypeSystem`NestedGrid`PackagePrivate`tmpGrid$]], 
-            TypeSystem`NestedGrid`PackagePrivate`renderedGrid = 
-            TypeSystem`NestedGrid`PackagePrivate`tmpGrid$]; Null]]; 
-       TypeSystem`NestedGrid`PackagePrivate`initialQ = False; 
-       TypeSystem`NestedGrid`PackagePrivate`$vPos$$; 
-       TypeSystem`NestedGrid`PackagePrivate`$hPos$$; If[
-         FailureQ[TypeSystem`NestedGrid`PackagePrivate`renderedGrid], 
-         TypeSystem`SparseGrid[
-          TypeSystem`H["(data no longer present)"]], 
-         TypeSystem`NestedGrid`PackagePrivate`renderedGrid]], 
-      TrackedSymbols :> {
-       TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
-        TypeSystem`NestedGrid`PackagePrivate`$hPos$$}], 
-     DynamicModuleValues :> {}], 
-    TypeSystem`NestedGrid`PackagePrivate`$topBar$$ = Dynamic[
-     TypeSystem`NestedGrid`PackagePrivate`makeFramedBar[
-      TypeSystem`PackageScope`SubViewPathbar[
-      TypeSystem`NestedGrid`PackagePrivate`$path$$, 
-       TypeSystem`NestedGrid`PackagePrivate`updateState[
-       TypeSystem`NestedGrid`PackagePrivate`$state$$, 
-        TypeSystem`NestedGrid`PackagePrivate`$path$$, 
-        TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
-        TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
-        TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
-        TypeSystem`NestedGrid`PackagePrivate`localHold[
-        TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]]], 
-     TrackedSymbols :> {TypeSystem`NestedGrid`PackagePrivate`$path$$}], 
-    TypeSystem`NestedGrid`PackagePrivate`$bottomBar$$ = Style[
-     Framed[
-      Dynamic[
-       Replace[
-       TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$, {
-        TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-           TypeSystem`NestedGrid`PackagePrivate`localHold[
-           TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][Null, 
-           Blank[]] -> "", TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-           TypeSystem`NestedGrid`PackagePrivate`localHold[
-           TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][
-           Pattern[TypeSystem`NestedGrid`PackagePrivate`path$, 
-            Blank[]], 
-           Pattern[TypeSystem`NestedGrid`PackagePrivate`pathType$, 
-            Blank[]], 
-           Pattern[TypeSystem`NestedGrid`PackagePrivate`isLeafHeader$, 
-            Blank[]]] :> (
-          Increment[TypeSystem`NestedGrid`PackagePrivate`$contextMenuTrigger]; 
-          TypeSystem`NestedGrid`PackagePrivate`$lastPath = 
-           TypeSystem`NestedGrid`PackagePrivate`path$; 
-          TypeSystem`NestedGrid`PackagePrivate`$lastPathType = 
-           TypeSystem`NestedGrid`PackagePrivate`pathType$; 
-          TypeSystem`NestedGrid`PackagePrivate`$lastPathIsLeafHeader = 
-           TypeSystem`NestedGrid`PackagePrivate`isLeafHeader$; 
-          TypeSystem`NestedGrid`PackagePrivate`$lastOutputID = 
-           TypeSystem`NestedGrid`PackagePrivate`localHold[
-            TypeSystem`NestedGrid`PackagePrivate`$outputID$$]; 
-          TypeSystem`NestedGrid`PackagePrivate`makePathTrail[
-           TypeSystem`NestedGrid`PackagePrivate`path$, 
-            TypeSystem`NestedGrid`PackagePrivate`makePathElements]), Null :> 
-         Spacer[10], Blank[] :> Spacer[10]}], 
-       TrackedSymbols :> {
-        TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$}], FrameStyle -> 
-      None, ImageMargins -> 0, FrameMargins -> 0, Alignment -> Top, 
-      ImageSize -> {Automatic, 15}], FontSize -> 1], 
-    TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$ = Null}, 
-    DynamicWrapperBox[
-     DynamicBox[ToBoxes[
-       Dataset`DatasetContent[
-       2, "Path" -> Hold[TypeSystem`NestedGrid`PackagePrivate`$path$$], 
-        "Grid" -> Hold[TypeSystem`NestedGrid`PackagePrivate`$grid$$], "State" -> 
-        Hold[TypeSystem`NestedGrid`PackagePrivate`$state$$], "VPos" -> 
-        Hold[TypeSystem`NestedGrid`PackagePrivate`$vPos$$], "HPos" -> 
-        Hold[TypeSystem`NestedGrid`PackagePrivate`$hPos$$], "TopBar" -> 
-        Hold[TypeSystem`NestedGrid`PackagePrivate`$topBar$$], "BottomBar" -> 
-        Hold[TypeSystem`NestedGrid`PackagePrivate`$bottomBar$$], "OutputID" -> 
-        Hold[
-          TypeSystem`NestedGrid`PackagePrivate`localHold[
-          TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]], StandardForm],
-      ImageSizeCache->{236., {59.634033098001964`, 65.36596690199804}},
-      TrackedSymbols:>{
-       TypeSystem`NestedGrid`PackagePrivate`$state$$, 
-        TypeSystem`NestedGrid`PackagePrivate`$grid$$}], 
-     TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$ = 
-     MouseAnnotation[],
-     ImageSizeCache->{236., {59.634033098001964`, 65.36596690199804}}],
-    BaseStyle->{LineBreakWithin -> False},
-    DynamicModuleValues:>{},
-    Initialization:>(TypeSystem`NestedGrid`PackagePrivate`$outputID$$ = 
-     CreateUUID[]),
-    UnsavedVariables:>{TypeSystem`NestedGrid`PackagePrivate`$outputID$$}],
-   Deploy,
-   DefaultBaseStyle->"Deploy"],
-  Dataset`InterpretDataset[1],
-  Editable->False,
-  SelectWithContents->True,
-  Selectable->False]], "Input",
- CellChangeTimes->{{3.8650056797507696`*^9, 3.865005799101008*^9}},
- CellLabel->"In[4]:=",ExpressionUUID->"7e84a0ff-1322-4b5c-828e-c97ad8e87f02"],
+ CellLabel->"In[4]:=",ExpressionUUID->"692e6578-d0c1-4c15-8144-7263ac47da8c"],
 
 Cell[BoxData[
  TagBox[
@@ -12688,8 +10443,8 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
   Editable->False,
   SelectWithContents->True,
   Selectable->False]], "Output",
- CellChangeTimes->{3.8650078043555775`*^9},
- CellLabel->"Out[4]=",ExpressionUUID->"804073d6-f638-44bb-838c-b858ee0e23ba"]
+ CellChangeTimes->{3.865039806724845*^9},
+ CellLabel->"Out[4]=",ExpressionUUID->"5ced1379-6b4a-40e6-8616-a3259edc4e79"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -12716,8 +10471,8 @@ Cell[BoxData[
 
 Cell[BoxData[
  GraphicsBox[{{}, {}, 
-   DynamicModuleBox[{DynamicChart`click$14926$14995 = False, 
-    DynamicChart`click$14942$14995 = False, DynamicChart`click$14948$14995 = 
+   DynamicModuleBox[{DynamicChart`click$15728$15797 = False, 
+    DynamicChart`click$15744$15797 = False, DynamicChart`click$15750$15797 = 
     False}, {
      {RGBColor[0.5, 0.5, 1.], EdgeForm[{GrayLevel[0], Opacity[0.5]}], {{{}, {
          {Hue[0.61, 0.7, 1], EdgeForm[{GrayLevel[0], Opacity[0.5]}], 
@@ -12749,15 +10504,15 @@ Cell[BoxData[
                Style[130, {}], "Tooltip"]& ],
              
              EventHandlerTag[{
-              "MouseClicked" :> FEPrivate`Set[DynamicChart`click$14926$14995, 
-                 FEPrivate`Not[DynamicChart`click$14926$14995]], 
+              "MouseClicked" :> FEPrivate`Set[DynamicChart`click$15728$15797, 
+                 FEPrivate`Not[DynamicChart`click$15728$15797]], 
                PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
                True}]], Dynamic[
             FEPrivate`If[
-             DynamicChart`click$14926$14995, {{{1., 0.}, {0., 
+             DynamicChart`click$15728$15797, {{{1., 0.}, {0., 
                1.}}, {-0.19810057997574332`, 0.027498367465617513`}}, {{1, 
               0}, {0, 1}}, {{1, 0}, {0, 1}}], 
-             TrackedSymbols :> {DynamicChart`click$14926$14995}]],
+             TrackedSymbols :> {DynamicChart`click$15728$15797}]],
            "DelayedClickEffect"]}, 
          {Hue[0.17, 0.4, 0.65], EdgeForm[{GrayLevel[0], Opacity[0.5]}], 
           TagBox[GeometricTransformationBox[
@@ -12788,15 +10543,15 @@ Cell[BoxData[
                Style[440, {}], "Tooltip"]& ],
              
              EventHandlerTag[{
-              "MouseClicked" :> FEPrivate`Set[DynamicChart`click$14942$14995, 
-                 FEPrivate`Not[DynamicChart`click$14942$14995]], 
+              "MouseClicked" :> FEPrivate`Set[DynamicChart`click$15744$15797, 
+                 FEPrivate`Not[DynamicChart`click$15744$15797]], 
                PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
                True}]], Dynamic[
             FEPrivate`If[
-             DynamicChart`click$14942$14995, {{{1., 0.}, {0., 
+             DynamicChart`click$15744$15797, {{{1., 0.}, {0., 
                1.}}, {-0.14732996475675578`, 0.13525487601108177`}}, {{1, 
               0}, {0, 1}}, {{1, 0}, {0, 1}}], 
-             TrackedSymbols :> {DynamicChart`click$14942$14995}]],
+             TrackedSymbols :> {DynamicChart`click$15744$15797}]],
            "DelayedClickEffect"]}, 
          {Hue[0.64, 0.5, 0.75], EdgeForm[{GrayLevel[0], Opacity[0.5]}], 
           TagBox[GeometricTransformationBox[
@@ -12826,15 +10581,15 @@ Cell[BoxData[
                Style[2391, {}], "Tooltip"]& ],
              
              EventHandlerTag[{
-              "MouseClicked" :> FEPrivate`Set[DynamicChart`click$14948$14995, 
-                 FEPrivate`Not[DynamicChart`click$14948$14995]], 
+              "MouseClicked" :> FEPrivate`Set[DynamicChart`click$15750$15797, 
+                 FEPrivate`Not[DynamicChart`click$15750$15797]], 
                PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
                True}]], Dynamic[
             FEPrivate`If[
-             DynamicChart`click$14948$14995, {{{1., 0.}, {0., 1.}}, {
+             DynamicChart`click$15750$15797, {{{1., 0.}, {0., 1.}}, {
                0.16452719874094202`, -0.11371367936382402`}}, {{1, 0}, {0, 
               1}}, {{1, 0}, {0, 1}}], 
-             TrackedSymbols :> {DynamicChart`click$14948$14995}]],
+             TrackedSymbols :> {DynamicChart`click$15750$15797}]],
            "DelayedClickEffect"]}}}, {}}, {}}, {{{
         TagBox[GeometricTransformationBox[
           TagBox[
@@ -12851,14 +10606,14 @@ Cell[BoxData[
              Style[130, {}], "Tooltip"]& ],
            
            EventHandlerTag[{
-            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$14926$14995, 
-               FEPrivate`Not[DynamicChart`click$14926$14995]], PassEventsDown -> 
+            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$15728$15797, 
+               FEPrivate`Not[DynamicChart`click$15728$15797]], PassEventsDown -> 
              True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
           FEPrivate`If[
-           DynamicChart`click$14926$14995, {{{1., 0.}, {0., 
+           DynamicChart`click$15728$15797, {{{1., 0.}, {0., 
              1.}}, {-0.19810057997574332`, 0.027498367465617513`}}, {{1, 0}, {
             0, 1}}, {{1, 0}, {0, 1}}], 
-           TrackedSymbols :> {DynamicChart`click$14926$14995}]],
+           TrackedSymbols :> {DynamicChart`click$15728$15797}]],
          "DelayedClickEffect"], 
         TagBox[GeometricTransformationBox[
           TagBox[
@@ -12875,14 +10630,14 @@ Cell[BoxData[
              Style[440, {}], "Tooltip"]& ],
            
            EventHandlerTag[{
-            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$14942$14995, 
-               FEPrivate`Not[DynamicChart`click$14942$14995]], PassEventsDown -> 
+            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$15744$15797, 
+               FEPrivate`Not[DynamicChart`click$15744$15797]], PassEventsDown -> 
              True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
           FEPrivate`If[
-           DynamicChart`click$14942$14995, {{{1., 0.}, {0., 
+           DynamicChart`click$15744$15797, {{{1., 0.}, {0., 
              1.}}, {-0.14732996475675578`, 0.13525487601108177`}}, {{1, 0}, {
             0, 1}}, {{1, 0}, {0, 1}}], 
-           TrackedSymbols :> {DynamicChart`click$14942$14995}]],
+           TrackedSymbols :> {DynamicChart`click$15744$15797}]],
          "DelayedClickEffect"], 
         TagBox[GeometricTransformationBox[
           TagBox[
@@ -12899,14 +10654,14 @@ Cell[BoxData[
              Style[2391, {}], "Tooltip"]& ],
            
            EventHandlerTag[{
-            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$14948$14995, 
-               FEPrivate`Not[DynamicChart`click$14948$14995]], PassEventsDown -> 
+            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$15750$15797, 
+               FEPrivate`Not[DynamicChart`click$15750$15797]], PassEventsDown -> 
              True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
           FEPrivate`If[
-           DynamicChart`click$14948$14995, {{{1., 0.}, {0., 1.}}, {
+           DynamicChart`click$15750$15797, {{{1., 0.}, {0., 1.}}, {
              0.16452719874094202`, -0.11371367936382402`}}, {{1, 0}, {0, 
             1}}, {{1, 0}, {0, 1}}], 
-           TrackedSymbols :> {DynamicChart`click$14948$14995}]],
+           TrackedSymbols :> {DynamicChart`click$15750$15797}]],
          "DelayedClickEffect"]}, {}}, {}}, {}, {}},
     DynamicModuleValues:>{}], {{}, {}}, {{{}, {}, {}, {}}, {}}},
   ContentSelectable->False,
@@ -12919,8 +10674,9 @@ Cell[BoxData[
   3.8649883426974635`*^9, 3.8649887371648903`*^9, 3.8649887738848147`*^9, {
    3.8649888206790295`*^9, 3.864988848087555*^9}, 3.8649889829068184`*^9, 
    3.864989040970002*^9, {3.8649892011460795`*^9, 3.864989241854131*^9}, {
-   3.8649892749340353`*^9, 3.8649892917960415`*^9}, 3.8650078077457876`*^9},
- CellLabel->"Out[5]=",ExpressionUUID->"db3d83a8-b0ee-4c7f-84e0-b669da298323"]
+   3.8649892749340353`*^9, 3.8649892917960415`*^9}, 3.8650078077457876`*^9, 
+   3.8650398173600283`*^9},
+ CellLabel->"Out[5]=",ExpressionUUID->"6afcb7f2-99f9-4b0a-913c-858ffa6192c7"]
 }, Open  ]]
 }, Open  ]],
 
@@ -12975,7 +10731,7 @@ Cell[BoxData[
        Association[
         "InitialData" -> 
          TypeSystem`CacheKey[
-          8096613999413411614132862903537508565309324228321288518176], 
+          8096685225351776957531271264201114845918351505253111299200], 
          "AllowEmbedding" -> True, "InitialShape" -> 
          TypeSystem`PackageScope`Limited[
            TypeSystem`PackageScope`ColumnShape[
@@ -16196,13 +13952,13 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
    DisplayFunction->(#& ),
    InterpretationFunction->("Dataset[<>]"& )],
   False,
-  BoxID -> 8096613999413411614132862903537508565309324228321288518176,
+  BoxID -> 8096685225351776957531271264201114845918351505253111299200,
   Editable->False,
   SelectWithContents->True,
   Selectable->False]], "Output",
  CellChangeTimes->{{3.8649910287360067`*^9, 3.8649910804043093`*^9}, 
-   3.8650078123358493`*^9},
- CellLabel->"Out[6]=",ExpressionUUID->"13b84436-187c-43fc-8106-b10636e74648"]
+   3.8650078123358493`*^9, 3.8650398240616965`*^9},
+ CellLabel->"Out[6]=",ExpressionUUID->"12d93c86-f800-4142-8614-f6ad4f49063b"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -16951,8 +14707,8 @@ Cell[BoxData[
   Ticks->{None, Automatic}]], "Output",
  CellChangeTimes->{
   3.8649919016084194`*^9, {3.8649919503130665`*^9, 3.8649920290995803`*^9}, 
-   3.8649921832911944`*^9, 3.865007819577695*^9},
- CellLabel->"Out[7]=",ExpressionUUID->"d5b1f1a0-64fe-4892-84c4-ebf11d0aefae"]
+   3.8649921832911944`*^9, 3.865007819577695*^9, 3.86503983081172*^9},
+ CellLabel->"Out[7]=",ExpressionUUID->"507a184b-76d9-4c27-ad0c-f411cf3d3790"]
 }, Open  ]]
 }, Open  ]],
 
@@ -17001,7 +14757,7 @@ Cell[BoxData[
        Association[
         "InitialData" -> 
          TypeSystem`CacheKey[
-          8096613999413411614132862903537508565327770972395002246720], 
+          8096685225351776957531271264201114845936798249326825040096], 
          "AllowEmbedding" -> True, "InitialShape" -> 
          TypeSystem`PackageScope`Limited[
            TypeSystem`PackageScope`ColumnShape[
@@ -20140,13 +17896,13 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
    DisplayFunction->(#& ),
    InterpretationFunction->("Dataset[<>]"& )],
   False,
-  BoxID -> 8096613999413411614132862903537508565327770972395002246720,
+  BoxID -> 8096685225351776957531271264201114845936798249326825040096,
   Editable->False,
   SelectWithContents->True,
   Selectable->False]], "Output",
  CellChangeTimes->{3.864992308638357*^9, 3.864992344927527*^9, 
-  3.865007824352508*^9},
- CellLabel->"Out[8]=",ExpressionUUID->"31a58f1e-abd9-47e6-b3b0-ff50294e66d2"]
+  3.865007824352508*^9, 3.8650398374845257`*^9},
+ CellLabel->"Out[8]=",ExpressionUUID->"ef2eb3d1-26f5-4984-8047-d7572505c312"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -24119,13 +21875,13 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
         Hold[
           TypeSystem`NestedGrid`PackagePrivate`localHold[
           TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]], StandardForm],
-      ImageSizeCache->{1781., {299.63403309800196`, 305.36596690199804`}},
+      ImageSizeCache->{1886., {299.63403309800196`, 305.36596690199804`}},
       TrackedSymbols:>{
        TypeSystem`NestedGrid`PackagePrivate`$state$$, 
         TypeSystem`NestedGrid`PackagePrivate`$grid$$}], 
      TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$ = 
      MouseAnnotation[],
-     ImageSizeCache->{1781., {299.63403309800196`, 305.36596690199804`}}],
+     ImageSizeCache->{1886., {299.63403309800196`, 305.36596690199804`}}],
     BaseStyle->{LineBreakWithin -> False},
     DynamicModuleValues:>{},
     Initialization:>(TypeSystem`NestedGrid`PackagePrivate`$outputID$$ = 
@@ -24139,8 +21895,9 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
   Selectable->False]], "Output",
  CellChangeTimes->{
   3.865006185448546*^9, {3.865006216929963*^9, 3.8650062413116426`*^9}, 
-   3.8650062991640873`*^9, 3.865006690247408*^9, 3.8650078294411573`*^9},
- CellLabel->"Out[9]=",ExpressionUUID->"3986ed17-599b-4d4f-b1f1-36270b877423"]
+   3.8650062991640873`*^9, 3.865006690247408*^9, 3.8650078294411573`*^9, 
+   3.8650398517785063`*^9},
+ CellLabel->"Out[9]=",ExpressionUUID->"1a66a8cd-b1e4-4e09-966d-7b6ae656ff46"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -24220,8 +21977,9 @@ Cell[BoxData[
   3.8650041251581645`*^9, 3.865004756355635*^9, {3.8650058898219023`*^9, 
    3.8650059665563197`*^9}, {3.865006316446768*^9, 3.8650063226308813`*^9}, 
    3.8650063833963675`*^9, 3.865006497318048*^9, 3.8650067009562473`*^9, 
-   3.865007050139332*^9, 3.865007080751725*^9, 3.8650079273617735`*^9},
- CellLabel->"Out[10]=",ExpressionUUID->"bbca7637-efbd-421a-acb0-575b19bba2b4"]
+   3.865007050139332*^9, 3.865007080751725*^9, 3.8650079273617735`*^9, 
+   3.865039859951769*^9},
+ CellLabel->"Out[10]=",ExpressionUUID->"d9526caa-c66b-4103-91cc-56c70793f02b"]
 }, Open  ]],
 
 Cell["\<\
@@ -24237,8 +21995,8 @@ Cell[BoxData[
  RowBox[{
   RowBox[{"Func", "[", "a_", "]"}], ":=", 
   RowBox[{
-   RowBox[{"Interpreter", "[", "\"\<City\>\"", "]"}], "[", " ", "a", "]"}]}]],\
- "Input",
+   RowBox[{"Interpreter", "[", "\"\<City\>\"", "]"}], "[", " ", "a", 
+   "]"}]}]], "Input",
  CellChangeTimes->{{3.864992885838565*^9, 3.8649928860624523`*^9}, {
   3.8650042740913687`*^9, 3.8650042961363454`*^9}, {3.8650047499627075`*^9, 
   3.865004751467655*^9}, {3.8650052236928616`*^9, 3.8650052559833784`*^9}, {
@@ -24249,7 +22007,7 @@ Cell[BoxData[
   3.865008590685141*^9, 3.8650085981779833`*^9}, {3.865008628369645*^9, 
   3.8650086340038857`*^9}, {3.8650087398462973`*^9, 3.865008763507473*^9}, {
   3.8650088380139923`*^9, 3.865008863948037*^9}},
- CellLabel->"In[39]:=",ExpressionUUID->"f3f8e892-e9db-4b8b-9e17-17f4095488ab"],
+ CellLabel->"In[11]:=",ExpressionUUID->"f3f8e892-e9db-4b8b-9e17-17f4095488ab"],
 
 Cell[CellGroupData[{
 
@@ -24261,7 +22019,7 @@ Cell[BoxData[
  CellChangeTimes->{{3.865008879979396*^9, 3.865008882726153*^9}, {
   3.865008925913381*^9, 3.8650089260603437`*^9}, {3.865008957205937*^9, 
   3.865008957330496*^9}},
- CellLabel->"In[47]:=",ExpressionUUID->"0c4e6640-fd21-4a0e-ad82-bfb76e09fa2a"],
+ CellLabel->"In[12]:=",ExpressionUUID->"0c4e6640-fd21-4a0e-ad82-bfb76e09fa2a"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -24274,8 +22032,8 @@ Cell[BoxData[
    ",", "\<\"Paris\"\>", ",", "\<\"Chagny\"\>", ",", "\<\"Paris\"\>", 
    ",", "\<\"Meg\[EGrave]ve\"\>", ",", "\<\"Annecy\"\>"}], "}"}]], "Output",
  CellChangeTimes->{3.8650088855099077`*^9, 3.8650089285615444`*^9, 
-  3.865008959294316*^9},
- CellLabel->"Out[47]=",ExpressionUUID->"28e3cc5d-b97a-44f2-8f9d-f04986eab733"]
+  3.865008959294316*^9, 3.865039873407838*^9},
+ CellLabel->"Out[12]=",ExpressionUUID->"432c6ace-3118-42a2-82f5-15a2abef3669"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -24283,13 +22041,13 @@ Cell[CellGroupData[{
 Cell[BoxData[
  RowBox[{"entities", " ", "=", " ", 
   RowBox[{"Map", "[", 
-   RowBox[{"Newf", ",", " ", "supersmall"}], "]"}]}]], "Input",
+   RowBox[{"Func", ",", " ", "supersmall"}], "]"}]}]], "Input",
  CellChangeTimes->{{3.8650073896508236`*^9, 3.865007408461027*^9}, {
   3.8650082915218487`*^9, 3.865008293439698*^9}, {3.8650084293474216`*^9, 
   3.8650084301156054`*^9}, {3.8650086373774085`*^9, 3.8650086378116207`*^9}, {
   3.8650088957395253`*^9, 3.8650089049780436`*^9}, {3.8650089469469705`*^9, 
-  3.865008950145008*^9}},
- CellLabel->"In[48]:=",ExpressionUUID->"45bd04ba-06d0-40af-ae78-3fbfc1b167a6"],
+  3.865008950145008*^9}, {3.86503988334335*^9, 3.865039883893997*^9}},
+ CellLabel->"In[14]:=",ExpressionUUID->"45bd04ba-06d0-40af-ae78-3fbfc1b167a6"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -24606,8 +22364,9 @@ Cell[BoxData[
   3.865007410909087*^9, 3.8650079311957073`*^9, 3.8650080024100475`*^9, {
    3.865008443098674*^9, 3.8650084648528123`*^9}, 3.8650085482697973`*^9, 
    3.865008654412074*^9, 3.8650087543876595`*^9, 3.865008790183148*^9, {
-   3.865008907903579*^9, 3.865008961717613*^9}},
- CellLabel->"Out[48]=",ExpressionUUID->"ecbd0618-cff0-4247-99c5-06a0c2d54ac9"]
+   3.865008907903579*^9, 3.865008961717613*^9}, {3.8650398767599635`*^9, 
+   3.86503988781061*^9}},
+ CellLabel->"Out[14]=",ExpressionUUID->"0077701e-04df-46f0-b1e1-4ba8724f00e4"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -24620,7 +22379,7 @@ Cell[BoxData[
   3.865008107134635*^9, 3.8650081373417144`*^9}, {3.865008168074839*^9, 
   3.8650082015272193`*^9}, {3.8650086738261476`*^9, 3.86500869141997*^9}, {
   3.8650089166709795`*^9, 3.865008918978054*^9}},
- CellLabel->"In[49]:=",ExpressionUUID->"a8509f21-af53-44d6-94e5-99fddcb97228"],
+ CellLabel->"In[15]:=",ExpressionUUID->"a8509f21-af53-44d6-94e5-99fddcb97228"],
 
 Cell[BoxData[
  GraphicsBox[{{
@@ -29276,8 +27035,8 @@ contributors: http://www.openstreetmap.org/copyright"}}},
  CellChangeTimes->{
   3.8650081396648226`*^9, 3.865008172786397*^9, 3.8650082033989944`*^9, 
    3.8650086962796507`*^9, 3.8650088014676704`*^9, {3.8650089201499686`*^9, 
-   3.865008965630641*^9}},
- CellLabel->"Out[49]=",ImageCache->GraphicsData["CompressedBitmap", "\<\
+   3.865008965630641*^9}, 3.8650399084279156`*^9},
+ CellLabel->"Out[15]=",ImageCache->GraphicsData["CompressedBitmap", "\<\
 eJyMvWdwbGl6HtYD4OY0cWd3Zna1idFLcslltEslSrJkiirZMilT/+yiVa4i
 y0XLJeuH/9uucvmHrEBSJDcg3ZwjbkAOHdBooBtAo3M4oRs5x3tnpvz6fd4v
 nNOYO3c1VRhcNBqnz/m+53vf583/5I//9Z/8T3/2x//6T//FH3/zv/pXf/y/
@@ -32418,7 +30177,7 @@ c5qCwWf8Xn+kZ0//QwDvlMPfTGqeFhdvU3TzJUUjL+nly99TYOMpZdOcODpx
 SCT4bc/FvqGttSr4XlM0Q77d2uMUwanRSiJAz2fu0/zGHEUaZUr2u7BNYcTs
 76KM+87/AcC7Zz0=\
 \>", "ImageResolution" -> \
-96.],ExpressionUUID->"68b9a45a-faec-4c33-a67e-3a9e63bd2142"]
+96.],ExpressionUUID->"73b7fe0c-f191-488c-b7bd-36f57b816c73"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -32451,85 +30210,84 @@ Cell[CellGroupData[{
 Cell[1499, 48, 216, 4, 69, "Chapter",ExpressionUUID->"227ed5bb-08bc-4748-b188-502438304d97"],
 Cell[1718, 54, 267, 6, 35, "Text",ExpressionUUID->"0b91e563-f9df-4296-9417-2874223717d5"],
 Cell[CellGroupData[{
-Cell[2010, 64, 2109, 39, 110, "Input",ExpressionUUID->"f86e74ce-4cf9-4850-b9b9-64976d52eac4"],
-Cell[4122, 105, 185004, 3449, 650, "Output",ExpressionUUID->"20ee5712-05b0-48b5-908e-c7396df8e8ab"]
+Cell[2010, 64, 2109, 39, 69, "Input",ExpressionUUID->"f86e74ce-4cf9-4850-b9b9-64976d52eac4"],
+Cell[4122, 105, 185026, 3449, 650, "Output",ExpressionUUID->"f6509091-c3b7-4396-9072-dac0e7c5d260"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[189163, 3559, 195, 3, 67, "Section",ExpressionUUID->"d64338c9-ec94-4904-89ef-f567a62ae49f"],
-Cell[189361, 3564, 259, 6, 35, "Text",ExpressionUUID->"48ff8c46-4815-4287-9eef-224f30b3c127"],
+Cell[189185, 3559, 195, 3, 67, "Section",ExpressionUUID->"d64338c9-ec94-4904-89ef-f567a62ae49f"],
+Cell[189383, 3564, 259, 6, 35, "Text",ExpressionUUID->"48ff8c46-4815-4287-9eef-224f30b3c127"],
 Cell[CellGroupData[{
-Cell[189645, 3574, 4162, 86, 167, "Input",ExpressionUUID->"6753a3cd-d0c7-425f-9cb7-00855c9db970"],
-Cell[193810, 3662, 168052, 3125, 631, "Output",ExpressionUUID->"2ba7c4a9-afbf-4d23-a587-52715f6480b2"]
+Cell[189667, 3574, 4162, 86, 167, "Input",ExpressionUUID->"6753a3cd-d0c7-425f-9cb7-00855c9db970"],
+Cell[193832, 3662, 168078, 3126, 631, "Output",ExpressionUUID->"cf9d73cf-8189-4c82-999d-4e85ac913fe3"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[361899, 6792, 832, 20, 28, "Input",ExpressionUUID->"f0eae30b-ad42-4eb6-85c2-6422b625a64b"],
-Cell[362734, 6814, 4593, 94, 65, "Output",ExpressionUUID->"28750867-7631-483c-bc15-806bd3d066a2"]
+Cell[361947, 6793, 873, 22, 28, "Input",ExpressionUUID->"f0eae30b-ad42-4eb6-85c2-6422b625a64b"],
+Cell[362823, 6817, 4593, 94, 65, "Output",ExpressionUUID->"28750867-7631-483c-bc15-806bd3d066a2"]
 }, Open  ]],
-Cell[367342, 6911, 245, 6, 35, "Text",ExpressionUUID->"6b0ea77f-bf27-409d-b71d-8d5ee8eaf798"]
+Cell[367431, 6914, 245, 6, 35, "Text",ExpressionUUID->"6b0ea77f-bf27-409d-b71d-8d5ee8eaf798"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[367636, 6923, 165, 3, 69, "Chapter",ExpressionUUID->"467d87d4-af7f-45d2-a19a-567fe63aaa8b"],
-Cell[367804, 6928, 666, 11, 35, "Text",ExpressionUUID->"b514007c-ad07-4582-8c65-8d6433cef64a"],
+Cell[367725, 6926, 165, 3, 69, "Chapter",ExpressionUUID->"467d87d4-af7f-45d2-a19a-567fe63aaa8b"],
+Cell[367893, 6931, 666, 11, 35, "Text",ExpressionUUID->"b514007c-ad07-4582-8c65-8d6433cef64a"],
 Cell[CellGroupData[{
-Cell[368495, 6943, 265, 5, 67, "Section",ExpressionUUID->"08821ee6-b85e-4f61-ac03-7d66f57a4ddf"],
+Cell[368584, 6946, 265, 5, 67, "Section",ExpressionUUID->"08821ee6-b85e-4f61-ac03-7d66f57a4ddf"],
 Cell[CellGroupData[{
-Cell[368785, 6952, 1549, 31, 67, "Input",ExpressionUUID->"3b630a27-913f-4d89-bb4e-3b1e334a1491"],
-Cell[370337, 6985, 66328, 1176, 535, "Output",ExpressionUUID->"c1da19c6-1d93-4425-8d69-428aa4a29bba"]
-}, Open  ]],
-Cell[436680, 8164, 409, 9, 28, "Input",ExpressionUUID->"692e6578-d0c1-4c15-8144-7263ac47da8c"],
-Cell[CellGroupData[{
-Cell[437114, 8177, 146579, 2245, 140, InheritFromParent,ExpressionUUID->"7e84a0ff-1322-4b5c-828e-c97ad8e87f02"],
-Cell[583696, 10424, 148309, 2267, 144, "Output",ExpressionUUID->"804073d6-f638-44bb-838c-b858ee0e23ba"]
+Cell[368874, 6955, 1549, 31, 67, "Input",ExpressionUUID->"3b630a27-913f-4d89-bb4e-3b1e334a1491"],
+Cell[370426, 6988, 66350, 1176, 535, "Output",ExpressionUUID->"96756f32-504e-4e48-a493-3063b38b6641"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[732042, 12696, 1033, 18, 28, "Input",ExpressionUUID->"b0154265-2b3e-47d8-8e27-2f2231b02a74"],
-Cell[733078, 12716, 9084, 206, 377, "Output",ExpressionUUID->"db3d83a8-b0ee-4c7f-84e0-b669da298323"]
+Cell[436813, 8169, 404, 8, 28, "Input",ExpressionUUID->"692e6578-d0c1-4c15-8144-7263ac47da8c"],
+Cell[437220, 8179, 148307, 2267, 144, "Output",ExpressionUUID->"5ced1379-6b4a-40e6-8616-a3259edc4e79"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[585564, 10451, 1033, 18, 28, "Input",ExpressionUUID->"b0154265-2b3e-47d8-8e27-2f2231b02a74"],
+Cell[586600, 10471, 9112, 207, 377, "Output",ExpressionUUID->"6afcb7f2-99f9-4b0a-913c-858ffa6192c7"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[742211, 12928, 352, 5, 67, "Section",ExpressionUUID->"d653be7a-5c52-45de-8bfa-742d33419c7d"],
+Cell[595761, 10684, 352, 5, 67, "Section",ExpressionUUID->"d653be7a-5c52-45de-8bfa-742d33419c7d"],
 Cell[CellGroupData[{
-Cell[742588, 12937, 1424, 29, 67, "Input",ExpressionUUID->"aaf40889-169b-4591-be0b-ac173c761a9c"],
-Cell[744015, 12968, 184098, 3236, 1003, "Output",ExpressionUUID->"13b84436-187c-43fc-8106-b10636e74648"]
+Cell[596138, 10693, 1424, 29, 67, "Input",ExpressionUUID->"aaf40889-169b-4591-be0b-ac173c761a9c"],
+Cell[597565, 10724, 184122, 3236, 1003, "Output",ExpressionUUID->"12d93c86-f800-4142-8614-f6ad4f49063b"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[928150, 16209, 1647, 32, 48, "Input",ExpressionUUID->"8b37aca6-3bce-4bb1-9542-d46862b43779"],
-Cell[929800, 16243, 29475, 711, 363, "Output",ExpressionUUID->"d5b1f1a0-64fe-4892-84c4-ebf11d0aefae"]
+Cell[781724, 13965, 1647, 32, 48, "Input",ExpressionUUID->"8b37aca6-3bce-4bb1-9542-d46862b43779"],
+Cell[783374, 13999, 29496, 711, 340, "Output",ExpressionUUID->"507a184b-76d9-4c27-ad0c-f411cf3d3790"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[959324, 16960, 159, 3, 67, "Section",ExpressionUUID->"14a0c24b-b1b2-49c5-95ba-adc3ba00deef"],
+Cell[812919, 14716, 159, 3, 67, "Section",ExpressionUUID->"14a0c24b-b1b2-49c5-95ba-adc3ba00deef"],
 Cell[CellGroupData[{
-Cell[959508, 16967, 1050, 25, 67, "Input",ExpressionUUID->"56c529a5-96f0-4d7b-9774-4e5353ae2278"],
-Cell[960561, 16994, 181148, 3154, 984, "Output",ExpressionUUID->"31a58f1e-abd9-47e6-b3b0-ff50294e66d2"]
+Cell[813103, 14723, 1050, 25, 67, "Input",ExpressionUUID->"56c529a5-96f0-4d7b-9774-4e5353ae2278"],
+Cell[814156, 14750, 181172, 3154, 984, "Output",ExpressionUUID->"ef2eb3d1-26f5-4984-8047-d7572505c312"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1141770, 20155, 167, 3, 69, "Chapter",ExpressionUUID->"fd0fa1dc-c4b5-47e8-b21c-127c847d24d1"],
-Cell[1141940, 20160, 260, 6, 35, "Text",ExpressionUUID->"e0ef8af3-4d20-4fcd-86d8-62854366bb30"],
+Cell[995389, 17911, 167, 3, 69, "Chapter",ExpressionUUID->"fd0fa1dc-c4b5-47e8-b21c-127c847d24d1"],
+Cell[995559, 17916, 260, 6, 35, "Text",ExpressionUUID->"e0ef8af3-4d20-4fcd-86d8-62854366bb30"],
 Cell[CellGroupData[{
-Cell[1142225, 20170, 531, 11, 48, "Input",ExpressionUUID->"1541d698-8b75-4572-b416-9fa1c43a44ba"],
-Cell[1142759, 20183, 208850, 3959, 624, "Output",ExpressionUUID->"3986ed17-599b-4d4f-b1f1-36270b877423"]
+Cell[995844, 17926, 531, 11, 48, "Input",ExpressionUUID->"1541d698-8b75-4572-b416-9fa1c43a44ba"],
+Cell[996378, 17939, 208878, 3960, 624, "Output",ExpressionUUID->"1a66a8cd-b1e4-4e09-966d-7b6ae656ff46"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1351646, 24147, 865, 14, 28, "Input",ExpressionUUID->"182f4a18-443b-4b25-ab77-2b9efc68f485"],
-Cell[1352514, 24163, 3999, 60, 242, "Output",ExpressionUUID->"bbca7637-efbd-421a-acb0-575b19bba2b4"]
+Cell[1205293, 21904, 865, 14, 28, "Input",ExpressionUUID->"182f4a18-443b-4b25-ab77-2b9efc68f485"],
+Cell[1206161, 21920, 4025, 61, 147, "Output",ExpressionUUID->"d9526caa-c66b-4103-91cc-56c70793f02b"]
 }, Open  ]],
-Cell[1356528, 24226, 283, 7, 35, "Text",ExpressionUUID->"db09ef57-15d3-4b10-9563-858516702264"],
-Cell[1356814, 24235, 969, 16, 28, InheritFromParent,ExpressionUUID->"f3f8e892-e9db-4b8b-9e17-17f4095488ab"],
+Cell[1210201, 21984, 283, 7, 35, "Text",ExpressionUUID->"db09ef57-15d3-4b10-9563-858516702264"],
+Cell[1210487, 21993, 971, 16, 28, "Input",ExpressionUUID->"f3f8e892-e9db-4b8b-9e17-17f4095488ab"],
 Cell[CellGroupData[{
-Cell[1357808, 24255, 403, 8, 28, "Input",ExpressionUUID->"0c4e6640-fd21-4a0e-ad82-bfb76e09fa2a"],
-Cell[1358214, 24265, 739, 12, 52, "Output",ExpressionUUID->"28e3cc5d-b97a-44f2-8f9d-f04986eab733"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[1358990, 24282, 542, 9, 28, "Input",ExpressionUUID->"45bd04ba-06d0-40af-ae78-3fbfc1b167a6"],
-Cell[1359535, 24293, 13631, 316, 128, "Output",ExpressionUUID->"ecbd0618-cff0-4247-99c5-06a0c2d54ac9"]
+Cell[1211483, 22013, 403, 8, 28, "Input",ExpressionUUID->"0c4e6640-fd21-4a0e-ad82-bfb76e09fa2a"],
+Cell[1211889, 22023, 761, 12, 32, "Output",ExpressionUUID->"432c6ace-3118-42a2-82f5-15a2abef3669"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1373203, 24614, 572, 8, 28, "Input",ExpressionUUID->"a8509f21-af53-44d6-94e5-99fddcb97228"],
-Cell[1373778, 24624, 454620, 7796, 247, 262825, 4650, "CachedBoxData", "BoxData", "Output",ExpressionUUID->"68b9a45a-faec-4c33-a67e-3a9e63bd2142"]
+Cell[1212687, 22040, 587, 9, 28, "Input",ExpressionUUID->"45bd04ba-06d0-40af-ae78-3fbfc1b167a6"],
+Cell[1213277, 22051, 13682, 317, 98, "Output",ExpressionUUID->"0077701e-04df-46f0-b1e1-4ba8724f00e4"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1226996, 22373, 572, 8, 28, "Input",ExpressionUUID->"a8509f21-af53-44d6-94e5-99fddcb97228"],
+Cell[1227571, 22383, 454644, 7796, 270, 262825, 4650, "CachedBoxData", "BoxData", "Output",ExpressionUUID->"73b7fe0c-f191-488c-b7bd-36f57b816c73"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
